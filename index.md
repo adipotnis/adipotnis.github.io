@@ -1,5 +1,5 @@
 ---
-title: About_Me
+title: Aditya Potnis
 ---
 
 ## Robots and Machines
