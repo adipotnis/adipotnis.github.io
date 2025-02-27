@@ -1,11 +1,16 @@
 ---
-title: Home
+title: About_Me
 ---
 
-## Welcome to Simplest Jekyll demo
+## Robots and Machines
 
-This site is very stripped down to minimal content for GitHub Pages and is not suitable for local develpment - you'll typically add a `.gitignore` for example.
+I make Robots
+
+coming soon ...
+
+---
+
+##### Made using simplest-jekyll  
 
 Source: [![MichaelCurrin - simplest-jekyll](https://img.shields.io/static/v1?label=MichaelCurrin&message=simplest-jekyll&color=blue&logo=github)](https://github.com/MichaelCurrin/simplest-jekyll)
 
-For a more useful template that includes setup instructions and notes throughout, see [![MichaelCurrin - jekyll-blog-demo](https://img.shields.io/static/v1?label=MichaelCurrin&message=jekyll-blog-demo&color=blue&logo=github)](https://github.com/MichaelCurrin/jekyll-blog-demo).
