@@ -25,6 +25,7 @@ more coming soon ...
 - Project awarded Best Working project award (Mechanical) by 1982 batch, Alumni association.
 - Patent pending. Provisional patent done (IN202321006687).
 
+<img src="images/multiplexer-arm-1.jpg" alt="multiplexer-arm-1" width="450" />
 
 
 # Competitive Robotics
