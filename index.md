@@ -2,6 +2,12 @@
 title: Aditya Potnis
 ---
 
+<head>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
+</head>
+
+
+
 ## About Me
 I am a MS CS student at UIUC with a background in Robotics. I'm a Research Assistant at Distributed Autonomous System Lab under the guidance of Prof. Girish Chowdhary, working in research on VLM assisted navigation methods for generalization with different types of motion primitives. I previously did my B.Tech in Mechanical Engineering with a Minor in Computer Engineering at [College of Engineering,Pune](https://www.coeptech.ac.in/) and worked for 2.5 years on the hardware design, autonomy, performance optimization and lower level controls for a 750 kg self-driving heavy payload agriculture AGV at [Earthsense](https://www.earthsense.co/). I also developed the 4 wheel independent torque vectoring for the Dual Ackermann steer mechanism for the TerraMax Robot 
 [Link](https://www.youtube.com/watch?v=1CN3ZjOrtVQ)
