@@ -24,7 +24,9 @@ more coming soon ...
 
 # Projects
 ### Salto Simulator for development
-- Simulates [Salto-1P](https://www.youtube.com/watch?v=5tMjHBk-2JQ) jumping motion as a point object (Jumping cube) to help accelerate autonomy development. Allows for parabolic trajectory jumping with continous as well as periodic jumps. Repo to be released soon.
+- Simulates [Salto-1P](https://www.youtube.com/watch?v=5tMjHBk-2JQ) jumping motion as a point object (Jumping cube) to help accelerate autonomy development. Allows for parabolic trajectory jumping with continous as well as periodic jumps.
+- Simulates odometry, pose estimation and the required control action for the actual robot.
+- Repo to be released soon.
 
 <img src="images/20250312-1307-47.1662169.gif" alt="salto-animation-1" width="450" />
 
