@@ -12,7 +12,7 @@ Hey! I'm Aditya - a full stack roboticist with experience spanning hardware desi
 Currently I'm a MS CS student at UIUC with a background in Robotics. As a Research Assistant at Distributed Autonomous System Lab under the guidance of Prof. Girish Chowdhary, I work on research of VLM assisted navigation methods for generalization with different types of motion primitives. I previously did my B.Tech in Mechanical Engineering with a Minor in Computer Engineering at <a href="https://www.coeptech.ac.in/" target="_blank">College of Engineering, Pune</a> and worked for 2.5 years on the hardware design, autonomy, ROS2 refactoring, MPPI performance optimization and lower level controls for a 750 kg self-driving heavy payload agriculture AGV at <a href="https://www.earthsense.co/" target="_blank">Earthsense</a>. I also developed the 4-wheel independent torque vectoring for the Dual Ackermann steer mechanism for the TerraMax Robot. 
 
 
-Feel free to connect with me on <a href="https://www.linkedin.com/in/aditya-potnis/" target="_blank">
+Feel free to connect with me on <a href="https://www.linkedin.com/in/adityapotnis/" target="_blank">
   <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="20" style="vertical-align:middle;"> LinkedIn
 </a>
 
