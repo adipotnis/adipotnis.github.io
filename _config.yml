@@ -4,4 +4,4 @@ plugins:
   - jekyll-sitemap
 
 favicon: 
-/favicon.ico
+images/favicon.ico
