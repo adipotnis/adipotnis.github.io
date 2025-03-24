@@ -16,9 +16,8 @@ Currently I'm a MS CS student at UIUC with a background in Robotics. As a Resear
 <p>
 Feel free to connect with me on <a href="https://www.linkedin.com/in/adityapotnis/" target="_blank">
   <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="20" style="vertical-align:middle;"> LinkedIn
-</p>
-  
 </a>
+</p>
 
 </div>
 </div>
