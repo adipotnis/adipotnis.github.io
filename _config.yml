@@ -2,3 +2,6 @@ theme: jekyll-theme-architect
 
 plugins:
   - jekyll-sitemap
+
+favicon: 
+/favicon.ico
