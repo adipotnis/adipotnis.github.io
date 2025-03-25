@@ -37,7 +37,7 @@ more coming soon ...
 
 <img src="images/20250312-1307-47.1662169.gif" alt="salto-animation-1" width="450" />
 
-## ROS1 ROS2 bridge for faster debugging and code refactoring
+### ROS1 ROS2 bridge for faster debugging and code refactoring
 - Created a Docker image generation repo to accelerate image creation and facilitate easier refactoring. [Link](https://github.com/adipotnis/ros1_bridge_ws)
 
 ### Design and Analysis of Tendon actuated Robotic arm using Bowden cables and Mechanical Multiplexing (Thesis @ COEP)
