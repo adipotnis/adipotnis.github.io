@@ -40,9 +40,9 @@ more coming soon ...
 
 <img src="images/20250312-1307-47.1662169.gif" alt="salto-animation-1" width="450" />
 
-### VLM based Octomap generation for navigation
+### VLM assisted Octomap generation for navigation
 - Implemented vision and stereo depth based point cloud generation to create a octomap for robot navigation in 3d space.
-- Performed open vocabulary segmentation via clipseg and point cloud generation via open3d.
+- Performed open vocabulary segmentation via clipseg and point cloud generation via open3d for risk / inflation boundary creation.
 - Tested on the nvidia r2b_2023 dataset.
 <video width="220" height="315" controls>
   <source src="images/octomap-proj-1.mp4" type="video/mp4">
