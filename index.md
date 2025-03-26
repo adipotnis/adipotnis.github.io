@@ -64,6 +64,9 @@ more coming soon ...
 
 
 # Competitive Robotics
+
+ <img src="images/channels4_profile.jpg" alt="fll logo" width="100" /> <img src="images/images.png" alt="wro logo" width="200" />
+
 I am a [FIRST](https://www.firstinspires.org/) and [WRO](https://wro-association.org/) alumni and I have participated in Robotics competitions since 2013. I have represented India Internationally in Robotics competitions thrice and also mentored a team which won Runner up Best Project Research in FLL Europe Opens in Estonia in 2018. I continue to mentor teams at [Robominds](https://www.robominds.in/) for FLL, FTC and Vex Robotics.     
 
 ## Achievements 
