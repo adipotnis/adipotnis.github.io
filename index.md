@@ -1,8 +1,9 @@
 ---
 layout: page
+title: ""
 ---
 
-# About Me 
+<h2 style="font-size: 2rem; margin-bottom: 1.5rem;">About Me</h2>
 <div style="display: flex; align-items: flex-start; gap: 20px;">
 <img src="images/IMG_6499.png" alt="Aditya Potnis" style="float: right; width: 100px; margin-left: 20px;">
 <div>
