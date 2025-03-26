@@ -42,7 +42,9 @@ more coming soon ...
 
 ### VLM based Octomap generation for navigation
 - Implemented vision and stereo depth based point cloud generation to create a octomap for robot navigation in 3d space.
-<video width="560" height="315" controls>
+- Performed open vocabulary segmentation via clipseg and point cloud generation via open3d.
+- Tested on the nvidia r2b_2023 dataset.
+<video width="220" height="315" controls>
   <source src="images/octomap-proj-1.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
