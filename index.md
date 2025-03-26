@@ -40,6 +40,9 @@ more coming soon ...
 
 <img src="images/20250312-1307-47.1662169.gif" alt="salto-animation-1" width="450" />
 
+### VLM based Octomap generation for navigation
+- Implemented a vision and stereo depth based point cloud generation to create a octomap for robot navigation in 3d space.
+
 ### ROS1 ROS2 bridge for faster debugging and code refactoring
 - Created a Docker image generation repo to accelerate image creation and facilitate easier refactoring. [Link](https://github.com/adipotnis/ros1_bridge_ws)
 
