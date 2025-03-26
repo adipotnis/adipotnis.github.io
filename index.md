@@ -1,7 +1,6 @@
 ---
-title: Aditya Potnis
+layout: home
 ---
-
 
 # About Me 
 <div style="display: flex; align-items: flex-start; gap: 20px;">
