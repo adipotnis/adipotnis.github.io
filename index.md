@@ -11,7 +11,7 @@ title: ""
 Hey! I'm Aditya - a full stack roboticist with experience spanning hardware design, lower level control and semantic autonomous navigation specializing in semistructured and unstructured environments. My goal is to work on Robust, Scalable and Adaptable solutions using control theory and robot learning to solve complex real-world problems. 
 </p>
 <p>
-Currently I'm a MS CS student at UIUC with a background in Robotics. As a Research Assistant at Distributed Autonomous System Lab under the guidance of Prof. Girish Chowdhary, I work on research of VLM assisted navigation methods for generalization with different types of motion primitives. 
+ Currently, I am a graduate student at University of Illinois Urbana Champaign(UIUC) pursuing a Master of Science in Computer Science with a concentration in Robotics. I am working as a Research Assistant under the guidance of Prof. Girish Chowdhary at Distributed Autonomous System Lab(UIUC). My research is focused on Visual Language Model(VLM) assisted navigation methods for generalization with different types of motion primitives.
 </p>
 <p>  
 I previously did my B.Tech in Mechanical Engineering with a Minor in Computer Engineering at <a href="https://www.coeptech.ac.in/" target="_blank">College of Engineering, Pune</a> and worked for 2.5 years on the hardware design, autonomy, ROS2 refactoring, MPPI performance optimization and lower level controls for a 750 kg self-driving heavy payload agriculture AGV at <a href="https://www.earthsense.co/" target="_blank">Earthsense</a>. I also developed the 4-wheel independent torque vectoring for the Dual Ackermann steer mechanism for the TerraMax Robot. 
