@@ -34,7 +34,8 @@ more coming soon ...
 
 # Projects
 
-### GhibliDream – Studio-Ghibli Stylization of Stable Diffusion (CS 444) Feb 2025 - Present
+### GhibliDream – Studio-Ghibli inspired Stylization of Stable Diffusion (CS 444) 
+Report: [Link](docs/CS444-ghiblidream.pdf)
 - Fine-tuned StableDiffusion-2.0 for stylization with DreamBooth on curated images using a T4/A100 instance.
 Built a LLM-assisted (Gemini-2.0/GPT4o based) image auto-captioning workflow to generate variation of text
 length, tone and styles.
