@@ -33,6 +33,14 @@ Feel free to connect with me on <a href="https://www.linkedin.com/in/adityapotni
 more coming soon ...
 
 # Projects
+
+### GhibliDream – Studio-Ghibli Stylization of Stable Diffusion (CS 444) Feb 2025 - Present
+- Fine-tuned StableDiffusion-2.0 for stylization with DreamBooth on curated images using a T4/A100 instance.
+Built a LLM-assisted (Gemini-2.0/GPT4o based) image auto-captioning workflow to generate variation of text
+length, tone and styles.
+- Stress tested system via targeted ablation of samplers & prompt length. Reached 0.90+ CLIP-I cosine similarity
+on foreground characters while retaining backgrounds quality.
+
 ### Salto Simulator for development
 - Simulates [Salto-1P](https://www.youtube.com/watch?v=5tMjHBk-2JQ) jumping motion as a point object (Jumping cube) to help accelerate autonomy development. Allows for parabolic trajectory jumping with continous as well as periodic jumps.
 - Simulates odometry, pose estimation and the required control action for the actual robot.
