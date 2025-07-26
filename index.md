@@ -42,7 +42,7 @@ length, tone and styles.
 - Stress tested system via targeted ablation of samplers & prompt length. Reached 0.90+ CLIP-I cosine similarity
 on foreground characters while retaining backgrounds quality.
 
-<img src="images/Screenshot 2025-07-26 044527.png" alt="salto-animation-1" width="450" />
+<img src="images/Screenshot 2025-07-26 044527.png" alt="generated sample images" width="450" />
 
 ### Salto Simulator for development
 - Simulates [Salto-1P](https://www.youtube.com/watch?v=5tMjHBk-2JQ) jumping motion as a point object (Jumping cube) to help accelerate autonomy development. Allows for parabolic trajectory jumping with continous as well as periodic jumps.
