@@ -3,6 +3,6 @@ theme: minima
 plugins:
   - jekyll-sitemap
 
-favicon: images/favicon.ico
+favicon: images/uiucfavicon.ico
 title: Aditya Potnis
 author: Aditya Potnis
