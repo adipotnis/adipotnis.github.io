@@ -34,6 +34,12 @@ more coming soon ...
 
 # Projects
 
+### Smart semantic segmentation and navigation using CLIPSeg
+Slides: [Link](docs/Smart Indoor Navigation using CLIPSeg (2).pdf)
+- Combined CLIP’s semantic reasoning with DINOv2’s spatial features to classify environments with 94% accuracy for adaptive scene understanding. 
+- Combined CLIPSeg with Depth-Anything V2 to detect target objects and risky obstacles, generating obstacle-aware gridmaps for navigation for object & obstacle awareness.
+- Designed a modified A* planner with goal-object validation, achieving 90% success rate and ±9% distance accuracy across varied indoor scenes for reliable pathfinding.
+
 ### GhibliDream – Studio-Ghibli inspired Stylization of Stable Diffusion (CS 444) 
 Report: [Link](docs/CS444-ghiblidream.pdf)
 - Fine-tuned StableDiffusion-2.0 for stylization with DreamBooth on curated images using a T4/A100 instance.
