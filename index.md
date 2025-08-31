@@ -34,7 +34,7 @@ more coming soon ...
 
 # Projects
 
-### Smart semantic segmentation and navigation using CLIPSeg (CS440)
+### Semantic-aware segmentation and navigation using CLIPSeg (CS440)
 Slides: [Link](docs/smartnav.pdf)
 
 Report: [Link](docs/CS440-Final-Project.pdf)
