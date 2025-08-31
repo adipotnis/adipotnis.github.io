@@ -36,6 +36,7 @@ more coming soon ...
 
 ### Smart semantic segmentation and navigation using CLIPSeg
 Slides: [Link](docs/smartnav.pdf)
+Report: [Link](docs/CS440-Final-Project.pdf)
 - Combined CLIPSeg with Depth-Anything V2 to detect target objects and risky obstacles, generating obstacle-aware gridmaps for navigation for object & obstacle awareness and 94% accuracy for adaptive scene understanding.
 - Designed a modified A* planner with goal-object validation, achieving an average 73% success rate and ±9% distance accuracy across varied indoor & outdoor scenes for reliable pathfinding.
 - Compared CLIP and DINOv2 feature embeddings to quantify scene understanding perfomance across indoor and outdoor spaces.  
