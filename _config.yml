@@ -1,7 +1,8 @@
-theme: ankitsultana/researcher
+remote_theme: ankitsultana/researcher
 # theme: minima
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-sitemap
 
 favicon: images/uiucfavicon.ico
