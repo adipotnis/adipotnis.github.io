@@ -114,6 +114,6 @@ I am a [FIRST](https://www.firstinspires.org/) and [WRO](https://wro-association
 
 
 ---
-Made using simplest-jekyll & ankitsultana/researcher
-<!-- 
-Source: [![MichaelCurrin - simplest-jekyll](https://img.shields.io/static/v1?label=MichaelCurrin&message=simplest-jekyll&color=blue&logo=github)](https://github.com/MichaelCurrin/simplest-jekyll) -->
+##### Made using simplest-jekyll  
+
+Source: [![MichaelCurrin - simplest-jekyll](https://img.shields.io/static/v1?label=MichaelCurrin&message=simplest-jekyll&color=blue&logo=github)](https://github.com/MichaelCurrin/simplest-jekyll)

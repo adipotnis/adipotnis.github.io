@@ -1,5 +1,4 @@
-theme: ankitsultana/researcher
-# theme: minima
+theme: minima
 
 plugins:
   - jekyll-sitemap
