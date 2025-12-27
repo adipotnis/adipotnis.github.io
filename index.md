@@ -36,10 +36,21 @@ more coming soon ...
 
 # Projects
 
-### Semantic-aware segmentation and navigation using CLIPSeg (CS440)
-Slides: [Link](docs/smartnav.pdf)
+### Low-Rank Adaptation for Video Generation with descriptive relative pose prompts (CS 598 3D Vision, HACKER Project )
 
-Report: [Link](docs/CS440-Final-Project.pdf)
+- Fine-tuned Wan 2.2 (1.3B) with LoRA to generate robot-POV navigation videos from text + motion plans (e.g.,
+“move forward 1.6 m, turn 14° right near a brick wall”) for scalable outdoor data synthesis.
+- Collected a multimodal outdoor robot dataset (RGB, GPS+IMU EKF poses, motion captions) for training.
+- Evaluated motion fidelity and failure modes, identifying memory artifacts and noise sensitivity; proposed
+hierarchical motion-primitive curriculum training to improve alignment.
+<video width="220" height="315" controls>
+  <source src="images/vid-gen-robot.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+### Semantic-aware segmentation and navigation using CLIPSeg (CS440)
+Slides: [Link](docs/smartnav.pdf) Report: [Link](docs/CS440-Final-Project.pdf)
 
 <img src="images/smartnav-image.png" alt="smartnav image output" width="450" />
 
@@ -106,4 +117,3 @@ I am a [FIRST](https://www.firstinspires.org/) and [WRO](https://wro-association
 ##### Made using simplest-jekyll  
 
 Source: [![MichaelCurrin - simplest-jekyll](https://img.shields.io/static/v1?label=MichaelCurrin&message=simplest-jekyll&color=blue&logo=github)](https://github.com/MichaelCurrin/simplest-jekyll)
-
