@@ -43,7 +43,7 @@ more coming soon ...
 - Collected a multimodal outdoor robot dataset (RGB, GPS+IMU EKF poses, motion captions) for training.
 - Evaluated motion fidelity and failure modes, identifying memory artifacts and noise sensitivity; proposed
 hierarchical motion-primitive curriculum training to improve alignment.
-<video width="220" height="315" controls>
+<video width="315" height="220" controls>
   <source src="images/vid-gen-robot.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
