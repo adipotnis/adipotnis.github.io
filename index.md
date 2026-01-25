@@ -36,6 +36,12 @@ more coming soon ...
 
 # Projects
 
+### Visual-Language-Guided Task Planning for Horticultural Robots [Link](https://www.arxiv.org/abs/2601.11906)
+
+- Developed a modular VLM-guided robotic framework for precision agriculture that interleaves natural language queries with action primitives to enable high-level reasoning in autonomous crop monitoring tasks.
+- Evaluated benchmark across monoculture and polyculture environments, demonstrating VLMs achieve human-comparable performance on short-horizon tasks but exhibit significant degradation in long-horizon scenarios.
+- Identified critical failure modes in VLM context grounding under noisy semantic map conditions.
+
 ### Low-Rank Adaptation for Video Generation with descriptive relative pose prompts (CS 598 3D Vision, HACKER Project )
 
 - Fine-tuned Wan 2.2 (1.3B) with LoRA to generate robot-POV navigation videos from text + motion plans (e.g.,
