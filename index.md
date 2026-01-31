@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: single
 title: ""
+author_profile: true
 ---
 
 <h2 style="font-size: 2rem; margin-bottom: 1.5rem;">About Me</h2>

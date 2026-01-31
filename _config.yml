@@ -1,8 +1,67 @@
-theme: minima
+# Theme
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "default"
 
+# Site Settings
+locale: "en-US"
+title: "Aditya Potnis"
+title_separator: "|"
+subtitle: "Roboticist"
+name: "Aditya Potnis"
+description: "Full-stack roboticist specializing in semantic navigation for semistructured and unstructured environments."
+url: "https://adipotnis.github.io"
+baseurl: ""
+
+# Site Author
+author:
+  name: "Aditya Potnis"
+  avatar: "/images/IMG_6499.png"
+  bio: "Full-stack roboticist specializing in semantic navigation. MS CS @ UIUC."
+  location: "Urbana-Champaign, IL"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/adityapotnis/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/aditya_potnis"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/adipotnis"
+
+# Site Footer
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/adityapotnis/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/aditya_potnis"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/adipotnis"
+
+# Reading Files
+include:
+  - _pages
+
+# Plugins
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
 
-favicon: images/uiucfavicon.ico
-title: Aditya Potnis
-author: Aditya Potnis
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: true
