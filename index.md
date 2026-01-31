@@ -8,13 +8,13 @@ title: ""
 <img src="images/IMG_6499.png" alt="Aditya Potnis" style="float: right; width: 100px; margin-left: 20px;">
 <div>
 <p>
-Hey! I'm Aditya - a full stack roboticist with experience spanning hardware design, lower level control and semantic autonomous navigation specializing in semistructured and unstructured environments. My goal is to work on Robust, Scalable and Adaptable solutions using control theory and robot learning to solve complex real-world problems. 
+Hey! I'm Aditya, a full-stack roboticist specializing in semantic navigation for semistructured and unstructured environments. My experience spans the robotics stack—from hardware design and low-level control to perception and autonomy. I'm passionate about developing robust, scalable, and adaptable solutions that combine robot learning with control theory to tackle complex real-world challenges.
 </p>
 <p>
- Currently, I am a graduate student at University of Illinois Urbana Champaign <img src="images/uiucfavicon.ico" alt="UIUC" width="16" style="vertical-align:middle;"> pursuing a Master of Science in Computer Science with a focus on Robotics. I work as a Research Assistant under the guidance of Prof. Girish Chowdhary at <a href="http://daslab.illinois.edu/index.html" target="_blank">Distributed Autonomous System Lab</a>(UIUC). My research is focused on Visual Language Model(VLM) assisted navigation methods for generalization with different types of motion primitives.
+ Currently, I'm a graduate student at University of Illinois Urbana Champaign <img src="images/uiucfavicon.ico" alt="UIUC" width="16" style="vertical-align:middle;"> pursuing a Master of Science in Computer Science with a focus on Robotics. I'm advised by Prof. Girish Chowdhary at <a href="http://daslab.illinois.edu/index.html" target="_blank">Distributed Autonomous System Lab</a>(UIUC). My research is focused on Outdoor Navigation with Vision Language Action models and embodiment aware Visual Language Models with navigation grounding.
 </p>
 <p>  
-I previously did my B.Tech in Mechanical Engineering with a Minor in Computer Engineering at <a href="https://www.coeptech.ac.in/" target="_blank">College of Engineering, Pune</a> <img src="images/coepfavicon.ico" alt="COEP" width="16" style="vertical-align:middle;"> and worked for 2.5 years on the hardware design, autonomy, ROS2 refactoring, MPPI performance optimization and lower level controls for a 750 kg self-driving heavy payload agriculture AGV at <a href="https://www.earthsense.co/" target="_blank">Earthsense</a>. I also developed the 4-wheel independent torque vectoring for the Dual Ackermann steer mechanism for the TerraMax Robot. 
+I completed my B.Tech in Mechanical Engineering with a Minor in Computer Engineering at <a href="https://www.coeptech.ac.in/" target="_blank">College of Engineering, Pune</a> <img src="images/coepfavicon.ico" alt="COEP" width="16" style="vertical-align:middle;">. Following graduation, I spent 2.5 years at <a href="https://www.earthsense.co/" target="_blank">Earthsense</a>, where I worked on hardware design, autonomy, and MPC performance optimization for a 750kg payload autonomous agricultural vehicle. My contributions included developing the lower-level control systems and implementing 4-wheel independent torque vectoring for the TerraMax Robot's dual Ackermann steering mechanism.
 </p>
 <p>
 Feel free to connect with me on <a href="https://www.linkedin.com/in/adityapotnis/" target="_blank">
@@ -32,9 +32,6 @@ Feel free to connect with me on <a href="https://www.linkedin.com/in/adityapotni
 [![robot_video_terramax](https://img.youtube.com/vi/1CN3ZjOrtVQ/0.jpg)](https://www.youtube.com/watch?v=1CN3ZjOrtVQ)
 
 
-more coming soon ...
-
-
 # Publications
 
 ### Visual-Language-Guided Task Planning for Horticultural Robots 
@@ -43,6 +40,8 @@ Paper: [Link](https://www.arxiv.org/abs/2601.11906)
 - Developed a modular VLM-guided robotic framework for precision agriculture that interleaves natural language queries with action primitives to enable high-level reasoning in autonomous crop monitoring tasks.
 - Evaluated benchmark across monoculture and polyculture environments, demonstrating VLMs achieve human-comparable performance on short-horizon tasks but exhibit significant degradation in long-horizon scenarios.
 - Identified critical failure modes in VLM context grounding under noisy semantic map conditions.
+
+more coming soon ...
 
 # Projects
 
