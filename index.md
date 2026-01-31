@@ -8,7 +8,7 @@ title: ""
 <img src="images/IMG_6499.png" alt="Aditya Potnis" style="float: right; width: 100px; margin-left: 20px;">
 <div>
 <p>
-Hey! I'm Aditya, a full-stack roboticist specializing in semantic navigation for semistructured and unstructured environments. My experience spans the robotics stack—from hardware design and low-level control to perception and autonomy. I'm passionate about developing robust, scalable, and adaptable solutions that combine robot learning with control theory to tackle complex real-world challenges.
+Hey! I'm Aditya. I'm a full-stack roboticist specializing in semantic navigation for semistructured and unstructured environments. My experience spans the robotics stack—from hardware design and low-level control to perception and autonomy. I'm passionate about developing robust, scalable, and adaptable solutions that combine robot learning with control theory to tackle complex real-world challenges.
 </p>
 <p>
  Currently, I'm a graduate student at University of Illinois Urbana Champaign <img src="images/uiucfavicon.ico" alt="UIUC" width="16" style="vertical-align:middle;"> pursuing a Master of Science in Computer Science with a focus on Robotics. I'm advised by Prof. Girish Chowdhary at <a href="http://daslab.illinois.edu/index.html" target="_blank">Distributed Autonomous System Lab</a>(UIUC). My research is focused on Outdoor Navigation with Vision Language Action models and embodiment aware Visual Language Models with navigation grounding.
