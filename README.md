@@ -1,4 +1,4 @@
 # Personal website
 v1 - simplest jekyll
 
-v2 - minimal mistakes
+v2 - minimal mistakes cleaner appearance
