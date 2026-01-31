@@ -37,7 +37,7 @@ more coming soon ...
 - Collected a multimodal outdoor robot dataset (RGB, GPS+IMU EKF poses, motion captions) for training.
 - Evaluated motion fidelity and failure modes, identifying memory artifacts and noise sensitivity; proposed
 hierarchical motion-primitive curriculum training to improve alignment.
-<video width="315" height="220" controls>
+<video width="450" controls>
   <source src="images/vid-gen-robot.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
@@ -73,7 +73,7 @@ on foreground characters while retaining backgrounds quality.
 - Implemented vision and stereo depth based point cloud generation to create a octomap for robot navigation in 3d space.
 - Performed open vocabulary segmentation via clipseg and point cloud generation via open3d for risk / inflation boundary creation.
 - Tested on the nvidia r2b_2023 dataset.
-<video width="220" height="315" controls>
+<video width="450" controls>
   <source src="images/octomap-proj-1.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
@@ -89,7 +89,9 @@ on foreground characters while retaining backgrounds quality.
 - Project awarded Best Working project award (Mechanical) by 1982 batch, Alumni association.
 - Patent pending. Provisional patent done (IN202321006687).
 
-<img src="images/multiplexer-arm-2.gif" alt="multiplexer-arm-2" width="150" /> <img src="images/multiplexer-arm-1.jpg" alt="multiplexer-arm-1" width="450" />
+<img src="images/multiplexer-arm-2.gif" alt="multiplexer-arm-2" width="450" />
+
+<img src="images/multiplexer-arm-1.jpg" alt="multiplexer-arm-1" width="450" />
 
 
 # Competitive Robotics
