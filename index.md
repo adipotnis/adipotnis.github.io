@@ -32,6 +32,8 @@ more coming soon ...
 
 ### Low-Rank Adaptation for Video Generation with descriptive relative pose prompts (CS 598 3D Vision, HACKER Project )
 
+Code: [Link](https://github.com/chih-hao-lin/3DV_2025Fall/tree/main/group_09_video_generation/apotnis2_lora_finetune) 
+
 - Fine-tuned Wan 2.2 (1.3B) with LoRA to generate robot-POV navigation videos from text + motion plans (e.g.,
 “move forward 1.6 m, turn 14° right near a brick wall”) for scalable outdoor data synthesis.
 - Collected a multimodal outdoor robot dataset (RGB, GPS+IMU EKF poses, motion captions) for training.
