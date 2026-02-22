@@ -2,9 +2,36 @@
 <link rel="shortcut icon" type="image/x-icon" href="{{ '/images/uiucfavicon.ico' | relative_url }}">
 <style>
   .page {
-    max-width: 90% !important;
+    max-width: 95% !important;
   }
   .page__inner-wrap {
-    max-width: 90% !important;
+    max-width: 95% !important;
+  }
+  .page__main {
+    max-width: none !important;
+  }
+  .page__content {
+    max-width: none !important;
+    font-size: 0.9em !important;
+  }
+  .wrapper {
+    max-width: 95% !important;
+  }
+  body {
+    font-size: 0.9em !important;
+  }
+  @media (min-width: 80em) {
+    .page {
+      max-width: 95% !important;
+    }
+    .page__inner-wrap {
+      max-width: 95% !important;
+    }
+    .page__main {
+      max-width: none !important;
+    }
+    .page__content {
+      max-width: none !important;
+    }
   }
 </style>
