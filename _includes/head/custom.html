@@ -37,6 +37,7 @@
   .sidebar {
     width: 120px !important;
     max-width: 120px !important;
+    flex: 0 0 120px !important;
     flex-basis: 120px !important;
   }
   .author__avatar-wrapper {
@@ -51,29 +52,24 @@
     width: 120px !important;
     max-width: 120px !important;
   }
-  .page__inner-wrap {
-    display: flex !important;
-  }
-  .page__inner-wrap > .sidebar {
-    flex: 0 0 120px !important;
-    width: 120px !important;
-    max-width: 120px !important;
+  .page__main {
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
   }
   @media (min-width: 80em) {
     .sidebar {
       width: 120px !important;
       max-width: 120px !important;
-      flex-basis: 120px !important;
       flex: 0 0 120px !important;
+      flex-basis: 120px !important;
     }
     .author__avatar-wrapper {
       width: 120px !important;
       max-width: 120px !important;
     }
-    .page__inner-wrap > .sidebar {
-      flex: 0 0 120px !important;
-      width: 120px !important;
-      max-width: 120px !important;
+    .page__main {
+      flex: 1 1 auto !important;
+      min-width: 0 !important;
     }
   }
 </style>
