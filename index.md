@@ -52,19 +52,6 @@ Code: [Link](https://github.com/chih-hao-lin/3DV_2025Fall/tree/main/group_09_vid
 </div>
 
 
-### Semantic-aware segmentation and navigation using CLIPSeg (CS440)
-Slides: [Link](docs/smartnav.pdf) Report: [Link](docs/CS440-Final-Project.pdf)
-
-<div class="side-by-side">
-<div class="text" markdown="1">
-- Combined CLIPSeg with Depth-Anything V2 to detect objects and obstacles, generating obstacle-aware gridmaps with 94% accuracy for scene understanding; compared CLIP and DINOv2 scene embeddings to quantify performance across indoor and outdoor spaces.
-- Designed a modified A* planner with goal-object validation, achieving 81% success rate and ±9% distance accuracy for line-of-sight pathfinding across varied scenes.
-</div>
-<div class="media">
-<img src="images/smartnav-image.png" alt="smartnav image output">
-</div>
-</div>
-
 ### GhibliDream – Studio-Ghibli inspired Stylization of Stable Diffusion (CS 444)
 Report: [Link](docs/CS444-ghiblidream.pdf)
 
@@ -107,9 +94,6 @@ on foreground characters while retaining backgrounds quality.
 </div>
 </div>
 
-### ROS1 ROS2 bridge for faster debugging and code refactoring
-- Created a Docker image generation repo to accelerate image creation and facilitate easier refactoring. [Link](https://github.com/adipotnis/ros1_bridge_ws)
-
 ### Design and Analysis of Tendon actuated Robotic arm using Bowden cables and Mechanical Multiplexing (Thesis @ COEP)
 - Led team in designing a modular 4 degree of freedom Bowden cable driven, tendon actuated joint for robot modular planar and non-planar robot arm as part of Final year project at COEP. System is compact, lightweight and waterproof with remotely positioned actuators. Designed in Fusion 360 and analysed failure modes using ANSYS structural FEA.
 - Mechanical Multiplexer allows multijointed arm to be controlled by only 2 stepper motors, reducing overall cost and size of system. Modular joints can be swapped easily to quickly modify degree of freedom of arm.
@@ -122,6 +106,22 @@ on foreground characters while retaining backgrounds quality.
 <div style="flex: 0 0 auto; max-width: 120px;"><img src="images/multiplexer-arm-2.gif" alt="multiplexer-arm-2" style="width: 100%; height: auto; border-radius: 4px;"></div>
 <div style="flex: 0 0 auto; max-width: 320px;"><img src="images/multiplexer-arm-1.jpg" alt="multiplexer-arm-1" style="width: 100%; height: auto; border-radius: 4px;"></div>
 </div>
+
+### Semantic-aware segmentation and navigation using CLIPSeg (CS440)
+Slides: [Link](docs/smartnav.pdf) Report: [Link](docs/CS440-Final-Project.pdf)
+
+<div class="side-by-side">
+<div class="text" markdown="1">
+- Combined CLIPSeg with Depth-Anything V2 to detect objects and obstacles, generating obstacle-aware gridmaps with 94% accuracy for scene understanding; compared CLIP and DINOv2 scene embeddings to quantify performance across indoor and outdoor spaces.
+- Designed a modified A* planner with goal-object validation, achieving 81% success rate and ±9% distance accuracy for line-of-sight pathfinding across varied scenes.
+</div>
+<div class="media">
+<img src="images/smartnav-image.png" alt="smartnav image output">
+</div>
+</div>
+
+### ROS1 ROS2 bridge for faster debugging and code refactoring
+- Created a Docker image generation repo to accelerate image creation and facilitate easier refactoring. [Link](https://github.com/adipotnis/ros1_bridge_ws)
 
 
 # Competitive Robotics
