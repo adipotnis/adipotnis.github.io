@@ -22,9 +22,8 @@ I completed my B.Tech in Mechanical Engineering with a Minor in Computer Enginee
 ### Visual-Language-Guided Task Planning for Horticultural Robots 
 Paper: [Link](https://www.arxiv.org/abs/2601.11906)
 
-- Developed a modular VLM-guided robotic framework for precision agriculture that interleaves natural language queries with action primitives to enable high-level reasoning in autonomous crop monitoring tasks.
-- Evaluated benchmark across monoculture and polyculture environments, demonstrating VLMs achieve human-comparable performance on short-horizon tasks but exhibit significant degradation in long-horizon scenarios.
-- Identified critical failure modes in VLM context grounding under noisy semantic map conditions.
+- Developed a modular VLM-guided framework for precision agriculture that interleaves natural language queries with action primitives for autonomous crop monitoring.
+- Evaluated across monoculture and polyculture environments; VLMs achieve human-comparable performance on short-horizon tasks but degrade significantly in long-horizon scenarios, with critical failure modes in context grounding under noisy semantic maps.
 
 more coming soon ...
 
@@ -107,7 +106,7 @@ I am a [FIRST](https://www.firstinspires.org/) and [WRO](https://wro-association
 - Team India Representative, Top 10 in [First Lego League Open European Championships, Spain(2016)](https://www.firstlegoleague.org/past-challenges) (Fully sponsored by Tata Motors).
 
 
-
+I enjoy running and cycling, currently preparing for a 5k in 25 minutes. 
 
 ---
 ##### Made using [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes)
