@@ -3,18 +3,30 @@
 <style>
   .page {
     max-width: 95% !important;
+    width: 95% !important;
   }
   .page__inner-wrap {
     max-width: 95% !important;
+    width: 95% !important;
   }
   .page__main {
-    max-width: none !important;
+    max-width: calc(100% - 280px) !important;
+    width: auto !important;
   }
   .page__content {
-    max-width: none !important;
+    max-width: 100% !important;
     font-size: 0.9em !important;
   }
   .wrapper {
+    max-width: 95% !important;
+    width: 95% !important;
+  }
+  .site-container {
+    max-width: 95% !important;
+  }
+  .masthead__inner-wrap,
+  .page__inner-wrap,
+  .footer__inner {
     max-width: 95% !important;
   }
   body {
@@ -23,15 +35,23 @@
   @media (min-width: 80em) {
     .page {
       max-width: 95% !important;
+      width: 95% !important;
     }
     .page__inner-wrap {
       max-width: 95% !important;
+      width: 95% !important;
     }
     .page__main {
-      max-width: none !important;
+      max-width: calc(100% - 280px) !important;
+      width: auto !important;
     }
     .page__content {
-      max-width: none !important;
+      max-width: 100% !important;
+    }
+    .masthead__inner-wrap,
+    .page__inner-wrap,
+    .footer__inner {
+      max-width: 95% !important;
     }
   }
 </style>
