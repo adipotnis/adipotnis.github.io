@@ -41,12 +41,10 @@ more coming soon ...
 Code: [Link](https://github.com/chih-hao-lin/3DV_2025Fall/tree/main/group_09_video_generation/apotnis2_lora_finetune)
 
 <div class=”side-by-side”>
-<div class=”text”>
-<ul>
-<li>Fine-tuned Wan 2.2 (1.3B) with LoRA to generate robot-POV navigation videos from text + motion plans (e.g., &ldquo;move forward 1.6 m, turn 14&deg; right near a brick wall&rdquo;) for scalable outdoor data synthesis.</li>
-<li>Collected a multimodal outdoor robot dataset (RGB, GPS+IMU EKF poses, motion captions) for training.</li>
-<li>Evaluated motion fidelity and failure modes, identifying memory artifacts and noise sensitivity; proposed hierarchical motion-primitive curriculum training to improve alignment.</li>
-</ul>
+<div class=”text” markdown=”1”>
+- Fine-tuned Wan 2.2 (1.3B) with LoRA to generate robot-POV navigation videos from text + motion plans for scalable outdoor data synthesis.
+- Collected a multimodal outdoor robot dataset (RGB, GPS+IMU EKF poses, motion captions) for training.
+- Evaluated motion fidelity and failure modes, identifying memory artifacts and noise sensitivity; proposed hierarchical motion-primitive curriculum training to improve alignment.
 </div>
 <div class=”media”>
 <video controls><source src=”images/vid-gen-robot.mp4” type=”video/mp4”></video>
