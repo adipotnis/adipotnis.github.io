@@ -45,6 +45,9 @@ footer:
           icon: "fab fa-fw fa-github"
           url: "https://github.com/adipotnis"
 
+# Navigation
+header_pages: []
+
 # Reading Files
 include:
     - _pages
