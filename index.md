@@ -41,8 +41,7 @@ Code: [Link](https://github.com/chih-hao-lin/3DV_2025Fall/tree/main/group_09_vid
 - Fine-tuned Wan 2.2 (1.3B) with LoRA to generate robot-POV navigation videos from text + motion plans (e.g.,
 “move forward 1.6 m, turn 14° right near a brick wall”) for scalable outdoor data synthesis.
 - Collected a multimodal outdoor robot dataset (RGB, GPS+IMU EKF poses, motion captions) for training.
-- Evaluated motion fidelity and failure modes, identifying memory artifacts and noise sensitivity; proposed
-hierarchical motion-primitive curriculum training to improve alignment.
+- Evaluated motion fidelity and failure modes, identifying memory artifacts and noise sensitivity; proposed hierarchical motion-primitive curriculum training to improve alignment.
 <video width="450" controls>
   <source src="images/vid-gen-robot.mp4" type="video/mp4">
   Your browser does not support the video tag.
@@ -54,9 +53,8 @@ Slides: [Link](docs/smartnav.pdf) Report: [Link](docs/CS440-Final-Project.pdf)
 
 <img src="images/smartnav-image.png" alt="smartnav image output" width="450" />
 
-- Combined CLIPSeg with Depth-Anything V2 to detect target objects and risky obstacles, generating obstacle-aware gridmaps for navigation for object & obstacle awareness and 94% accuracy for adaptive scene understanding.
-- Designed a modified A* planner with goal-object validation, achieving an average 81% success rate and ±9% distance accuracy for line of sight target based pathfinding across varied indoor & outdoor scenes.
-- Compared CLIP and DINOv2 feature embeddings to quantify scene understanding perfomance across indoor and outdoor spaces.  
+- Combined CLIPSeg with Depth-Anything V2 to detect objects and obstacles, generating obstacle-aware gridmaps with 94% accuracy for scene understanding; compared CLIP and DINOv2 scene embeddings to quantify performance across indoor and outdoor spaces.
+- Designed a modified A* planner with goal-object validation, achieving 81% success rate and ±9% distance accuracy for line-of-sight pathfinding across varied scenes.  
 
 ### GhibliDream – Studio-Ghibli inspired Stylization of Stable Diffusion (CS 444) 
 Report: [Link](docs/CS444-ghiblidream.pdf)
