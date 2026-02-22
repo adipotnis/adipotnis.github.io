@@ -6,11 +6,11 @@ author_profile: true
 
 ## About Me
 
-Hey! I'm Aditya. I'm a full-stack roboticist specializing in semantic navigation for semistructured and unstructured environments. My experience spans the robotics stack—from hardware design and low-level control to perception and autonomy. I'm passionate about developing robust, scalable, and adaptable solutions that combine robot learning with control theory to tackle complex real-world challenges.
+I'm a full-stack roboticist with experience across the entire stack — from hardware design and low-level control to perception and autonomy.
 
-Currently, I'm a graduate student at University of Illinois Urbana Champaign <img src="images/uiucfavicon.ico" alt="UIUC" width="16" style="vertical-align:middle;"> pursuing a Master of Science in Computer Science with a focus on Robotics. I'm advised by Girish Chowdhary at <a href="http://daslab.illinois.edu/index.html" target="_blank">Distributed Autonomous System Lab</a>(UIUC). My research is focused on Outdoor Navigation with Vision Language Action models and embodiment aware Visual Language Models with navigation grounding.
+Currently, I'm a student at UIUC <img src="images/uiucfavicon.ico" alt="UIUC" width="16" style="vertical-align:middle;"> pursuing a MS in Computer Science with a focus on Robotics. I'm advised by Girish Chowdhary at <a href="http://daslab.illinois.edu/index.html" target="_blank"> Distributed Autonomous Systems Lab</a>. My research is focused on Outdoor Navigation with Vision Language Action models and embodiment aware grounding for Vision Large Language Models.
 
-I completed my B.Tech in Mechanical Engineering with a Minor in Computer Engineering at <a href="https://www.coeptech.ac.in/" target="_blank">College of Engineering, Pune</a> <img src="images/coepfavicon.ico" alt="COEP" width="16" style="vertical-align:middle;"> after which I worked at <a href="https://www.earthsense.co/" target="_blank">Earthsense</a>, on hardware design, autonomy, and MPC performance optimization for a 750kg payload autonomous agricultural vehicle. My contributions included developing the lower-level control systems and implementing 4-wheel independent torque vectoring for the TerraMax Robot's dual Ackermann steering mechanism.
+I completed my B.Tech in Mechanical Engineering with a Minor in Computer Engineering at <a href="https://www.coeptech.ac.in/" target="_blank">College of Engineering, Pune</a> <img src="images/coepfavicon.ico" alt="COEP" width="16" style="vertical-align:middle;">. I previously worked at <a href="https://www.earthsense.co/" target="_blank">Earthsense</a>, on hardware design, autonomy, and optimization for a 750kg payload AGV. My contributions included developing the lower-level control systems and implementing 4-wheel independent torque vectoring for the TerraMax Robot's dual Ackermann steering mechanism.
 
 <a href="https://www.youtube.com/watch?v=1CN3ZjOrtVQ" target="_blank">Watch video</a>
 
