@@ -17,9 +17,11 @@ I completed my B.Tech in Mechanical Engineering with a Minor in Computer Enginee
 
 
 
-<a href="https://www.youtube.com/watch?v=1CN3ZjOrtVQ" target="_blank">Watch video</a>
-
-[![robot_video_terramax](https://img.youtube.com/vi/1CN3ZjOrtVQ/0.jpg)](https://www.youtube.com/watch?v=1CN3ZjOrtVQ)
+<div class="side-by-side" style="justify-content: flex-start;">
+<div class="media">
+<a href="https://www.youtube.com/watch?v=1CN3ZjOrtVQ" target="_blank"><img src="https://img.youtube.com/vi/1CN3ZjOrtVQ/0.jpg" alt="robot_video_terramax"></a>
+</div>
+</div>
 
 
 # Publications
@@ -36,51 +38,75 @@ more coming soon ...
 
 ### Low-Rank Adaptation for Video Generation with descriptive relative pose prompts (CS 598 3D Vision, HACKER Project )
 
-Code: [Link](https://github.com/chih-hao-lin/3DV_2025Fall/tree/main/group_09_video_generation/apotnis2_lora_finetune) 
+Code: [Link](https://github.com/chih-hao-lin/3DV_2025Fall/tree/main/group_09_video_generation/apotnis2_lora_finetune)
 
+<div class=”side-by-side”>
+<div class=”text” markdown=”1”>
 - Fine-tuned Wan 2.2 (1.3B) with LoRA to generate robot-POV navigation videos from text + motion plans (e.g.,
 “move forward 1.6 m, turn 14° right near a brick wall”) for scalable outdoor data synthesis.
 - Collected a multimodal outdoor robot dataset (RGB, GPS+IMU EKF poses, motion captions) for training.
 - Evaluated motion fidelity and failure modes, identifying memory artifacts and noise sensitivity; proposed hierarchical motion-primitive curriculum training to improve alignment.
-<video width="450" controls>
-  <source src="images/vid-gen-robot.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+</div>
+<div class=”media”>
+<video controls><source src=”images/vid-gen-robot.mp4” type=”video/mp4”></video>
+</div>
+</div>
 
 
 ### Semantic-aware segmentation and navigation using CLIPSeg (CS440)
 Slides: [Link](docs/smartnav.pdf) Report: [Link](docs/CS440-Final-Project.pdf)
 
-<img src="images/smartnav-image.png" alt="smartnav image output" width="450" />
-
+<div class="side-by-side">
+<div class="text" markdown="1">
 - Combined CLIPSeg with Depth-Anything V2 to detect objects and obstacles, generating obstacle-aware gridmaps with 94% accuracy for scene understanding; compared CLIP and DINOv2 scene embeddings to quantify performance across indoor and outdoor spaces.
-- Designed a modified A* planner with goal-object validation, achieving 81% success rate and ±9% distance accuracy for line-of-sight pathfinding across varied scenes.  
+- Designed a modified A* planner with goal-object validation, achieving 81% success rate and ±9% distance accuracy for line-of-sight pathfinding across varied scenes.
+</div>
+<div class="media">
+<img src="images/smartnav-image.png" alt="smartnav image output">
+</div>
+</div>
 
-### GhibliDream – Studio-Ghibli inspired Stylization of Stable Diffusion (CS 444) 
+### GhibliDream – Studio-Ghibli inspired Stylization of Stable Diffusion (CS 444)
 Report: [Link](docs/CS444-ghiblidream.pdf)
+
+<div class="side-by-side">
+<div class="text" markdown="1">
 - Fine-tuned StableDiffusion-2.0 for stylization with DreamBooth on curated images using a T4/A100 instance.
 Built a LLM-assisted (Gemini-2.0/GPT4o based) image auto-captioning workflow to generate variation of text
 length, tone and styles.
 - Stress tested system via targeted ablation of samplers & prompt length. Reached 0.90+ CLIP-I cosine similarity
 on foreground characters while retaining backgrounds quality.
-
-<img src="images/Screenshot 2025-07-26 044527.png" alt="generated sample images" width="450" />
+</div>
+<div class="media">
+<img src="images/Screenshot 2025-07-26 044527.png" alt="generated sample images">
+</div>
+</div>
 
 ### Salto Simulator for development
+
+<div class="side-by-side">
+<div class="text" markdown="1">
 - Simulates [Salto-1P](https://www.youtube.com/watch?v=5tMjHBk-2JQ) jumping motion as a point object (Jumping cube) to help accelerate autonomy development. Allows for parabolic trajectory jumping with continous as well as periodic jumps.
 - Simulates odometry, pose estimation and the required control action for the actual robot.
 - Repo to be released soon.
-
-<img src="images/20250312-1307-47.1662169.gif" alt="salto-animation-1" width="450" />
+</div>
+<div class="media">
+<img src="images/20250312-1307-47.1662169.gif" alt="salto-animation-1">
+</div>
+</div>
 
 ### VLM assisted Octomap generation for navigation
+
+<div class="side-by-side">
+<div class="text" markdown="1">
 - Implemented vision and stereo depth based point cloud generation to create a octomap for robot navigation in 3d space.
 - Performed open vocabulary segmentation via clipseg and point cloud generation via open3d for risk / inflation boundary creation.
 - Tested on the nvidia r2b_2023 dataset.
-<video width="450" controls>
-  <source src="images/octomap-proj-1.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+</div>
+<div class="media">
+<video controls><source src="images/octomap-proj-1.mp4" type="video/mp4"></video>
+</div>
+</div>
 
 ### ROS1 ROS2 bridge for faster debugging and code refactoring
 - Created a Docker image generation repo to accelerate image creation and facilitate easier refactoring. [Link](https://github.com/adipotnis/ros1_bridge_ws)
@@ -93,7 +119,14 @@ on foreground characters while retaining backgrounds quality.
 - Project awarded Best Working project award (Mechanical) by 1982 batch, Alumni association.
 - Patent pending. Provisional patent done (IN202321006687).
 
-<img src="images/multiplexer-arm-2.gif" alt="multiplexer-arm-2" width="150" /> <img src="images/multiplexer-arm-1.jpg" alt="multiplexer-arm-1" width="450" />
+<div class="side-by-side" style="justify-content: flex-start;">
+<div class="media" style="max-width: 120px;">
+<img src="images/multiplexer-arm-2.gif" alt="multiplexer-arm-2">
+</div>
+<div class="media">
+<img src="images/multiplexer-arm-1.jpg" alt="multiplexer-arm-1">
+</div>
+</div>
 
 
 # Competitive Robotics

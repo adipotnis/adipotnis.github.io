@@ -72,4 +72,32 @@
       min-width: 0 !important;
     }
   }
+  .side-by-side {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5em;
+    margin-bottom: 1em;
+  }
+  .side-by-side .text {
+    flex: 1 1 60%;
+    min-width: 0;
+  }
+  .side-by-side .media {
+    flex: 0 0 auto;
+    max-width: 280px;
+  }
+  .side-by-side .media img,
+  .side-by-side .media video {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  @media (max-width: 600px) {
+    .side-by-side {
+      flex-direction: column;
+    }
+    .side-by-side .media {
+      max-width: 100%;
+    }
+  }
 </style>
