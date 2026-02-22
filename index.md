@@ -41,11 +41,12 @@ more coming soon ...
 Code: [Link](https://github.com/chih-hao-lin/3DV_2025Fall/tree/main/group_09_video_generation/apotnis2_lora_finetune)
 
 <div class=”side-by-side”>
-<div class=”text” markdown=”1”>
-- Fine-tuned Wan 2.2 (1.3B) with LoRA to generate robot-POV navigation videos from text + motion plans (e.g.,
-“move forward 1.6 m, turn 14° right near a brick wall”) for scalable outdoor data synthesis.
-- Collected a multimodal outdoor robot dataset (RGB, GPS+IMU EKF poses, motion captions) for training.
-- Evaluated motion fidelity and failure modes, identifying memory artifacts and noise sensitivity; proposed hierarchical motion-primitive curriculum training to improve alignment.
+<div class=”text”>
+<ul>
+<li>Fine-tuned Wan 2.2 (1.3B) with LoRA to generate robot-POV navigation videos from text + motion plans (e.g., &ldquo;move forward 1.6 m, turn 14&deg; right near a brick wall&rdquo;) for scalable outdoor data synthesis.</li>
+<li>Collected a multimodal outdoor robot dataset (RGB, GPS+IMU EKF poses, motion captions) for training.</li>
+<li>Evaluated motion fidelity and failure modes, identifying memory artifacts and noise sensitivity; proposed hierarchical motion-primitive curriculum training to improve alignment.</li>
+</ul>
 </div>
 <div class=”media”>
 <video controls><source src=”images/vid-gen-robot.mp4” type=”video/mp4”></video>
@@ -119,13 +120,9 @@ on foreground characters while retaining backgrounds quality.
 - Project awarded Best Working project award (Mechanical) by 1982 batch, Alumni association.
 - Patent pending. Provisional patent done (IN202321006687).
 
-<div class="side-by-side" style="justify-content: flex-start;">
-<div class="media" style="max-width: 120px;">
-<img src="images/multiplexer-arm-2.gif" alt="multiplexer-arm-2">
-</div>
-<div class="media">
-<img src="images/multiplexer-arm-1.jpg" alt="multiplexer-arm-1">
-</div>
+<div style="display: flex; align-items: flex-start; gap: 1.5em; margin-bottom: 1em;">
+<div style="flex: 0 0 auto; max-width: 120px;"><img src="images/multiplexer-arm-2.gif" alt="multiplexer-arm-2" style="width: 100%; height: auto; border-radius: 4px;"></div>
+<div style="flex: 0 0 auto; max-width: 320px;"><img src="images/multiplexer-arm-1.jpg" alt="multiplexer-arm-1" style="width: 100%; height: auto; border-radius: 4px;"></div>
 </div>
 
 
