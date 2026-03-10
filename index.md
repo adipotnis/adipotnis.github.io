@@ -34,6 +34,9 @@ I completed my B.Tech in Mechanical Engineering with a Minor in Computer Enginee
 </div>
 </div>
 
+- Zero-shot, embodiment-aware traversability framework using multimodal LLMs for costmap generation and trajectory selection; a visuosemantic caching mechanism reuses prior risk assessments for similar frames, reducing online VLM queries by 85.7%.
+- Evaluated on a quadruped robot across indoor and outdoor unstructured environments; achieves 10% higher goal-reaching rate and 33% fewer behavioral constraint violations versus state-of-the-art VLA baselines.
+
 ### Visual-Language-Guided Task Planning for Horticultural Robots
 Paper: [Link](https://www.arxiv.org/abs/2601.11906)
 
