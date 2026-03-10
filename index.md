@@ -34,6 +34,12 @@ Paper: [Link](https://www.arxiv.org/abs/2601.11906)
 
 ### CATNAV: Cached Vision-Language Traversability for Efficient Zero-Shot Robot Navigation
 
+<div class="side-by-side" style="justify-content: flex-start;">
+<div class="media">
+<video controls><source src="images/catnav_1min.mp4" type="video/mp4"></video>
+</div>
+</div>
+
 more coming soon ...
 
 # Projects
