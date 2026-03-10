@@ -26,12 +26,6 @@ I completed my B.Tech in Mechanical Engineering with a Minor in Computer Enginee
 
 # Publications
 
-### Visual-Language-Guided Task Planning for Horticultural Robots 
-Paper: [Link](https://www.arxiv.org/abs/2601.11906)
-
-- Developed a modular VLM-guided framework for precision agriculture that interleaves natural language queries with action primitives for autonomous crop monitoring.
-- Evaluated across monoculture and polyculture environments; VLMs achieve human-comparable performance on short-horizon tasks but degrade significantly in long-horizon scenarios, with critical failure modes in context grounding under noisy semantic maps.
-
 ### CATNAV: Cached Vision-Language Traversability for Efficient Zero-Shot Robot Navigation
 
 <div class="side-by-side" style="justify-content: flex-start;">
@@ -40,11 +34,17 @@ Paper: [Link](https://www.arxiv.org/abs/2601.11906)
 </div>
 </div>
 
+### Visual-Language-Guided Task Planning for Horticultural Robots
+Paper: [Link](https://www.arxiv.org/abs/2601.11906)
+
+- Developed a modular VLM-guided framework for precision agriculture that interleaves natural language queries with action primitives for autonomous crop monitoring.
+- Evaluated across monoculture and polyculture environments; VLMs achieve human-comparable performance on short-horizon tasks but degrade significantly in long-horizon scenarios, with critical failure modes in context grounding under noisy semantic maps.
+
 more coming soon ...
 
 # Projects
 
-### Low-Rank Adaptation for Video Generation with descriptive relative pose prompts (CS 598 3D Vision, HACKER Project )
+### Low-Rank Adaptation for Video Generation with semantic relative pose prompts (CS 598 3D Vision, HACKER Project)
 
 Code: [Link](https://github.com/chih-hao-lin/3DV_2025Fall/tree/main/group_09_video_generation/apotnis2_lora_finetune)
 
