@@ -8,7 +8,7 @@ author_profile: true
 
 I'm a full-stack roboticist with experience across the entire stack — from hardware design and low-level control to perception and autonomy.
 
-Currently, I'm a student at UIUC <img src="images/uiucfavicon.ico" alt="UIUC" width="16" style="vertical-align:middle;"> pursuing a MS in Computer Science with a focus on Robotics. I'm advised by Girish Chowdhary at <a href="http://daslab.illinois.edu/index.html" target="_blank"> Distributed Autonomous Systems Lab</a>. My research is focused on Outdoor Navigation with Vision Language Action models and embodiment aware grounding for Vision Large Language Models.
+Currently, I'm a student at UIUC <img src="images/uiucfavicon.ico" alt="UIUC" width="16" style="vertical-align:middle;"> pursuing a MS in Computer Science with a focus on Robotics. I'm advised by <a href="http://daslab.illinois.edu/index.html#girish" target="_blank">Girish Chowdhary</a> at <a href="http://daslab.illinois.edu/index.html" target="_blank"> Distributed Autonomous Systems Lab</a>. My research is focused on Outdoor Navigation with Vision Language Action models and embodiment aware grounding for Vision Large Language Models.
 
 Previously, I worked at <a href="https://www.earthsense.co/" target="_blank">Earthsense</a>, on hardware design, autonomy, and optimization for a 750kg payload AGV. My contributions included developing the lower-level control systems and implementing 4-wheel independent torque vectoring for the TerraMax Robot's dual Ackermann steering mechanism.
 
