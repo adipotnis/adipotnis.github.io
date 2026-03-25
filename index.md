@@ -27,6 +27,7 @@ I completed my B.Tech in Mechanical Engineering with a Minor in Computer Enginee
 # Publications
 
 ### CATNAV: Cached Vision-Language Traversability for Efficient Zero-Shot Robot Navigation
+Paper: [Link](https://arxiv.org/abs/2603.22800)
 
 <div class="side-by-side" style="justify-content: flex-start;">
 <div class="media">
