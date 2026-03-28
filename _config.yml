@@ -31,6 +31,9 @@ author:
         - label: "GitHub"
           icon: "fab fa-fw fa-github"
           url: "https://github.com/adipotnis"
+        - label: "Google Scholar"
+          icon: "fas fa-fw fa-graduation-cap"
+          url: "https://scholar.google.com/citations?user=-8oco00AAAAJ&hl=en"
 
 # Site Footer
 footer:
@@ -44,6 +47,9 @@ footer:
         - label: "GitHub"
           icon: "fab fa-fw fa-github"
           url: "https://github.com/adipotnis"
+        - label: "Google Scholar"
+          icon: "fas fa-fw fa-graduation-cap"
+          url: "https://scholar.google.com/citations?user=-8oco00AAAAJ&hl=en"
 
 # Navigation
 header_pages: []
