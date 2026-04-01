@@ -34,6 +34,9 @@ author:
         - label: "Google Scholar"
           icon: "fas fa-fw fa-graduation-cap"
           url: "https://scholar.google.com/citations?user=-8oco00AAAAJ&hl=en"
+        - label: "CV"
+          icon: "fas fa-fw fa-file-pdf"
+          url: "/docs/aditya_potnis_cv.pdf"
 
 # Site Footer
 footer:
@@ -50,6 +53,9 @@ footer:
         - label: "Google Scholar"
           icon: "fas fa-fw fa-graduation-cap"
           url: "https://scholar.google.com/citations?user=-8oco00AAAAJ&hl=en"
+        - label: "CV"
+          icon: "fas fa-fw fa-file-pdf"
+          url: "/docs/aditya_potnis_cv.pdf"
 
 # Navigation
 header_pages: []
