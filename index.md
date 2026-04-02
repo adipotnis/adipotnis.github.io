@@ -44,6 +44,12 @@ Paper: [Link](https://www.arxiv.org/abs/2601.11906)
 - Developed a modular VLM-guided framework for precision agriculture that interleaves natural language queries with action primitives for autonomous crop monitoring.
 - Evaluated across monoculture and polyculture environments; VLMs achieve human-comparable performance on short-horizon tasks but degrade significantly in long-horizon scenarios, with critical failure modes in context grounding under noisy semantic maps.
 
+<div class="side-by-side" style="justify-content: flex-start;">
+<div class="media">
+<video controls><source src="images/horticultural_robot.mp4" type="video/mp4"></video>
+</div>
+</div>
+
 more coming soon ...
 
 # Projects
