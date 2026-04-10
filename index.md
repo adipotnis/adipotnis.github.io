@@ -6,7 +6,7 @@ author_profile: true
 
 ## About Me
 
-I'm a full-stack roboticist with experience across the entire stack — from hardware design and low-level control to perception and autonomy.
+I work on enabling robots to navigate and act in unstructured environments using foundation models.
 
 Currently, I'm a student at UIUC <img src="images/uiucfavicon.ico" alt="UIUC" width="16" style="vertical-align:middle;"> pursuing a MS in Computer Science with a focus on Robotics. I'm advised by <a href="http://daslab.illinois.edu/index.html#girish" target="_blank">Girish Chowdhary</a> at <a href="http://daslab.illinois.edu/index.html" target="_blank"> Distributed Autonomous Systems Lab</a>. My research is focused on Outdoor Navigation with Vision Language Action models and embodiment aware grounding for Vision Large Language Models.
 
