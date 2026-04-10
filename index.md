@@ -87,6 +87,7 @@ on foreground characters while retaining backgrounds quality.
 </div>
 
 ### Salto Simulator for development
+Code: [Link](https://github.com/adipotnis/gazebo_plugin_salto)
 
 <div class="side-by-side">
 <div class="text" markdown="1">
