@@ -92,7 +92,6 @@ on foreground characters while retaining backgrounds quality.
 <div class="text" markdown="1">
 - Simulates [Salto-1P](https://www.youtube.com/watch?v=5tMjHBk-2JQ) jumping motion as a point object (Jumping cube) to help accelerate autonomy development. Allows for parabolic trajectory jumping with continous as well as periodic jumps.
 - Simulates odometry, pose estimation and the required control action for the actual robot.
-- Repo to be released soon.
 </div>
 <div class="media">
 <img src="images/20250312-1307-47.1662169.gif" alt="salto-animation-1">
