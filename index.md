@@ -35,14 +35,12 @@ Paper: [Link](https://arxiv.org/abs/2603.22800)
 </div>
 </div>
 
-- Zero-shot, embodiment-aware traversability framework using multimodal LLMs for costmap generation and trajectory selection; a visuosemantic caching mechanism reuses prior risk assessments for similar frames, reducing online VLM queries by 85.7%.
-- Evaluated on a quadruped robot across indoor and outdoor unstructured environments; achieves 10% higher goal-reaching rate and 33% fewer behavioral constraint violations versus state-of-the-art VLA baselines.
+Zero-shot embodiment-aware traversability framework using multimodal LLMs for costmap generation; visuosemantic caching reduces online VLM queries by 85.7%, achieving 10% higher goal-reaching rate and 33% fewer behavioral constraint violations versus state-of-the-art VLA baselines on a quadruped robot.
 
 ### Visual-Language-Guided Task Planning for Horticultural Robots
 Paper: [Link](https://www.arxiv.org/abs/2601.11906)
 
-- Developed a modular VLM-guided framework for precision agriculture that interleaves natural language queries with action primitives for autonomous crop monitoring.
-- Evaluated across monoculture and polyculture environments; VLMs achieve human-comparable performance on short-horizon tasks but degrade significantly in long-horizon scenarios, with critical failure modes in context grounding under noisy semantic maps.
+Modular VLM-guided framework for precision agriculture interleaving natural language queries with action primitives for autonomous crop monitoring; VLMs achieve human-comparable performance on short-horizon tasks but degrade in long-horizon scenarios with noisy semantic maps.
 
 <div class="side-by-side" style="justify-content: flex-start;">
 <div class="media">
@@ -60,9 +58,7 @@ Code: [Link](https://github.com/chih-hao-lin/3DV_2025Fall/tree/main/group_09_vid
 
 <div class="side-by-side">
 <div class="text" markdown="1">
-- Fine-tuned Wan 2.2 (1.3B) with LoRA to generate robot-POV navigation videos from text + motion plans for scalable outdoor data synthesis.
-- Collected a multimodal outdoor robot dataset (RGB, GPS+IMU EKF poses, motion captions) for training.
-- Evaluated motion fidelity and failure modes, identifying memory artifacts and noise sensitivity; proposed hierarchical motion-primitive curriculum training to improve alignment.
+Fine-tuned Wan 2.2 (1.3B) with LoRA to generate robot-POV navigation videos from text and motion plans for scalable outdoor data synthesis. Evaluated motion fidelity and failure modes, proposing hierarchical motion-primitive curriculum training to improve alignment.
 </div>
 <div class="media">
 <video controls><source src="images/vid-gen-robot.mp4" type="video/mp4"></video>
@@ -75,11 +71,7 @@ Report: [Link](docs/CS444-ghiblidream.pdf)
 
 <div class="side-by-side">
 <div class="text" markdown="1">
-- Fine-tuned StableDiffusion-2.0 for stylization with DreamBooth on curated images using a T4/A100 instance.
-Built a LLM-assisted (Gemini-2.0/GPT4o based) image auto-captioning workflow to generate variation of text
-length, tone and styles.
-- Stress tested system via targeted ablation of samplers & prompt length. Reached 0.90+ CLIP-I cosine similarity
-on foreground characters while retaining backgrounds quality.
+Fine-tuned StableDiffusion-2.0 with DreamBooth on curated Ghibli images using LLM-assisted auto-captioning, achieving 0.90+ CLIP-I cosine similarity on foreground characters while retaining background quality.
 </div>
 <div class="media">
 <img src="images/Screenshot 2025-07-26 044527.png" alt="generated sample images">
@@ -91,8 +83,7 @@ Code: [Link](https://github.com/adipotnis/gazebo_plugin_salto)
 
 <div class="side-by-side">
 <div class="text" markdown="1">
-- Simulates [Salto-1P](https://www.youtube.com/watch?v=5tMjHBk-2JQ) jumping motion as a point object (Jumping cube) to help accelerate autonomy development. Allows for parabolic trajectory jumping with continous as well as periodic jumps.
-- Simulates odometry, pose estimation and the required control action for the actual robot.
+Gazebo plugin simulating [Salto-1P](https://www.youtube.com/watch?v=5tMjHBk-2JQ) jumping motion as a point object, supporting parabolic trajectory jumping and simulated odometry/pose estimation to accelerate autonomy development.
 </div>
 <div class="media">
 <img src="images/20250312-1307-47.1662169.gif" alt="salto-animation-1">
@@ -103,9 +94,7 @@ Code: [Link](https://github.com/adipotnis/gazebo_plugin_salto)
 
 <div class="side-by-side">
 <div class="text" markdown="1">
-- Implemented vision and stereo depth based point cloud generation to create a octomap for robot navigation in 3d space.
-- Performed open vocabulary segmentation via clipseg and point cloud generation via open3d for risk / inflation boundary creation.
-- Tested on the nvidia r2b_2023 dataset.
+Implemented open-vocabulary segmentation with CLIPSeg and stereo depth-based point cloud generation via Open3D to build octomaps for 3D robot navigation, tested on the NVIDIA r2b_2023 dataset.
 </div>
 <div class="media">
 <video controls><source src="images/octomap-proj-1.mp4" type="video/mp4"></video>
@@ -115,12 +104,7 @@ Code: [Link](https://github.com/adipotnis/gazebo_plugin_salto)
 ### Design and Analysis of Tendon actuated Robotic arm using Bowden cables and Mechanical Multiplexing (Thesis @ COEP)
 Report: [Link](docs/robotic_arm_mux_report.pdf)
 
-- Led team in designing a modular 4 degree of freedom Bowden cable driven, tendon actuated joint for robot modular planar and non-planar robot arm as part of Final year project at COEP. System is compact, lightweight and waterproof with remotely positioned actuators. Designed in Fusion 360 and analysed failure modes using ANSYS structural FEA.
-- Mechanical Multiplexer allows multijointed arm to be controlled by only 2 stepper motors, reducing overall cost and size of system. Modular joints can be swapped easily to quickly modify degree of freedom of arm.
-- Prototyped design using FDM 3D printing with PLA, And CNC stepper and Arduino control.
-- Developed Forward Kinematics (FK) and Inverse Kinematics (IK) control for arm with Numerical optimization method. 
-- Project awarded Best Working project award (Mechanical) by 1982 batch, Alumni association.
-- Patent pending. Provisional patent done (IN202321006687).
+Designed a modular 4-DOF Bowden cable-driven tendon-actuated robot arm with a mechanical multiplexer enabling full control with only 2 stepper motors, prototyped with FDM printing and including FK/IK solvers. Awarded Best Working Project (Mechanical) at COEP; provisional patent filed (IN202321006687).
 
 <div style="display: flex; align-items: flex-start; gap: 1.5em; margin-bottom: 1em;">
 <div style="flex: 0 0 auto; max-width: 120px;"><img src="images/multiplexer-arm-2.gif" alt="multiplexer-arm-2" style="width: 100%; height: auto; border-radius: 4px;"></div>
@@ -132,8 +116,7 @@ Slides: [Link](docs/smartnav.pdf) Report: [Link](docs/CS440-Final-Project.pdf)
 
 <div class="side-by-side">
 <div class="text" markdown="1">
-- Combined CLIPSeg with Depth-Anything V2 to detect objects and obstacles, generating obstacle-aware gridmaps with 94% accuracy for scene understanding; compared CLIP and DINOv2 scene embeddings to quantify performance across indoor and outdoor spaces.
-- Designed a modified A* planner with goal-object validation, achieving 81% success rate and ±9% distance accuracy for line-of-sight pathfinding across varied scenes.
+Combined CLIPSeg with Depth-Anything V2 for obstacle-aware gridmap generation (94% accuracy); modified A* planner with goal-object validation achieves 81% success rate for line-of-sight pathfinding.
 </div>
 <div class="media">
 <img src="images/smartnav-image.png" alt="smartnav image output">
