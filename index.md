@@ -113,6 +113,8 @@ Code: [Link](https://github.com/adipotnis/gazebo_plugin_salto)
 </div>
 
 ### Design and Analysis of Tendon actuated Robotic arm using Bowden cables and Mechanical Multiplexing (Thesis @ COEP)
+Report: [Link](docs/robotic_arm_mux_report.pdf)
+
 - Led team in designing a modular 4 degree of freedom Bowden cable driven, tendon actuated joint for robot modular planar and non-planar robot arm as part of Final year project at COEP. System is compact, lightweight and waterproof with remotely positioned actuators. Designed in Fusion 360 and analysed failure modes using ANSYS structural FEA.
 - Mechanical Multiplexer allows multijointed arm to be controlled by only 2 stepper motors, reducing overall cost and size of system. Modular joints can be swapped easily to quickly modify degree of freedom of arm.
 - Prototyped design using FDM 3D printing with PLA, And CNC stepper and Arduino control.
