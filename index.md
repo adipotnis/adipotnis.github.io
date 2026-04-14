@@ -14,8 +14,6 @@ Previously, I worked at <a href="https://www.earthsense.co/" target="_blank">Ear
 
 I completed my B.Tech in Mechanical Engineering with a Minor in Computer Engineering at <a href="https://www.coeptech.ac.in/" target="_blank">College of Engineering, Pune</a> <img src="images/coepfavicon.ico" alt="COEP" width="16" style="vertical-align:middle;">. 
 
-I am also a Teaching Assistant for CS 427 (Software Engineering) at UIUC.
-
 I enjoy running and cycling, currently preparing for a 5k in 25 minutes.
 
 
