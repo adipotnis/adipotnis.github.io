@@ -14,7 +14,9 @@ Previously, I worked at <a href="https://www.earthsense.co/" target="_blank">Ear
 
 I completed my B.Tech in Mechanical Engineering with a Minor in Computer Engineering at <a href="https://www.coeptech.ac.in/" target="_blank">College of Engineering, Pune</a> <img src="images/coepfavicon.ico" alt="COEP" width="16" style="vertical-align:middle;">. 
 
+I am also a Teaching Assistant for CS 427 (Software Engineering) at UIUC.
 
+I enjoy running and cycling, currently preparing for a 5k in 25 minutes.
 
 
 <div class="side-by-side" style="justify-content: flex-start;">
@@ -139,8 +141,6 @@ I am a [FIRST](https://www.firstinspires.org/) and [WRO](https://wro-association
 - Team India Representative 2016(India) in [WRO 2016 Internationals, New Delhi](https://wro-association.org/competition/previous-challenges/), Gold Medal in 2016 Nationals.
 - Team India Representative, Top 10 in [First Lego League Open European Championships, Spain(2016)](https://www.firstlegoleague.org/past-challenges) (Fully sponsored by Tata Motors).
 
-
-I enjoy running and cycling, currently preparing for a 5k in 25 minutes. 
 
 ---
 ##### Made using [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes)
