@@ -40,7 +40,7 @@ Zero-shot embodiment-aware traversability framework using multimodal LLMs for co
 ### Visual-Language-Guided Task Planning for Horticultural Robots
 Paper: [Link](https://www.arxiv.org/abs/2601.11906)
 
-Modular VLM-guided framework for precision agriculture interleaving natural language queries with action primitives for autonomous crop monitoring; VLMs achieve human-comparable performance on short-horizon tasks but degrade in long-horizon scenarios with noisy semantic maps.
+Modular VLM-guided framework for precision agriculture interleaving natural language queries with action primitives for autonomous crop monitoring, benchmarked long-horizon planning using MLLMs, finding human-comparable performance on short-horizon tasks but degradation in long-horizon scenarios with noisy semantic maps.
 
 <div class="side-by-side" style="justify-content: flex-start;">
 <div class="media">
