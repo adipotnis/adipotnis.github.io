@@ -16,6 +16,8 @@ I completed my B.Tech in Mechanical Engineering with a Minor in Computer Enginee
 
 I enjoy running and cycling, currently preparing for a 5k in 25 minutes.
 
+My research is partially supported by the NASA FireSense Technology Program, Artificial Intelligence for Future Agricultural Resilience, Management, and Sustainability (AIFARMS), Illinois Farming and Regenerative Management (I-FARM), and COntext-Aware LEarning for Sustainable CybEr-agricultural systems (COALESCE).
+
 
 <div class="side-by-side" style="justify-content: flex-start;">
 <div class="media">
