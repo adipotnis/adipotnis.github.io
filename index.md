@@ -54,6 +54,19 @@ more coming soon ...
 
 # Projects
 
+### Visual Navigation Policy with V-JEPA2 and Diffusion Policy
+Code: [Link](https://github.com/adipotnis/DiffusionNav)
+
+<div class="side-by-side">
+<div class="text" markdown="1">
+Trained a visual navigation policy using a frozen V-JEPA2 backbone for spatiotemporal feature extraction from egocentric video, with a Diffusion Policy action head for action prediction.
+</div>
+<div class="media">
+<video controls><source src="images/vjepa_vid_gen/clip_jackal_2019-12-19-10-58-43_3_r01.mp4" type="video/mp4"></video>
+<video controls><source src="images/vjepa_vid_gen/clip_random_mdps_B_Jackal_GDC_Library_Sat_Nov_13_87_0.mp4" type="video/mp4"></video>
+</div>
+</div>
+
 ### Low-Rank Adaptation for Video Generation with semantic relative pose prompts (CS 598 3D Vision, HACKER Project)
 
 Code: [Link](https://github.com/chih-hao-lin/3DV_2025Fall/tree/main/group_09_video_generation/apotnis2_lora_finetune)
@@ -77,19 +90,6 @@ Fine-tuned StableDiffusion-2.0 with DreamBooth on curated Ghibli images using LL
 </div>
 <div class="media">
 <img src="images/Screenshot 2025-07-26 044527.png" alt="generated sample images">
-</div>
-</div>
-
-### Visual Navigation Policy with V-JEPA2 and Diffusion Policy
-Code: [Link](https://github.com/adipotnis/DiffusionNav)
-
-<div class="side-by-side">
-<div class="text" markdown="1">
-Trained a visual navigation policy using a frozen V-JEPA2 backbone for spatiotemporal feature extraction from egocentric video, with a Diffusion Policy action head for action prediction.
-</div>
-<div class="media">
-<video controls><source src="images/vjepa_vid_gen/clip_jackal_2019-12-19-10-58-43_3_r01.mp4" type="video/mp4"></video>
-<video controls><source src="images/vjepa_vid_gen/clip_random_mdps_B_Jackal_GDC_Library_Sat_Nov_13_87_0.mp4" type="video/mp4"></video>
 </div>
 </div>
 
