@@ -80,7 +80,8 @@ Fine-tuned StableDiffusion-2.0 with DreamBooth on curated Ghibli images using LL
 </div>
 </div>
 
-### [Visual Navigation Policy with V-JEPA2 and Diffusion Policy](https://github.com/adipotnis/DiffusionNav)
+### Visual Navigation Policy with V-JEPA2 and Diffusion Policy
+Code: [Link](https://github.com/adipotnis/DiffusionNav)
 
 <div class="side-by-side">
 <div class="text" markdown="1">
