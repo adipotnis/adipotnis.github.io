@@ -105,6 +105,19 @@ Gazebo plugin simulating [Salto-1P](https://www.youtube.com/watch?v=5tMjHBk-2JQ)
 </div>
 </div>
 
+### Design and Analysis of Tendon actuated Robotic arm using Bowden cables and Mechanical Multiplexing (Thesis @ COEP)
+Report: [Link](docs/robotic_arm_mux_report.pdf)
+
+Designed a modular 4-DOF Bowden cable-driven tendon-actuated robot arm with a mechanical multiplexer enabling full control with only 2 stepper motors, prototyped with FDM printing and including FK/IK solvers. Awarded Best Working Project (Mechanical) at COEP; provisional patent filed (IN202321006687).
+
+<div style="display: flex; align-items: flex-start; gap: 1.5em; margin-bottom: 1em;">
+<div style="flex: 0 0 auto; max-width: 120px;"><img src="images/multiplexer-arm-2.gif" alt="multiplexer-arm-2" style="width: 100%; height: auto; border-radius: 4px;"></div>
+<div style="flex: 0 0 auto; max-width: 320px;"><img src="images/multiplexer-arm-1.jpg" alt="multiplexer-arm-1" style="width: 100%; height: auto; border-radius: 4px;"></div>
+</div>
+
+### ROS1 ROS2 bridge for faster debugging and code refactoring
+- Created a Docker image generation repo to accelerate image creation and facilitate easier refactoring. [Link](https://github.com/adipotnis/ros1_bridge_ws)
+
 ### VLM assisted Octomap generation for navigation
 
 <div class="side-by-side">
@@ -114,16 +127,6 @@ Implemented open-vocabulary segmentation with CLIPSeg and stereo depth-based poi
 <div class="media">
 <video controls><source src="images/octomap-proj-1.mp4" type="video/mp4"></video>
 </div>
-</div>
-
-### Design and Analysis of Tendon actuated Robotic arm using Bowden cables and Mechanical Multiplexing (Thesis @ COEP)
-Report: [Link](docs/robotic_arm_mux_report.pdf)
-
-Designed a modular 4-DOF Bowden cable-driven tendon-actuated robot arm with a mechanical multiplexer enabling full control with only 2 stepper motors, prototyped with FDM printing and including FK/IK solvers. Awarded Best Working Project (Mechanical) at COEP; provisional patent filed (IN202321006687).
-
-<div style="display: flex; align-items: flex-start; gap: 1.5em; margin-bottom: 1em;">
-<div style="flex: 0 0 auto; max-width: 120px;"><img src="images/multiplexer-arm-2.gif" alt="multiplexer-arm-2" style="width: 100%; height: auto; border-radius: 4px;"></div>
-<div style="flex: 0 0 auto; max-width: 320px;"><img src="images/multiplexer-arm-1.jpg" alt="multiplexer-arm-1" style="width: 100%; height: auto; border-radius: 4px;"></div>
 </div>
 
 ### Semantic-aware segmentation and navigation using CLIPSeg (CS440)
@@ -137,9 +140,6 @@ Combined CLIPSeg with Depth-Anything V2 for obstacle-aware gridmap generation (9
 <img src="images/smartnav-image.png" alt="smartnav image output">
 </div>
 </div>
-
-### ROS1 ROS2 bridge for faster debugging and code refactoring
-- Created a Docker image generation repo to accelerate image creation and facilitate easier refactoring. [Link](https://github.com/adipotnis/ros1_bridge_ws)
 
 
 # Competitive Robotics
