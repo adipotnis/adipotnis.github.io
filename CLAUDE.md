@@ -32,11 +32,11 @@ Each project/publication entry follows a repeating pattern:
 Code/Paper/Report: [Link](url)
 
 <div class="side-by-side">
-<div class="text" markdown="1">
-Description paragraph.
-</div>
 <div class="media">
 <video controls><source src="images/foo.mp4" type="video/mp4"></video>
+</div>
+<div class="text" markdown="1">
+Description paragraph.
 </div>
 </div>
 ```
