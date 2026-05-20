@@ -31,22 +31,24 @@ My research is partially supported by the NASA FireSense Technology Program, Art
 ### CATNAV: Cached Vision-Language Traversability for Efficient Zero-Shot Robot Navigation
 Paper: [Link](https://arxiv.org/abs/2603.22800)
 
-<div class="side-by-side" style="justify-content: flex-start;">
+<div class="side-by-side">
 <div class="media">
 <video controls><source src="images/catnav_1min.mp4" type="video/mp4"></video>
 </div>
-</div>
-
+<div class="text" markdown="1">
 Zero-shot embodiment-aware traversability framework using multimodal LLMs for costmap generation; visuosemantic caching reduces online VLM queries by 85.7%, achieving 10% higher goal-reaching rate and 33% fewer behavioral constraint violations versus state-of-the-art VLA baselines on a quadruped robot.
+</div>
+</div>
 
 ### Visual-Language-Guided Task Planning for Horticultural Robots
 Paper: [Link](https://www.arxiv.org/abs/2601.11906)
 
-Modular VLM-guided framework for precision agriculture interleaving natural language queries with action primitives for autonomous crop monitoring, benchmarked long-horizon planning using MLLMs, finding human-comparable performance on short-horizon tasks but degradation in long-horizon scenarios with noisy semantic maps.
-
-<div class="side-by-side" style="justify-content: flex-start;">
+<div class="side-by-side">
 <div class="media">
 <video controls><source src="images/horticultural_robot.mp4" type="video/mp4"></video>
+</div>
+<div class="text" markdown="1">
+Modular VLM-guided framework for precision agriculture interleaving natural language queries with action primitives for autonomous crop monitoring, benchmarked long-horizon planning using MLLMs, finding human-comparable performance on short-horizon tasks but degradation in long-horizon scenarios with noisy semantic maps.
 </div>
 </div>
 
@@ -58,12 +60,12 @@ more coming soon ...
 Code: [Link](https://github.com/adipotnis/DiffusionNav)
 
 <div class="side-by-side">
-<div class="text" markdown="1">
-Trained a visual navigation policy using a frozen V-JEPA2 backbone for spatiotemporal feature extraction from egocentric video, with a Diffusion Policy action head for action prediction.
-</div>
 <div class="media">
 <video controls><source src="images/vjepa_vid_gen/clip_jackal_2019-12-19-10-58-43_3_r01.mp4" type="video/mp4"></video>
 <video controls><source src="images/vjepa_vid_gen/clip_random_mdps_B_Jackal_GDC_Library_Sat_Nov_13_87_0.mp4" type="video/mp4"></video>
+</div>
+<div class="text" markdown="1">
+Trained a visual navigation policy using a frozen V-JEPA2 backbone for spatiotemporal feature extraction from egocentric video, with a Diffusion Policy action head for action prediction.
 </div>
 </div>
 
@@ -72,11 +74,11 @@ Trained a visual navigation policy using a frozen V-JEPA2 backbone for spatiotem
 Code: [Link](https://github.com/chih-hao-lin/3DV_2025Fall/tree/main/group_09_video_generation/apotnis2_lora_finetune)
 
 <div class="side-by-side">
-<div class="text" markdown="1">
-Fine-tuned Wan 2.2 (1.3B) with LoRA to generate robot-POV navigation videos from text and motion plans for scalable outdoor data synthesis. Evaluated motion fidelity and failure modes, proposing hierarchical motion-primitive curriculum training to improve alignment.
-</div>
 <div class="media">
 <video controls><source src="images/vid-gen-robot.mp4" type="video/mp4"></video>
+</div>
+<div class="text" markdown="1">
+Fine-tuned Wan 2.2 (1.3B) with LoRA to generate robot-POV navigation videos from text and motion plans for scalable outdoor data synthesis. Evaluated motion fidelity and failure modes, proposing hierarchical motion-primitive curriculum training to improve alignment.
 </div>
 </div>
 
@@ -85,11 +87,11 @@ Fine-tuned Wan 2.2 (1.3B) with LoRA to generate robot-POV navigation videos from
 Report: [Link](docs/CS444-ghiblidream.pdf)
 
 <div class="side-by-side">
-<div class="text" markdown="1">
-Fine-tuned StableDiffusion-2.0 with DreamBooth on curated Ghibli images using LLM-assisted auto-captioning, achieving 0.90+ CLIP-I cosine similarity on foreground characters while retaining background quality.
-</div>
 <div class="media">
 <img src="images/Screenshot 2025-07-26 044527.png" alt="generated sample images">
+</div>
+<div class="text" markdown="1">
+Fine-tuned StableDiffusion-2.0 with DreamBooth on curated Ghibli images using LLM-assisted auto-captioning, achieving 0.90+ CLIP-I cosine similarity on foreground characters while retaining background quality.
 </div>
 </div>
 
@@ -97,22 +99,25 @@ Fine-tuned StableDiffusion-2.0 with DreamBooth on curated Ghibli images using LL
 Code: [Link](https://github.com/adipotnis/gazebo_plugin_salto)
 
 <div class="side-by-side">
-<div class="text" markdown="1">
-Gazebo plugin simulating [Salto-1P](https://www.youtube.com/watch?v=5tMjHBk-2JQ) jumping motion as a point object, supporting parabolic trajectory jumping and simulated odometry/pose estimation to accelerate autonomy development.
-</div>
 <div class="media">
 <img src="images/20250312-1307-47.1662169.gif" alt="salto-animation-1">
+</div>
+<div class="text" markdown="1">
+Gazebo plugin simulating [Salto-1P](https://www.youtube.com/watch?v=5tMjHBk-2JQ) jumping motion as a point object, supporting parabolic trajectory jumping and simulated odometry/pose estimation to accelerate autonomy development.
 </div>
 </div>
 
 ### Design and Analysis of Tendon actuated Robotic arm using Bowden cables and Mechanical Multiplexing (Thesis @ COEP)
 Report: [Link](docs/robotic_arm_mux_report.pdf)
 
+<div class="side-by-side">
+<div class="media">
+<img src="images/multiplexer-arm-2.gif" alt="multiplexer-arm-2">
+<img src="images/multiplexer-arm-1.jpg" alt="multiplexer-arm-1">
+</div>
+<div class="text" markdown="1">
 Designed a modular 4-DOF Bowden cable-driven tendon-actuated robot arm with a mechanical multiplexer enabling full control with only 2 stepper motors, prototyped with FDM printing and including FK/IK solvers. Awarded Best Working Project (Mechanical) at COEP; provisional patent filed (IN202321006687).
-
-<div style="display: flex; align-items: flex-start; gap: 1.5em; margin-bottom: 1em;">
-<div style="flex: 0 0 auto; max-width: 120px;"><img src="images/multiplexer-arm-2.gif" alt="multiplexer-arm-2" style="width: 100%; height: auto; border-radius: 4px;"></div>
-<div style="flex: 0 0 auto; max-width: 320px;"><img src="images/multiplexer-arm-1.jpg" alt="multiplexer-arm-1" style="width: 100%; height: auto; border-radius: 4px;"></div>
+</div>
 </div>
 
 ### ROS1 ROS2 bridge for faster debugging and code refactoring
@@ -121,11 +126,11 @@ Designed a modular 4-DOF Bowden cable-driven tendon-actuated robot arm with a me
 ### VLM assisted Octomap generation for navigation
 
 <div class="side-by-side">
-<div class="text" markdown="1">
-Implemented open-vocabulary segmentation with CLIPSeg and stereo depth-based point cloud generation via Open3D to build octomaps for 3D robot navigation, tested on the NVIDIA r2b_2023 dataset.
-</div>
 <div class="media">
 <video controls><source src="images/octomap-proj-1.mp4" type="video/mp4"></video>
+</div>
+<div class="text" markdown="1">
+Implemented open-vocabulary segmentation with CLIPSeg and stereo depth-based point cloud generation via Open3D to build octomaps for 3D robot navigation, tested on the NVIDIA r2b_2023 dataset.
 </div>
 </div>
 
@@ -133,11 +138,11 @@ Implemented open-vocabulary segmentation with CLIPSeg and stereo depth-based poi
 Slides: [Link](docs/smartnav.pdf) Report: [Link](docs/CS440-Final-Project.pdf)
 
 <div class="side-by-side">
-<div class="text" markdown="1">
-Combined CLIPSeg with Depth-Anything V2 for obstacle-aware gridmap generation (94% accuracy); modified A* planner with goal-object validation achieves 81% success rate for line-of-sight pathfinding.
-</div>
 <div class="media">
 <img src="images/smartnav-image.png" alt="smartnav image output">
+</div>
+<div class="text" markdown="1">
+Combined CLIPSeg with Depth-Anything V2 for obstacle-aware gridmap generation (94% accuracy); modified A* planner with goal-object validation achieves 81% success rate for line-of-sight pathfinding.
 </div>
 </div>
 
