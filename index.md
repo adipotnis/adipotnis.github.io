@@ -113,7 +113,7 @@ Report: [Link](docs/robotic_arm_mux_report.pdf)
 <div class="side-by-side">
 <div class="media media--tall">
 <img src="images/multiplexer-arm-2.gif" alt="multiplexer-arm-2">
-<img src="images/multiplexer-arm-1.jpg" alt="multiplexer-arm-1">
+<img src="images/multiplexer-arm-1.jpg" alt="multiplexer-arm-1" style="max-width: 280px; max-height: none;">
 </div>
 <div class="text" markdown="1">
 Designed a modular 4-DOF Bowden cable-driven tendon-actuated robot arm with a mechanical multiplexer enabling full control with only 2 stepper motors, prototyped with FDM printing and including FK/IK solvers. Awarded Best Working Project (Mechanical) at COEP; provisional patent filed (IN202321006687).
