@@ -92,6 +92,14 @@
     height: auto;
     border-radius: 4px;
   }
+  .side-by-side .media.media--tall {
+    max-width: none;
+  }
+  .side-by-side .media.media--tall img,
+  .side-by-side .media.media--tall video {
+    width: auto;
+    max-height: 320px;
+  }
   @media (max-width: 600px) {
     .side-by-side {
       flex-direction: column;

@@ -111,7 +111,7 @@ Gazebo plugin simulating [Salto-1P](https://www.youtube.com/watch?v=5tMjHBk-2JQ)
 Report: [Link](docs/robotic_arm_mux_report.pdf)
 
 <div class="side-by-side">
-<div class="media">
+<div class="media media--tall">
 <img src="images/multiplexer-arm-2.gif" alt="multiplexer-arm-2">
 <img src="images/multiplexer-arm-1.jpg" alt="multiplexer-arm-1">
 </div>
@@ -126,7 +126,7 @@ Designed a modular 4-DOF Bowden cable-driven tendon-actuated robot arm with a me
 ### VLM assisted Octomap generation for navigation
 
 <div class="side-by-side">
-<div class="media">
+<div class="media media--tall">
 <video controls><source src="images/octomap-proj-1.mp4" type="video/mp4"></video>
 </div>
 <div class="text" markdown="1">
