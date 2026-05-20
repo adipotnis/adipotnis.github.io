@@ -14,9 +14,9 @@ Previously, I worked at <a href="https://www.earthsense.co/" target="_blank">Ear
 
 I completed my B.Tech in Mechanical Engineering with a Minor in Computer Engineering at <a href="https://www.coeptech.ac.in/" target="_blank">College of Engineering, Pune</a> <img src="images/coepfavicon.ico" alt="COEP" width="16" style="vertical-align:middle;">. 
 
-I enjoy running and cycling, currently preparing for a 5k in 25 minutes.
+My research is supported by <a href="https://science.nasa.gov/science-research/earth-science/the-firesense-project/" target="_blank">NASA FireSense</a>, <a href="https://aifarms.illinois.edu/" target="_blank">AIFARMS</a>, <a href="https://i-farm.illinois.edu/" target="_blank">I-FARM</a>, and <a href="https://sites.google.com/view/coalescepreview" target="_blank">COALESCE</a>.
 
-My research is partially supported by the NASA FireSense Technology Program, Artificial Intelligence for Future Agricultural Resilience, Management, and Sustainability (AIFARMS), Illinois Farming and Regenerative Management (I-FARM), and COntext-Aware LEarning for Sustainable CybEr-agricultural systems (COALESCE).
+I enjoy running and cycling, currently preparing for a 5k in 25 minutes.
 
 
 <div class="side-by-side" style="justify-content: flex-start;">
