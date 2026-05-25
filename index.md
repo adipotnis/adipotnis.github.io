@@ -31,6 +31,8 @@ I enjoy running and cycling, currently preparing for a 5k in 25 minutes.
 # Publications
 
 ### CATNAV: Cached Vision-Language Traversability for Efficient Zero-Shot Robot Navigation
+<small>**Aditya Potnis**, Francisco Affonso, Shreya Gummadi, Naveen Kumar Uppalapati, Girish Chowdhary</small>
+
 Paper: [Link](https://arxiv.org/abs/2603.22800)
 
 <div class="side-by-side">
@@ -43,6 +45,8 @@ Zero-shot embodiment-aware traversability framework using multimodal LLMs for co
 </div>
 
 ### Visual-Language-Guided Task Planning for Horticultural Robots
+<small>Jose Cuaran, Kendall Koe, **Aditya Potnis**, Naveen Kumar Uppalapati, Girish Chowdhary</small>
+
 Paper: [Link](https://www.arxiv.org/abs/2601.11906)
 
 <div class="side-by-side">
