@@ -62,18 +62,6 @@ more coming soon ...
 
 # Projects
 
-### Adapt: Diffusion-Predicted Pedestrian Avoidance with MPPI Control on the Polaris GEM e4 (CS 588)
-Report: [Link](docs/cs588_group10.pdf)
-
-<div class="side-by-side">
-<div class="media">
-<video controls><source src="images/cs588_group10.mp4" type="video/mp4"></video>
-</div>
-<div class="text" markdown="1">
-Autonomous driving stack on the Polaris GEM e4 that pairs a diffusion-based pedestrian predictor with an MPPI planner for pedestrian-aware avoidance, plus a text-promptable LiDAR-camera module for open-vocabulary goals.
-</div>
-</div>
-
 ### Visual Navigation Policy with V-JEPA2 and Diffusion Policy
 Code: [Link](https://github.com/adipotnis/DiffusionNav)
 
@@ -84,6 +72,18 @@ Code: [Link](https://github.com/adipotnis/DiffusionNav)
 </div>
 <div class="text" markdown="1">
 Trained a visual navigation policy using a frozen V-JEPA2 backbone for spatiotemporal feature extraction from egocentric video, with a Diffusion Policy action head for action prediction.
+</div>
+</div>
+
+### Adapt: Diffusion-Predicted Pedestrian Avoidance with MPPI Control on the Polaris GEM e4 (CS 588)
+Report: [Link](docs/cs588_group10.pdf)
+
+<div class="side-by-side">
+<div class="media">
+<video controls><source src="images/cs588_group10.mp4" type="video/mp4"></video>
+</div>
+<div class="text" markdown="1">
+Autonomous driving stack on the Polaris GEM e4 that pairs a diffusion-based pedestrian predictor with an MPPI planner for pedestrian-aware avoidance, plus a text-promptable LiDAR-camera module for open-vocabulary goals.
 </div>
 </div>
 
