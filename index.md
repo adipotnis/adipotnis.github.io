@@ -63,7 +63,7 @@ more coming soon ...
 # Projects
 
 ### Adapt: Diffusion-Predicted Pedestrian Avoidance with MPPI Control on the Polaris GEM e4 (CS 588)
-Report: [Link](docs/cs588_group10.pdf) | Video: [Link](images/cs588_group10.mp4)
+Report: [Link](docs/cs588_group10.pdf)
 
 <div class="side-by-side">
 <div class="media">
