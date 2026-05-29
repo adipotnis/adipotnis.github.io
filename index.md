@@ -30,6 +30,11 @@ I enjoy running and cycling, currently preparing for a 5k in 25 minutes.
 
 # Publications
 
+### CTS-MoE: Implicit Policy Adaptation Enables Perceptive Locomotion on Discontinuous Terrain
+<small>Francisco Affonso, Matheus P. Angarola, Ana Luiza Mineiro, **Aditya Potnis**, Marcelo Becker, Girish Chowdhary</small>
+
+Under Review, CoRL 2026.
+
 ### CATNAV: Cached Vision-Language Traversability for Efficient Zero-Shot Robot Navigation
 <small>**Aditya Potnis**, Francisco Affonso, Shreya Gummadi, Naveen Kumar Uppalapati, Girish Chowdhary</small>
 
