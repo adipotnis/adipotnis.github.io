@@ -30,20 +30,6 @@ I enjoy running and cycling, currently preparing for a 5k in 25 minutes.
 
 # Publications
 
-### CTS-MoE: Implicit Policy Adaptation Enables Perceptive Locomotion on Discontinuous Terrain
-<small>Francisco Affonso, Matheus P. Angarola, Ana Luiza Mineiro, **Aditya Potnis**, Marcelo Becker, Girish Chowdhary</small>
-
-Under Review, CoRL 2026.
-
-<div class="side-by-side">
-<div class="media">
-<video controls><source src="images/cts-moe.mp4" type="video/mp4"></video>
-</div>
-<div class="text" markdown="1">
-Implicit policy adaptation enabling perceptive locomotion on discontinuous terrain.
-</div>
-</div>
-
 ### CATNAV: Cached Vision-Language Traversability for Efficient Zero-Shot Robot Navigation
 <small>**Aditya Potnis**, Francisco Affonso, Shreya Gummadi, Naveen Kumar Uppalapati, Girish Chowdhary</small>
 
@@ -55,6 +41,20 @@ Paper: [Link](https://arxiv.org/abs/2603.22800) | Website: [Link](https://adipot
 </div>
 <div class="text" markdown="1">
 Zero-shot embodiment-aware traversability framework using multimodal LLMs for costmap generation; visuosemantic caching reduces online VLM queries by 85.7%, achieving 10% higher goal-reaching rate and 33% fewer behavioral constraint violations versus state-of-the-art VLA baselines on a quadruped robot.
+</div>
+</div>
+
+### CTS-MoE: Implicit Policy Adaptation Enables Perceptive Locomotion on Discontinuous Terrain
+<small>Francisco Affonso, Matheus P. Angarola, Ana Luiza Mineiro, **Aditya Potnis**, Marcelo Becker, Girish Chowdhary</small>
+
+Under Review, CoRL 2026.
+
+<div class="side-by-side">
+<div class="media">
+<video controls><source src="images/cts-moe.mp4" type="video/mp4"></video>
+</div>
+<div class="text" markdown="1">
+Implicit policy adaptation enabling perceptive locomotion on discontinuous terrain.
 </div>
 </div>
 
