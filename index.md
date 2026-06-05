@@ -35,6 +35,15 @@ I enjoy running and cycling, currently preparing for a 5k in 25 minutes.
 
 Under Review, CoRL 2026.
 
+<div class="side-by-side">
+<div class="media">
+<video controls><source src="images/cts-moe.mp4" type="video/mp4"></video>
+</div>
+<div class="text" markdown="1">
+Implicit policy adaptation enabling perceptive locomotion on discontinuous terrain.
+</div>
+</div>
+
 ### CATNAV: Cached Vision-Language Traversability for Efficient Zero-Shot Robot Navigation
 <small>**Aditya Potnis**, Francisco Affonso, Shreya Gummadi, Naveen Kumar Uppalapati, Girish Chowdhary</small>
 
