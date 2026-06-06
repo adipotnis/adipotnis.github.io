@@ -16,8 +16,6 @@ I TA'd <a href="https://siebelschool.illinois.edu/academics/courses/cs427" targe
 
 Previously, I worked at <a href="https://www.earthsense.co/" target="_blank">Earthsense</a>, on hardware design, autonomy, and optimization for a 750kg payload AGV. My contributions included developing the lower-level control systems and implementing 4-wheel independent torque vectoring for the TerraMax Robot's dual Ackermann steering.
 
-I completed my B.Tech in Mechanical Engineering with a Minor in Computer Engineering at <a href="https://www.coeptech.ac.in/" target="_blank">College of Engineering, Pune</a> <img src="images/coepfavicon.ico" alt="COEP" width="16" style="vertical-align:middle;">. 
-
 I enjoy running and cycling, currently preparing for a 5k in 25 minutes.
 
 
