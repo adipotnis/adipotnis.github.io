@@ -8,11 +8,13 @@ author_profile: true
 
 I work on enabling robots to navigate and act in unstructured environments using foundation models.
 
-Currently, I'm a student at UIUC <img src="images/uiucfavicon.ico" alt="UIUC" width="16" style="vertical-align:middle;"> pursuing a MS in Computer Science with a focus on Robotics. I'm advised by <a href="http://daslab.illinois.edu/index.html#girish" target="_blank">Girish Chowdhary</a> at <a href="http://daslab.illinois.edu/index.html" target="_blank"> Distributed Autonomous Systems Lab</a>. My research is focused on Generalized Navigation with Vision Language Action models and embodiment aware grounding for Vision Large Language Models, and is supported by <a href="https://science.nasa.gov/science-research/earth-science/the-firesense-project/" target="_blank">NASA FireSense</a>, <a href="https://aifarms.illinois.edu/" target="_blank">AIFARMS</a>, <a href="https://i-farm.illinois.edu/" target="_blank">I-FARM</a>, <a href="https://sites.google.com/view/coalescepreview" target="_blank">COALESCE</a>, and <a href="https://access-ci.org/" target="_blank">NSF ACCESS</a>.
+Currently, I'm a student at UIUC <img src="images/uiucfavicon.ico" alt="UIUC" width="16" style="vertical-align:middle;"> pursuing a MS in Computer Science. I'm advised by <a href="http://daslab.illinois.edu/index.html#girish" target="_blank">Girish Chowdhary</a> at <a href="http://daslab.illinois.edu/index.html" target="_blank"> Distributed Autonomous Systems Lab</a>. My research is focused on Generalized Navigation with Vision Language Action models and embodiment aware grounding for Vision Large Language Models.
 
-I TA'd <a href="https://siebelschool.illinois.edu/academics/courses/cs427" target="_blank">CS 427 Software Engineering I</a> at UIUC in Spring 2026.
+My research is supported by <a href="https://science.nasa.gov/science-research/earth-science/the-firesense-project/" target="_blank">NASA FireSense</a>, <a href="https://aifarms.illinois.edu/" target="_blank">AIFARMS</a>, <a href="https://i-farm.illinois.edu/" target="_blank">I-FARM</a>, <a href="https://sites.google.com/view/coalescepreview" target="_blank">COALESCE</a>, and <a href="https://access-ci.org/" target="_blank">NSF ACCESS</a>.
 
 Previously, I worked at <a href="https://www.earthsense.co/" target="_blank">Earthsense</a>, on hardware design, autonomy, and optimization for a 750kg payload AGV. My contributions included developing the lower-level control systems and implementing 4-wheel independent torque vectoring for the TerraMax Robot's dual Ackermann steering.
+
+I TA'd <a href="https://siebelschool.illinois.edu/academics/courses/cs427" target="_blank">CS 427 Software Engineering I</a> at UIUC in Spring 2026.
 
 I enjoy running and cycling, currently preparing for a 5k in 25 minutes.
 
@@ -26,15 +28,15 @@ I enjoy running and cycling, currently preparing for a 5k in 25 minutes.
 
 # Education
 
-### University of Illinois Urbana-Champaign <img src="images/uiucfavicon.ico" alt="UIUC" width="16" style="vertical-align:middle;">
-MS in Computer Science (Robotics focus)
+### <a href="https://illinois.edu/" target="_blank">University of Illinois Urbana-Champaign</a> <img src="images/uiucfavicon.ico" alt="UIUC" width="16" style="vertical-align:middle;">
+MS in Computer Science
 
 **Relevant coursework:** Humanoid Robotics, Autonomous Vehicle System Engineering, 3D Vision.
 
-### College of Engineering, Pune <img src="images/coepfavicon.ico" alt="COEP" width="16" style="vertical-align:middle;">
+### <a href="https://www.coeptech.ac.in/" target="_blank">College of Engineering, Pune</a> <img src="images/coepfavicon.ico" alt="COEP" width="16" style="vertical-align:middle;">
 B.Tech in Mechanical Engineering, Minor in Computer Engineering
 
-**Relevant coursework:** Machine Design, Robotics and Automation, Mechanics of Materials, Engineering Mechanics, Linear Algebra.
+**Relevant coursework:** Machine Design, Robotics and Automation, Mechanics of Materials, Engineering Mechanics, Linear Algebra, Vector Calculus.
 
 
 # Publications
@@ -82,6 +84,18 @@ Modular VLM-guided framework for precision agriculture interleaving natural lang
 </div>
 
 more coming soon ...
+
+# Competitive Robotics
+
+ <img src="images/channels4_profile.jpg" alt="fll logo" width="100" /> <img src="images/images.png" alt="wro logo" width="200" />
+
+I am a [FIRST](https://www.firstinspires.org/) and [WRO](https://wro-association.org/) alumni and I have participated in Robotics competitions since 2013. I have represented India Internationally in Robotics competitions thrice and also mentored a team which won Runner up Best Project Research in FLL Europe Opens in Estonia in 2018. I continue to mentor teams at [Robominds](https://www.robominds.in/) for FLL, FTC and Vex Robotics.     
+
+## Achievements 
+- Team India Coach, 2018 FIRST Lego League European Championships at Tallinn, Estonia. Team stood 2nd place for Best Project Research and 4th in Overall Robot Game. 
+- Team India Representative in [World Robot Olympiad Internationals 2017(Costa Rica)](https://wro-association.org/competition/previous-challenges/),
+- Team India Representative 2016(India) in [WRO 2016 Internationals, New Delhi](https://wro-association.org/competition/previous-challenges/), Gold Medal in 2016 Nationals.
+- Team India Representative, Top 10 in [First Lego League Open European Championships, Spain(2016)](https://www.firstlegoleague.org/past-challenges) (Fully sponsored by Tata Motors).
 
 # Projects
 
@@ -186,19 +200,6 @@ Slides: [Link](docs/smartnav.pdf) Report: [Link](docs/CS440-Final-Project.pdf)
 Combined CLIPSeg with Depth-Anything V2 for obstacle-aware gridmap generation (94% accuracy); modified A* planner with goal-object validation achieves 81% success rate for line-of-sight pathfinding.
 </div>
 </div>
-
-
-# Competitive Robotics
-
- <img src="images/channels4_profile.jpg" alt="fll logo" width="100" /> <img src="images/images.png" alt="wro logo" width="200" />
-
-I am a [FIRST](https://www.firstinspires.org/) and [WRO](https://wro-association.org/) alumni and I have participated in Robotics competitions since 2013. I have represented India Internationally in Robotics competitions thrice and also mentored a team which won Runner up Best Project Research in FLL Europe Opens in Estonia in 2018. I continue to mentor teams at [Robominds](https://www.robominds.in/) for FLL, FTC and Vex Robotics.     
-
-## Achievements 
-- Team India Coach, 2018 FIRST Lego League European Championships at Tallinn, Estonia. Team stood 2nd place for Best Project Research and 4th in Overall Robot Game. 
-- Team India Representative in [World Robot Olympiad Internationals 2017(Costa Rica)](https://wro-association.org/competition/previous-challenges/),
-- Team India Representative 2016(India) in [WRO 2016 Internationals, New Delhi](https://wro-association.org/competition/previous-challenges/), Gold Medal in 2016 Nationals.
-- Team India Representative, Top 10 in [First Lego League Open European Championships, Spain(2016)](https://www.firstlegoleague.org/past-challenges) (Fully sponsored by Tata Motors).
 
 
 ---
