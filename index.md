@@ -28,12 +28,12 @@ I enjoy running and cycling, currently preparing for a 5k in 25 minutes.
 
 # Education
 
-### University of Illinois Urbana-Champaign <img src="images/uiucfavicon.ico" alt="UIUC" width="16" style="vertical-align:middle;">
+### <a href="https://illinois.edu/" target="_blank">University of Illinois Urbana-Champaign</a> <img src="images/uiucfavicon.ico" alt="UIUC" width="16" style="vertical-align:middle;">
 MS in Computer Science
 
 **Relevant coursework:** Humanoid Robotics, Autonomous Vehicle System Engineering, 3D Vision.
 
-### College of Engineering, Pune <img src="images/coepfavicon.ico" alt="COEP" width="16" style="vertical-align:middle;">
+### <a href="https://www.coeptech.ac.in/" target="_blank">College of Engineering, Pune</a> <img src="images/coepfavicon.ico" alt="COEP" width="16" style="vertical-align:middle;">
 B.Tech in Mechanical Engineering, Minor in Computer Engineering
 
 **Relevant coursework:** Machine Design, Robotics and Automation, Mechanics of Materials, Engineering Mechanics, Linear Algebra.
