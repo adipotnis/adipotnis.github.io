@@ -12,9 +12,9 @@ Currently, I'm a student at UIUC <img src="images/uiucfavicon.ico" alt="UIUC" wi
 
 My research is supported by <a href="https://science.nasa.gov/science-research/earth-science/the-firesense-project/" target="_blank">NASA FireSense</a>, <a href="https://aifarms.illinois.edu/" target="_blank">AIFARMS</a>, <a href="https://i-farm.illinois.edu/" target="_blank">I-FARM</a>, <a href="https://sites.google.com/view/coalescepreview" target="_blank">COALESCE</a>, and <a href="https://access-ci.org/" target="_blank">NSF ACCESS</a>.
 
-I TA'd <a href="https://siebelschool.illinois.edu/academics/courses/cs427" target="_blank">CS 427 Software Engineering I</a> at UIUC in Spring 2026.
-
 Previously, I worked at <a href="https://www.earthsense.co/" target="_blank">Earthsense</a>, on hardware design, autonomy, and optimization for a 750kg payload AGV. My contributions included developing the lower-level control systems and implementing 4-wheel independent torque vectoring for the TerraMax Robot's dual Ackermann steering.
+
+I TA'd <a href="https://siebelschool.illinois.edu/academics/courses/cs427" target="_blank">CS 427 Software Engineering I</a> at UIUC in Spring 2026.
 
 I enjoy running and cycling, currently preparing for a 5k in 25 minutes.
 
