@@ -8,15 +8,11 @@ author_profile: true
 
 I work on enabling robots to navigate and act in unstructured environments using foundation models.
 
-Currently, I'm a student at UIUC <img src="images/uiucfavicon.ico" alt="UIUC" width="16" style="vertical-align:middle;"> pursuing a MS in Computer Science with a focus on Robotics. I'm advised by <a href="http://daslab.illinois.edu/index.html#girish" target="_blank">Girish Chowdhary</a> at <a href="http://daslab.illinois.edu/index.html" target="_blank"> Distributed Autonomous Systems Lab</a>. My research is focused on Generalized Navigation with Vision Language Action models and embodiment aware grounding for Vision Large Language Models.
-
-My research is supported by <a href="https://science.nasa.gov/science-research/earth-science/the-firesense-project/" target="_blank">NASA FireSense</a>, <a href="https://aifarms.illinois.edu/" target="_blank">AIFARMS</a>, <a href="https://i-farm.illinois.edu/" target="_blank">I-FARM</a>, <a href="https://sites.google.com/view/coalescepreview" target="_blank">COALESCE</a>, and <a href="https://access-ci.org/" target="_blank">NSF ACCESS</a>.
+Currently, I'm a student at UIUC <img src="images/uiucfavicon.ico" alt="UIUC" width="16" style="vertical-align:middle;"> pursuing a MS in Computer Science with a focus on Robotics. I'm advised by <a href="http://daslab.illinois.edu/index.html#girish" target="_blank">Girish Chowdhary</a> at <a href="http://daslab.illinois.edu/index.html" target="_blank"> Distributed Autonomous Systems Lab</a>. My research is focused on Generalized Navigation with Vision Language Action models and embodiment aware grounding for Vision Large Language Models, and is supported by <a href="https://science.nasa.gov/science-research/earth-science/the-firesense-project/" target="_blank">NASA FireSense</a>, <a href="https://aifarms.illinois.edu/" target="_blank">AIFARMS</a>, <a href="https://i-farm.illinois.edu/" target="_blank">I-FARM</a>, <a href="https://sites.google.com/view/coalescepreview" target="_blank">COALESCE</a>, and <a href="https://access-ci.org/" target="_blank">NSF ACCESS</a>.
 
 I TA'd <a href="https://siebelschool.illinois.edu/academics/courses/cs427" target="_blank">CS 427 Software Engineering I</a> at UIUC in Spring 2026.
 
 Previously, I worked at <a href="https://www.earthsense.co/" target="_blank">Earthsense</a>, on hardware design, autonomy, and optimization for a 750kg payload AGV. My contributions included developing the lower-level control systems and implementing 4-wheel independent torque vectoring for the TerraMax Robot's dual Ackermann steering.
-
-I completed my B.Tech in Mechanical Engineering with a Minor in Computer Engineering at <a href="https://www.coeptech.ac.in/" target="_blank">College of Engineering, Pune</a> <img src="images/coepfavicon.ico" alt="COEP" width="16" style="vertical-align:middle;">. 
 
 I enjoy running and cycling, currently preparing for a 5k in 25 minutes.
 
@@ -26,6 +22,19 @@ I enjoy running and cycling, currently preparing for a 5k in 25 minutes.
 <a href="https://www.youtube.com/watch?v=1CN3ZjOrtVQ" target="_blank"><img src="https://img.youtube.com/vi/1CN3ZjOrtVQ/0.jpg" alt="robot_video_terramax"></a>
 </div>
 </div>
+
+
+# Education
+
+### University of Illinois Urbana-Champaign <img src="images/uiucfavicon.ico" alt="UIUC" width="16" style="vertical-align:middle;">
+MS in Computer Science (Robotics focus)
+
+**Relevant coursework:** Humanoid Robotics, Autonomous Vehicle System Engineering, 3D Vision.
+
+### College of Engineering, Pune <img src="images/coepfavicon.ico" alt="COEP" width="16" style="vertical-align:middle;">
+B.Tech in Mechanical Engineering, Minor in Computer Engineering
+
+**Relevant coursework:** Machine Design, Robotics and Automation, Mechanics of Materials, Engineering Mechanics, Linear Algebra.
 
 
 # Publications
