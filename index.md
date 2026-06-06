@@ -36,7 +36,7 @@ MS in Computer Science
 ### <a href="https://www.coeptech.ac.in/" target="_blank">College of Engineering, Pune</a> <img src="images/coepfavicon.ico" alt="COEP" width="16" style="vertical-align:middle;">
 B.Tech in Mechanical Engineering, Minor in Computer Engineering
 
-**Relevant coursework:** Machine Design, Robotics and Automation, Mechanics of Materials, Engineering Mechanics, Linear Algebra.
+**Relevant coursework:** Machine Design, Robotics and Automation, Mechanics of Materials, Engineering Mechanics, Linear Algebra, Vector Calculus.
 
 
 # Publications
