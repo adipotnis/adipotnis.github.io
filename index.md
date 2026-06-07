@@ -72,7 +72,7 @@ Concurrent teacher student architecture for mixture of experts, enabling implici
 
 Under Review, Computers and Electronics in Agriculture.
 
-Paper: [Link](https://www.arxiv.org/abs/2601.11906)
+Paper: [Link](https://www.arxiv.org/abs/2601.11906) \| Website: [Link](https://kendallkoe.com/Visual-Language-Guided-Task-Planning-for-Horticultural-Robots/)
 
 <div class="side-by-side">
 <div class="media">
