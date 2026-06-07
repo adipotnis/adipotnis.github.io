@@ -61,7 +61,7 @@ Under Review, CoRL 2026.
 <video controls><source src="images/cts-moe.mp4" type="video/mp4"></video>
 </div>
 <div class="text" markdown="1">
-Concurrent teacher student architecture for mixture of experts for locomotion tasks, enabling implicit policy adaptation for perceptive locomotion on discontinuous terrain.
+Concurrent teacher student architecture for mixture of experts, enabling implicit policy adaptation for perceptive locomotion on discontinuous terrain.
 </div>
 </div>
 
