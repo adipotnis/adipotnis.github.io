@@ -40,7 +40,7 @@ B.Tech in Mechanical Engineering, Minor in Computer Engineering
 ### CATNAV: Cached Vision-Language Traversability for Efficient Zero-Shot Robot Navigation
 <small>**Aditya Potnis**, Francisco Affonso, Shreya Gummadi, Naveen Kumar Uppalapati, Girish Chowdhary</small>
 
-Under Review, IROS 2026. Paper: [Link](https://arxiv.org/abs/2603.22800) | Website: [Link](https://adipotnis.github.io/catnav-website/)
+Under Review, IROS 2026. Paper: [Link](https://arxiv.org/abs/2603.22800) \| Website: [Link](https://adipotnis.github.io/catnav-website/)
 
 <div class="side-by-side">
 <div class="media">
