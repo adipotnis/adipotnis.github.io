@@ -12,8 +12,6 @@ Currently, I'm a student at UIUC <img src="images/uiucfavicon.ico" alt="UIUC" wi
 
 Previously, I worked at <a href="https://www.earthsense.co/" target="_blank">Earthsense</a>, on hardware design, autonomy, and optimization for a 750kg payload AGV. My contributions included developing the lower-level control systems and implementing 4-wheel independent torque vectoring for the TerraMax Robot's dual Ackermann steering.
 
-I TA'd <a href="https://siebelschool.illinois.edu/academics/courses/cs427" target="_blank">CS 427 Software Engineering I</a> at UIUC in Spring 2026.
-
 I enjoy running and cycling, currently preparing for a 5k in 25 minutes.
 
 
