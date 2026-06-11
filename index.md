@@ -40,7 +40,7 @@ B.Tech in Mechanical Engineering, Minor in Computer Engineering
 ### CATNAV: Cached Vision-Language Traversability for Efficient Zero-Shot Robot Navigation
 <small>**Aditya Potnis**, Francisco Affonso, Shreya Gummadi, Naveen Kumar Uppalapati, Girish Chowdhary</small>
 
-Under Review, IROS 2026.
+Under Review.
 
 Paper: [Link](https://arxiv.org/abs/2603.22800) \| Website: [Link](https://adipotnis.github.io/catnav-website/)
 
@@ -56,14 +56,14 @@ Zero-shot embodiment-aware traversability framework using multimodal LLMs for co
 ### CTS-MoE: Implicit Policy Adaptation Enables Perceptive Locomotion on Discontinuous Terrain
 <small>Francisco Affonso, Matheus P. Angarola, Ana Luiza Mineiro, **Aditya Potnis**, Marcelo Becker, Girish Chowdhary</small>
 
-Under Review, CoRL 2026.
+Under Review.
 
 Concurrent teacher student architecture for mixture of experts, enabling implicit policy adaptation for perceptive locomotion on discontinuous terrain.
 
 ### Visual-Language-Guided Task Planning for Horticultural Robots
 <small>Jose Cuaran, Kendall Koe, **Aditya Potnis**, Naveen Kumar Uppalapati, Girish Chowdhary</small>
 
-Under Review, Computers and Electronics in Agriculture.
+Under Review.
 
 Paper: [Link](https://www.arxiv.org/abs/2601.11906) \| Website: [Link](https://kendallkoe.com/Visual-Language-Guided-Task-Planning-for-Horticultural-Robots/)
 
