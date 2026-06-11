@@ -58,14 +58,7 @@ Zero-shot embodiment-aware traversability framework using multimodal LLMs for co
 
 Under Review, CoRL 2026.
 
-<div class="side-by-side">
-<div class="media">
-<video controls><source src="images/cts-moe.mp4" type="video/mp4"></video>
-</div>
-<div class="text" markdown="1">
 Concurrent teacher student architecture for mixture of experts, enabling implicit policy adaptation for perceptive locomotion on discontinuous terrain.
-</div>
-</div>
 
 ### Visual-Language-Guided Task Planning for Horticultural Robots
 <small>Jose Cuaran, Kendall Koe, **Aditya Potnis**, Naveen Kumar Uppalapati, Girish Chowdhary</small>
