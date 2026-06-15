@@ -63,7 +63,7 @@ Concurrent teacher student architecture for mixture of experts, enabling implici
 ### Visual-Language-Guided Task Planning for Horticultural Robots
 <small>Jose Cuaran, Kendall Koe, **Aditya Potnis**, Naveen Kumar Uppalapati, Girish Chowdhary</small>
 
-Under Review.
+Computers and Electronics in Agriculture.
 
 Paper: [Link](https://www.arxiv.org/abs/2601.11906) \| Website: [Link](https://kendallkoe.com/Visual-Language-Guided-Task-Planning-for-Horticultural-Robots/)
 
