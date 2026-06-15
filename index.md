@@ -8,13 +8,9 @@ author_profile: true
 
 I work on enabling robots to navigate and act in unstructured environments using foundation models.
 
-Currently, I'm a student at UIUC <img src="images/uiucfavicon.ico" alt="UIUC" width="16" style="vertical-align:middle;"> pursuing a MS in Computer Science. I'm advised by <a href="http://daslab.illinois.edu/index.html#girish" target="_blank">Girish Chowdhary</a> at <a href="http://daslab.illinois.edu/index.html" target="_blank"> Distributed Autonomous Systems Lab</a>. My research is focused on Generalized Navigation with Vision Language Action models and embodiment aware grounding for Vision Large Language Models.
+Currently, I'm a student at UIUC <img src="images/uiucfavicon.ico" alt="UIUC" width="16" style="vertical-align:middle;"> pursuing a MS in Computer Science. I'm advised by <a href="http://daslab.illinois.edu/index.html#girish" target="_blank">Girish Chowdhary</a> at <a href="http://daslab.illinois.edu/index.html" target="_blank"> Distributed Autonomous Systems Lab</a>. My research is focused on Generalized Navigation with Vision Language Action models and embodiment aware grounding for Vision Large Language Models. My research is supported by <a href="https://science.nasa.gov/science-research/earth-science/the-firesense-project/" target="_blank">NASA FireSense</a>, <a href="https://aifarms.illinois.edu/" target="_blank">AIFARMS</a>, <a href="https://i-farm.illinois.edu/" target="_blank">I-FARM</a>, <a href="https://sites.google.com/view/coalescepreview" target="_blank">COALESCE</a>, and <a href="https://access-ci.org/" target="_blank">NSF ACCESS</a>.
 
-My research is supported by <a href="https://science.nasa.gov/science-research/earth-science/the-firesense-project/" target="_blank">NASA FireSense</a>, <a href="https://aifarms.illinois.edu/" target="_blank">AIFARMS</a>, <a href="https://i-farm.illinois.edu/" target="_blank">I-FARM</a>, <a href="https://sites.google.com/view/coalescepreview" target="_blank">COALESCE</a>, and <a href="https://access-ci.org/" target="_blank">NSF ACCESS</a>.
-
-Previously, I worked at <a href="https://www.earthsense.co/" target="_blank">Earthsense</a>, on hardware design, autonomy, and optimization for a 750kg payload AGV. My contributions included developing the lower-level control systems and implementing 4-wheel independent torque vectoring for the TerraMax Robot's dual Ackermann steering.
-
-I TA'd <a href="https://siebelschool.illinois.edu/academics/courses/cs427" target="_blank">CS 427 Software Engineering I</a> at UIUC in Spring 2026.
+Previously, I worked at <a href="https://www.earthsense.co/" target="_blank">Earthsense</a>, on hardware design, autonomy, and optimization for a 750kg payload UGV. My contributions included developing the lower-level control systems and implementing 4-wheel independent torque vectoring for the TerraMax Robot's dual Ackermann steering. I also developed steering controllers that were deployed across the fleet of 200+ smaller TerraSentia and TerraPreta robots.
 
 I enjoy running and cycling, currently preparing for a 5k in 25 minutes.
 
@@ -44,7 +40,9 @@ B.Tech in Mechanical Engineering, Minor in Computer Engineering
 ### CATNAV: Cached Vision-Language Traversability for Efficient Zero-Shot Robot Navigation
 <small>**Aditya Potnis**, Francisco Affonso, Shreya Gummadi, Naveen Kumar Uppalapati, Girish Chowdhary</small>
 
-Paper: [Link](https://arxiv.org/abs/2603.22800) | Website: [Link](https://adipotnis.github.io/catnav-website/)
+Under Review.
+
+Paper: [Link](https://arxiv.org/abs/2603.22800) \| Website: [Link](https://adipotnis.github.io/catnav-website/)
 
 <div class="side-by-side">
 <div class="media">
@@ -58,21 +56,16 @@ Zero-shot embodiment-aware traversability framework using multimodal LLMs for co
 ### CTS-MoE: Implicit Policy Adaptation Enables Perceptive Locomotion on Discontinuous Terrain
 <small>Francisco Affonso, Matheus P. Angarola, Ana Luiza Mineiro, **Aditya Potnis**, Marcelo Becker, Girish Chowdhary</small>
 
-Under Review, CoRL 2026.
+Under Review.
 
-<div class="side-by-side">
-<div class="media">
-<video controls><source src="images/cts-moe.mp4" type="video/mp4"></video>
-</div>
-<div class="text" markdown="1">
-Implicit policy adaptation enabling perceptive locomotion on discontinuous terrain.
-</div>
-</div>
+Concurrent teacher student architecture for mixture of experts, enabling implicit policy adaptation for perceptive locomotion on discontinuous terrain.
 
 ### Visual-Language-Guided Task Planning for Horticultural Robots
 <small>Jose Cuaran, Kendall Koe, **Aditya Potnis**, Naveen Kumar Uppalapati, Girish Chowdhary</small>
 
-Paper: [Link](https://www.arxiv.org/abs/2601.11906)
+Under Review.
+
+Paper: [Link](https://www.arxiv.org/abs/2601.11906) \| Website: [Link](https://kendallkoe.com/Visual-Language-Guided-Task-Planning-for-Horticultural-Robots/)
 
 <div class="side-by-side">
 <div class="media">
