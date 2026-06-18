@@ -19,7 +19,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
 
 <style>
   :root {
@@ -29,9 +29,9 @@
     --muted: #7a756c;
     --rule: #e6e1d8;
     --accent: #1a1814;
-    --serif: 'Crimson Pro', Georgia, serif;
-    --sans: 'Inter', -apple-system, system-ui, sans-serif;
-    --mono: 'JetBrains Mono', ui-monospace, monospace;
+    --serif: 'Newsreader', Georgia, serif;
+    --sans: 'IBM Plex Sans', -apple-system, system-ui, sans-serif;
+    --mono: 'IBM Plex Mono', ui-monospace, monospace;
   }
 
   * { box-sizing: border-box; }
@@ -186,8 +186,32 @@
     margin: 0 0 0.5rem;
   }
 
-  .degree { margin: 0 0 0.35rem; color: var(--ink-soft); }
   .coursework { color: var(--muted); font-size: 14px; margin: 0; }
+
+  .edu { margin-bottom: 1rem; }
+  .edu-school {
+    font-family: var(--serif);
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0 0 0.1rem;
+  }
+  .edu-school span {
+    font-family: var(--sans);
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: var(--ink-soft);
+  }
+
+  .proj-group {
+    font-family: var(--mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    margin: 2.5rem 0 0.75rem;
+  }
+  h2.section-title + .proj-group { margin-top: 0.5rem; }
+  .proj-group + h3 { margin-top: 0; }
 
   ul.clean { padding-left: 1.1rem; margin: 0.5rem 0; }
   ul.clean li { margin: 0.35rem 0; color: var(--ink-soft); }
@@ -303,7 +327,7 @@
 
     <!-- About -->
     <section>
-      <p>Currently, I'm a student at UIUC <img class="favicon" src="images/uiucfavicon.ico" alt="UIUC"> pursuing a MS in Computer Science. I'm advised by <a href="http://daslab.illinois.edu/index.html#girish" target="_blank" rel="noopener">Girish Chowdhary</a> at <a href="http://daslab.illinois.edu/index.html" target="_blank" rel="noopener">Distributed Autonomous Systems Lab</a>. My research is focused on Generalized Navigation with Vision Language Action models and embodiment aware grounding for Vision Large Language Models. My research is supported by <a href="https://science.nasa.gov/science-research/earth-science/the-firesense-project/" target="_blank" rel="noopener">NASA FireSense</a>, <a href="https://aifarms.illinois.edu/" target="_blank" rel="noopener">AIFARMS</a>, <a href="https://i-farm.illinois.edu/" target="_blank" rel="noopener">I-FARM</a>, <a href="https://sites.google.com/view/coalescepreview" target="_blank" rel="noopener">COALESCE</a>, and <a href="https://access-ci.org/" target="_blank" rel="noopener">NSF ACCESS</a>.</p>
+      <p>Currently, I'm a student at UIUC <img class="favicon" src="images/uiucfavicon.ico" alt="UIUC"> pursuing a MS in Computer Science. I'm advised by <a href="http://daslab.illinois.edu/index.html#girish" target="_blank" rel="noopener">Prof. Girish Chowdhary</a> at <a href="http://daslab.illinois.edu/index.html" target="_blank" rel="noopener">Distributed Autonomous Systems Lab</a>. My research is focused on Generalized Navigation with Vision Language Action models and embodiment aware grounding for Vision Large Language Models. My research is supported by <a href="https://science.nasa.gov/science-research/earth-science/the-firesense-project/" target="_blank" rel="noopener">NASA FireSense</a>, <a href="https://aifarms.illinois.edu/" target="_blank" rel="noopener">AIFARMS</a>, <a href="https://i-farm.illinois.edu/" target="_blank" rel="noopener">I-FARM</a>, <a href="https://sites.google.com/view/coalescepreview" target="_blank" rel="noopener">COALESCE</a>, and <a href="https://access-ci.org/" target="_blank" rel="noopener">NSF ACCESS</a>.</p>
 
       <p>Previously at <a href="https://www.earthsense.co/" target="_blank" rel="noopener">Earthsense</a>, I developed hardware, autonomy and low-level control with torque vectoring for the 750kg TerraMax UGV's dual-ackermann and driving controllers for the 200+ TerraPreta and TerraSentia field robots.</p>
 
@@ -320,13 +344,15 @@
     <section id="education">
       <h2 class="section-title">Education</h2>
 
-      <h3><a href="https://illinois.edu/" target="_blank" rel="noopener">University of Illinois Urbana-Champaign</a> <img class="favicon" src="images/uiucfavicon.ico" alt="UIUC"></h3>
-      <p class="degree">MS in Computer Science</p>
-      <p class="coursework"><strong>Relevant coursework:</strong> Humanoid Robotics, Autonomous Vehicle System Engineering, 3D Vision, Networked IoT, Software Engineering, Artificial Intelligence.</p>
+      <div class="edu">
+        <p class="edu-school"><a href="https://illinois.edu/" target="_blank" rel="noopener">University of Illinois Urbana-Champaign</a> <img class="favicon" src="images/uiucfavicon.ico" alt="UIUC"> <span>MS in Computer Science</span></p>
+        <p class="coursework"><strong>Coursework:</strong> Humanoid Robotics, Autonomous Vehicle System Engineering, 3D Vision, Networked IoT, Software Engineering, Artificial Intelligence.</p>
+      </div>
 
-      <h3><a href="https://www.coeptech.ac.in/" target="_blank" rel="noopener">College of Engineering, Pune</a> <img class="favicon" src="images/coepfavicon.ico" alt="COEP"></h3>
-      <p class="degree">B.Tech in Mechanical Engineering, Minor in Computer Engineering</p>
-      <p class="coursework"><strong>Relevant coursework:</strong> Machine Design, Robotics and Automation, Mechanics of Materials, Engineering Mechanics, Linear Algebra, Vector Calculus.</p>
+      <div class="edu">
+        <p class="edu-school"><a href="https://www.coeptech.ac.in/" target="_blank" rel="noopener">College of Engineering, Pune</a> <img class="favicon" src="images/coepfavicon.ico" alt="COEP"> <span>B.Tech in Mechanical Engineering, Minor in Computer Engineering</span></p>
+        <p class="coursework"><strong>Coursework:</strong> Machine Design, Robotics and Automation, Mechanics of Materials, Engineering Mechanics, Linear Algebra, Vector Calculus.</p>
+      </div>
     </section>
 
     <!-- Publications -->
@@ -351,7 +377,7 @@
       <p>Concurrent teacher student architecture for mixture of experts, enabling implicit policy adaptation for perceptive locomotion on discontinuous terrain.</p>
 
       <h3>Visual-Language-Guided Task Planning for Horticultural Robots</h3>
-      <p class="authors">Jose Cuaran, Kendall Koe, <strong>Aditya Potnis</strong>, Naveen Kumar Uppalapati, Girish Chowdhary</p>
+      <p class="authors">Jose Cuaran*, Kendall Koe*, <strong>Aditya Potnis</strong>, Naveen Kumar Uppalapati, Girish Chowdhary</p>
       <p class="meta-line">Computers and Electronics in Agriculture &nbsp;|&nbsp; <a href="https://www.arxiv.org/abs/2601.11906" target="_blank" rel="noopener">Paper</a> &nbsp;|&nbsp; <a href="https://kendallkoe.com/Visual-Language-Guided-Task-Planning-for-Horticultural-Robots/" target="_blank" rel="noopener">Website</a></p>
       <div class="side-by-side">
         <div class="media">
@@ -374,20 +400,50 @@
         <img src="images/images.png" alt="WRO logo" width="160">
       </p>
 
-      <p>I am a <a href="https://www.firstinspires.org/" target="_blank" rel="noopener">FIRST</a> and <a href="https://wro-association.org/" target="_blank" rel="noopener">WRO</a> alumni and I have participated in Robotics competitions since 2013. I have represented India Internationally in Robotics competitions thrice and also mentored a team which won Runner up Best Project Research in FLL Europe Opens in Estonia in 2018. I continue to mentor teams at <a href="https://www.robominds.in/" target="_blank" rel="noopener">Robominds</a> for FLL, FTC and Vex Robotics.</p>
+      <p>A <a href="https://www.firstinspires.org/" target="_blank" rel="noopener">FIRST</a> and <a href="https://wro-association.org/" target="_blank" rel="noopener">WRO</a> alumnus, I've competed in robotics since 2013 and represented India internationally three times. I've also coached &mdash; mentoring a team to Runner-up Best Project Research at the 2018 FLL European Opens in Estonia &mdash; and continue to mentor FLL, FTC and Vex teams at <a href="https://www.robominds.in/" target="_blank" rel="noopener">Robominds</a>.</p>
 
       <h3>Achievements</h3>
       <ul class="clean">
-        <li>Team India Coach, 2018 FIRST Lego League European Championships at Tallinn, Estonia. Team stood 2nd place for Best Project Research and 4th in Overall Robot Game.</li>
-        <li>Team India Representative in <a href="https://wro-association.org/competition/previous-challenges/" target="_blank" rel="noopener">World Robot Olympiad Internationals 2017 (Costa Rica)</a>.</li>
-        <li>Team India Representative 2016 (India) in <a href="https://wro-association.org/competition/previous-challenges/" target="_blank" rel="noopener">WRO 2016 Internationals, New Delhi</a>, Gold Medal in 2016 Nationals.</li>
-        <li>Team India Representative, Top 10 in <a href="https://www.firstlegoleague.org/past-challenges" target="_blank" rel="noopener">First Lego League Open European Championships, Spain (2016)</a> (Fully sponsored by Tata Motors).</li>
+        <li>2018 FLL European Championships, Tallinn (coach) &mdash; 2nd Best Project Research, 4th Robot Game</li>
+        <li><a href="https://wro-association.org/competition/previous-challenges/" target="_blank" rel="noopener">WRO Internationals 2017</a>, Costa Rica</li>
+        <li><a href="https://wro-association.org/competition/previous-challenges/" target="_blank" rel="noopener">WRO Internationals 2016</a>, New Delhi &mdash; Gold, 2016 Nationals</li>
+        <li><a href="https://www.firstlegoleague.org/past-challenges" target="_blank" rel="noopener">FLL Open European Championships 2016</a>, Spain &mdash; Top 10</li>
       </ul>
     </section>
 
     <!-- Projects -->
     <section id="projects">
       <h2 class="section-title">Projects</h2>
+
+      <p class="proj-group">Hardware, Simulation &amp; Tooling</p>
+
+      <h3>Design and Analysis of Tendon actuated Robotic arm using Bowden cables and Mechanical Multiplexing (Thesis @ COEP)</h3>
+      <p class="meta-line"><a href="docs/robotic_arm_mux_report.pdf" target="_blank" rel="noopener">Report</a></p>
+      <div class="side-by-side">
+        <div class="media media--tall">
+          <img src="images/multiplexer-arm-2.gif" alt="Multiplexer arm animation">
+          <img src="images/multiplexer-arm-1.jpg" alt="Multiplexer arm" style="max-width: 280px; max-height: none;">
+        </div>
+        <div class="text">
+          <p>Designed a modular 4-DOF Bowden cable-driven tendon-actuated robot arm with a mechanical multiplexer enabling full control with only 2 stepper motors, prototyped with FDM printing and including FK/IK solvers. Awarded Best Working Project (Mechanical) at COEP; provisional patent filed (IN202321006687).</p>
+        </div>
+      </div>
+
+      <h3>Salto Simulator for development</h3>
+      <p class="meta-line"><a href="https://github.com/adipotnis/gazebo_plugin_salto" target="_blank" rel="noopener">Code</a></p>
+      <div class="side-by-side">
+        <div class="media">
+          <img src="images/20250312-1307-47.1662169.gif" alt="Salto animation">
+        </div>
+        <div class="text">
+          <p>Gazebo plugin simulating <a href="https://www.youtube.com/watch?v=5tMjHBk-2JQ" target="_blank" rel="noopener">Salto-1P</a> jumping motion as a point object, supporting parabolic trajectory jumping and simulated odometry/pose estimation to accelerate autonomy development.</p>
+        </div>
+      </div>
+
+      <h3>ROS1 ROS2 bridge for faster debugging and code refactoring</h3>
+      <p>Created a Docker image generation repo to accelerate image creation and facilitate easier refactoring. <a href="https://github.com/adipotnis/ros1_bridge_ws" target="_blank" rel="noopener">Link</a></p>
+
+      <p class="proj-group">Navigation &amp; Perception</p>
 
       <h3>Visual Navigation Policy with V-JEPA2 and Diffusion Policy</h3>
       <p class="meta-line"><a href="https://github.com/adipotnis/DiffusionNav" target="_blank" rel="noopener">Code</a></p>
@@ -412,6 +468,29 @@
         </div>
       </div>
 
+      <h3>VLM assisted Octomap generation for navigation</h3>
+      <div class="side-by-side">
+        <div class="media media--tall">
+          <video controls><source src="images/octomap-proj-1.mp4" type="video/mp4"></video>
+        </div>
+        <div class="text">
+          <p>Implemented open-vocabulary segmentation with CLIPSeg and stereo depth-based point cloud generation via Open3D to build octomaps for 3D robot navigation, tested on the NVIDIA r2b_2023 dataset.</p>
+        </div>
+      </div>
+
+      <h3>Semantic-aware segmentation and navigation using CLIPSeg (CS440)</h3>
+      <p class="meta-line"><a href="docs/smartnav.pdf" target="_blank" rel="noopener">Slides</a> &nbsp;|&nbsp; <a href="docs/CS440-Final-Project.pdf" target="_blank" rel="noopener">Report</a></p>
+      <div class="side-by-side">
+        <div class="media">
+          <img src="images/smartnav-image.png" alt="SmartNav segmentation output">
+        </div>
+        <div class="text">
+          <p>Combined CLIPSeg with Depth-Anything V2 for obstacle-aware gridmap generation (94% accuracy); modified A* planner with goal-object validation achieves 81% success rate for line-of-sight pathfinding.</p>
+        </div>
+      </div>
+
+      <p class="proj-group">Generative Models</p>
+
       <h3>Low-Rank Adaptation for Video Generation with semantic relative pose prompts (CS 598 3D Vision, HACKER Project)</h3>
       <p class="meta-line"><a href="https://github.com/chih-hao-lin/3DV_2025Fall/tree/main/group_09_video_generation/apotnis2_lora_finetune" target="_blank" rel="noopener">Code</a></p>
       <div class="side-by-side">
@@ -434,52 +513,6 @@
         </div>
       </div>
 
-      <h3>Salto Simulator for development</h3>
-      <p class="meta-line"><a href="https://github.com/adipotnis/gazebo_plugin_salto" target="_blank" rel="noopener">Code</a></p>
-      <div class="side-by-side">
-        <div class="media">
-          <img src="images/20250312-1307-47.1662169.gif" alt="Salto animation">
-        </div>
-        <div class="text">
-          <p>Gazebo plugin simulating <a href="https://www.youtube.com/watch?v=5tMjHBk-2JQ" target="_blank" rel="noopener">Salto-1P</a> jumping motion as a point object, supporting parabolic trajectory jumping and simulated odometry/pose estimation to accelerate autonomy development.</p>
-        </div>
-      </div>
-
-      <h3>Design and Analysis of Tendon actuated Robotic arm using Bowden cables and Mechanical Multiplexing (Thesis @ COEP)</h3>
-      <p class="meta-line"><a href="docs/robotic_arm_mux_report.pdf" target="_blank" rel="noopener">Report</a></p>
-      <div class="side-by-side">
-        <div class="media media--tall">
-          <img src="images/multiplexer-arm-2.gif" alt="Multiplexer arm animation">
-          <img src="images/multiplexer-arm-1.jpg" alt="Multiplexer arm" style="max-width: 280px; max-height: none;">
-        </div>
-        <div class="text">
-          <p>Designed a modular 4-DOF Bowden cable-driven tendon-actuated robot arm with a mechanical multiplexer enabling full control with only 2 stepper motors, prototyped with FDM printing and including FK/IK solvers. Awarded Best Working Project (Mechanical) at COEP; provisional patent filed (IN202321006687).</p>
-        </div>
-      </div>
-
-      <h3>ROS1 ROS2 bridge for faster debugging and code refactoring</h3>
-      <p>Created a Docker image generation repo to accelerate image creation and facilitate easier refactoring. <a href="https://github.com/adipotnis/ros1_bridge_ws" target="_blank" rel="noopener">Link</a></p>
-
-      <h3>VLM assisted Octomap generation for navigation</h3>
-      <div class="side-by-side">
-        <div class="media media--tall">
-          <video controls><source src="images/octomap-proj-1.mp4" type="video/mp4"></video>
-        </div>
-        <div class="text">
-          <p>Implemented open-vocabulary segmentation with CLIPSeg and stereo depth-based point cloud generation via Open3D to build octomaps for 3D robot navigation, tested on the NVIDIA r2b_2023 dataset.</p>
-        </div>
-      </div>
-
-      <h3>Semantic-aware segmentation and navigation using CLIPSeg (CS440)</h3>
-      <p class="meta-line"><a href="docs/smartnav.pdf" target="_blank" rel="noopener">Slides</a> &nbsp;|&nbsp; <a href="docs/CS440-Final-Project.pdf" target="_blank" rel="noopener">Report</a></p>
-      <div class="side-by-side">
-        <div class="media">
-          <img src="images/smartnav-image.png" alt="SmartNav segmentation output">
-        </div>
-        <div class="text">
-          <p>Combined CLIPSeg with Depth-Anything V2 for obstacle-aware gridmap generation (94% accuracy); modified A* planner with goal-object validation achieves 81% success rate for line-of-sight pathfinding.</p>
-        </div>
-      </div>
     </section>
 
     <hr>
