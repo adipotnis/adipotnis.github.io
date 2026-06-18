@@ -23,12 +23,12 @@
 
 <style>
   :root {
-    --bg: #faf8f5;
-    --ink: #1a1814;
-    --ink-soft: #3d3a34;
-    --muted: #7a756c;
-    --rule: #e6e1d8;
-    --accent: #1a1814;
+    --bg: #f6f8fa;
+    --ink: #16181c;
+    --ink-soft: #393d44;
+    --muted: #767c85;
+    --rule: #e2e6ec;
+    --accent: #16181c;
     --serif: 'Newsreader', Georgia, serif;
     --sans: 'IBM Plex Sans', -apple-system, system-ui, sans-serif;
     --mono: 'IBM Plex Mono', ui-monospace, monospace;
@@ -66,29 +66,37 @@
 
   /* ---------- Layout ---------- */
   .app-container {
-    max-width: 1200px;
-    margin-left: 8%;
-    margin-right: auto;
-    padding: 4rem 1.5rem;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 1.5rem 4rem;
     display: flex;
-    gap: 4rem;
-    align-items: flex-start;
+    flex-direction: column;
+    gap: 2.5rem;
   }
 
   .sidebar {
-    width: 150px;
-    flex-shrink: 0;
     position: sticky;
-    top: 4rem;
-    height: fit-content;
-    text-align: right;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem 1.5rem;
+    margin: 0 -1.5rem;
+    padding: 0.85rem 1.5rem;
+    background: var(--bg);
+    border-bottom: 1px solid var(--rule);
   }
   .sidebar nav ul {
     list-style: none;
-    margin: 0 0 1.75rem;
+    margin: 0;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.25rem;
   }
-  .sidebar nav li { margin: 0.35rem 0; }
+  .sidebar nav li { margin: 0; }
   .sidebar nav a {
     color: var(--ink-soft);
     font-size: 14px;
@@ -99,10 +107,12 @@
   .sidebar .social {
     list-style: none;
     margin: 0;
-    padding: 1.5rem 0 0;
-    border-top: 1px solid var(--rule);
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1rem;
   }
-  .sidebar .social li { margin: 0.3rem 0; }
+  .sidebar .social li { margin: 0; }
   .sidebar .social a {
     color: var(--muted);
     font-family: var(--mono);
@@ -111,8 +121,8 @@
   .sidebar .social a:hover { color: var(--accent); text-decoration: none; }
 
   .main-content {
-    flex: 1;
-    max-width: 720px;
+    width: 100%;
+    max-width: none;
     min-width: 0;
   }
 
@@ -307,7 +317,7 @@
       <li><a href="https://www.linkedin.com/in/adityapotnis/" target="_blank" rel="noopener">LinkedIn</a></li>
       <li><a href="https://github.com/adipotnis" target="_blank" rel="noopener">GitHub</a></li>
       <li><a href="https://scholar.google.com/citations?user=-8oco00AAAAJ&hl=en" target="_blank" rel="noopener">Scholar</a></li>
-      <li><a href="https://twitter.com/aditya_potnis" target="_blank" rel="noopener">Twitter</a></li>
+      <li><a href="https://x.com/aditya_potnis" target="_blank" rel="noopener">X</a></li>
       <li><a href="docs/aditya_potnis_cv.pdf" target="_blank" rel="noopener">CV</a></li>
     </ul>
   </aside>
@@ -367,14 +377,14 @@
           <video controls><source src="images/catnav_1min.mp4" type="video/mp4"></video>
         </div>
         <div class="text">
-          <p>Zero-shot embodiment-aware traversability framework using multimodal LLMs for costmap generation; visuosemantic caching reduces online VLM queries by 85.7%, achieving 10% higher goal-reaching rate and 33% fewer behavioral constraint violations versus state-of-the-art VLA baselines on a quadruped robot.</p>
+          <p>A zero-shot, embodiment-aware traversability framework using multimodal LLMs for navigation costmaps. Visuosemantic caching cuts VLM queries 85.7%, with a 10% higher goal-reaching rate and 33% fewer constraint violations than SOTA VLA baselines on a quadruped.</p>
         </div>
       </div>
 
       <h3>CTS-MoE: Implicit Policy Adaptation Enables Perceptive Locomotion on Discontinuous Terrain</h3>
       <p class="authors">Francisco Affonso, Matheus P. Angarola, Ana Luiza Mineiro, <strong>Aditya Potnis</strong>, Marcelo Becker, Girish Chowdhary</p>
       <p class="meta-line">Under Review</p>
-      <p>Concurrent teacher student architecture for mixture of experts, enabling implicit policy adaptation for perceptive locomotion on discontinuous terrain.</p>
+      <p>A concurrent teacher&ndash;student, mixture-of-experts architecture enabling implicit policy adaptation for perceptive locomotion on discontinuous terrain.</p>
 
       <h3>Visual-Language-Guided Task Planning for Horticultural Robots</h3>
       <p class="authors">Jose Cuaran*, Kendall Koe*, <strong>Aditya Potnis</strong>, Naveen Kumar Uppalapati, Girish Chowdhary</p>
@@ -384,7 +394,7 @@
           <video controls><source src="images/horticultural_robot.mp4" type="video/mp4"></video>
         </div>
         <div class="text">
-          <p>Modular VLM-guided framework for precision agriculture interleaving natural language queries with action primitives for autonomous crop monitoring, benchmarked long-horizon planning using MLLMs, finding human-comparable performance on short-horizon tasks but degradation in long-horizon scenarios with noisy semantic maps.</p>
+          <p>A modular, VLM-guided framework that interleaves natural-language queries with action primitives for autonomous crop monitoring. Benchmarking MLLMs on long-horizon planning, it matches humans on short-horizon tasks but degrades on long-horizon ones with noisy semantic maps.</p>
         </div>
       </div>
 
@@ -400,7 +410,7 @@
         <img src="images/images.png" alt="WRO logo" width="160">
       </p>
 
-      <p>A <a href="https://www.firstinspires.org/" target="_blank" rel="noopener">FIRST</a> and <a href="https://wro-association.org/" target="_blank" rel="noopener">WRO</a> alumnus, I've competed in robotics since 2013 and represented India internationally three times. I've also coached &mdash; mentoring a team to Runner-up Best Project Research at the 2018 FLL European Opens in Estonia &mdash; and continue to mentor FLL, FTC and Vex teams at <a href="https://www.robominds.in/" target="_blank" rel="noopener">Robominds</a>.</p>
+      <p>I'm a <a href="https://www.firstinspires.org/" target="_blank" rel="noopener">FIRST</a> and <a href="https://wro-association.org/" target="_blank" rel="noopener">WRO</a> alumnus who has competed in robotics since 2013 and represented India internationally three times. I've mentored a team to Runner-up Best Project Research at the 2018 FLL European Opens in Estonia, and continue to mentor FLL, FTC and Vex teams at <a href="https://www.robominds.in/" target="_blank" rel="noopener">Robominds</a>.</p>
 
       <h3>Achievements</h3>
       <ul class="clean">
@@ -414,6 +424,42 @@
     <!-- Projects -->
     <section id="projects">
       <h2 class="section-title">Projects</h2>
+
+      <p class="proj-group">Navigation &amp; Perception</p>
+
+      <h3>Visual Navigation Policy with V-JEPA2 and Diffusion Policy</h3>
+      <p class="meta-line"><a href="https://github.com/adipotnis/DiffusionNav" target="_blank" rel="noopener">Code</a></p>
+      <div class="side-by-side">
+        <div class="media">
+          <video controls><source src="images/vjepa_vid_gen/clip_jackal_2019-12-19-10-58-43_3_r01.mp4" type="video/mp4"></video>
+          <video controls><source src="images/vjepa_vid_gen/clip_random_mdps_B_Jackal_GDC_Library_Sat_Nov_13_87_0.mp4" type="video/mp4"></video>
+        </div>
+        <div class="text">
+          <p>Trained a visual navigation policy using a frozen V-JEPA2 backbone for spatiotemporal feature extraction from egocentric video, with a Diffusion Policy action head for action prediction.</p>
+        </div>
+      </div>
+
+      <h3>Adapt: Diffusion-Predicted Pedestrian Avoidance with MPPI Control on the Polaris GEM e4 (CS 588)</h3>
+      <p class="meta-line"><a href="docs/cs588_group10.pdf" target="_blank" rel="noopener">Report</a></p>
+      <div class="side-by-side">
+        <div class="media">
+          <video controls><source src="images/cs588_group10.mp4" type="video/mp4"></video>
+        </div>
+        <div class="text">
+          <p>Autonomous driving stack on the Polaris GEM e4 that pairs a diffusion-based pedestrian predictor with an MPPI planner for pedestrian-aware avoidance, plus a text-promptable LiDAR-camera module for open-vocabulary goals.</p>
+        </div>
+      </div>
+
+      <h3>Semantic-aware segmentation and navigation using CLIPSeg (CS440)</h3>
+      <p class="meta-line"><a href="docs/smartnav.pdf" target="_blank" rel="noopener">Slides</a> &nbsp;|&nbsp; <a href="docs/CS440-Final-Project.pdf" target="_blank" rel="noopener">Report</a></p>
+      <div class="side-by-side">
+        <div class="media">
+          <img src="images/smartnav-image.png" alt="SmartNav segmentation output">
+        </div>
+        <div class="text">
+          <p>Combined CLIPSeg with Depth-Anything V2 for obstacle-aware gridmap generation (94% accuracy); modified A* planner with goal-object validation achieves 81% success rate for line-of-sight pathfinding.</p>
+        </div>
+      </div>
 
       <p class="proj-group">Hardware, Simulation &amp; Tooling</p>
 
@@ -443,52 +489,6 @@
       <h3>ROS1 ROS2 bridge for faster debugging and code refactoring</h3>
       <p>Created a Docker image generation repo to accelerate image creation and facilitate easier refactoring. <a href="https://github.com/adipotnis/ros1_bridge_ws" target="_blank" rel="noopener">Link</a></p>
 
-      <p class="proj-group">Navigation &amp; Perception</p>
-
-      <h3>Visual Navigation Policy with V-JEPA2 and Diffusion Policy</h3>
-      <p class="meta-line"><a href="https://github.com/adipotnis/DiffusionNav" target="_blank" rel="noopener">Code</a></p>
-      <div class="side-by-side">
-        <div class="media">
-          <video controls><source src="images/vjepa_vid_gen/clip_jackal_2019-12-19-10-58-43_3_r01.mp4" type="video/mp4"></video>
-          <video controls><source src="images/vjepa_vid_gen/clip_random_mdps_B_Jackal_GDC_Library_Sat_Nov_13_87_0.mp4" type="video/mp4"></video>
-        </div>
-        <div class="text">
-          <p>Trained a visual navigation policy using a frozen V-JEPA2 backbone for spatiotemporal feature extraction from egocentric video, with a Diffusion Policy action head for action prediction.</p>
-        </div>
-      </div>
-
-      <h3>Adapt: Diffusion-Predicted Pedestrian Avoidance with MPPI Control on the Polaris GEM e4 (CS 588)</h3>
-      <p class="meta-line"><a href="docs/cs588_group10.pdf" target="_blank" rel="noopener">Report</a></p>
-      <div class="side-by-side">
-        <div class="media">
-          <video controls><source src="images/cs588_group10.mp4" type="video/mp4"></video>
-        </div>
-        <div class="text">
-          <p>Autonomous driving stack on the Polaris GEM e4 that pairs a diffusion-based pedestrian predictor with an MPPI planner for pedestrian-aware avoidance, plus a text-promptable LiDAR-camera module for open-vocabulary goals.</p>
-        </div>
-      </div>
-
-      <h3>VLM assisted Octomap generation for navigation</h3>
-      <div class="side-by-side">
-        <div class="media media--tall">
-          <video controls><source src="images/octomap-proj-1.mp4" type="video/mp4"></video>
-        </div>
-        <div class="text">
-          <p>Implemented open-vocabulary segmentation with CLIPSeg and stereo depth-based point cloud generation via Open3D to build octomaps for 3D robot navigation, tested on the NVIDIA r2b_2023 dataset.</p>
-        </div>
-      </div>
-
-      <h3>Semantic-aware segmentation and navigation using CLIPSeg (CS440)</h3>
-      <p class="meta-line"><a href="docs/smartnav.pdf" target="_blank" rel="noopener">Slides</a> &nbsp;|&nbsp; <a href="docs/CS440-Final-Project.pdf" target="_blank" rel="noopener">Report</a></p>
-      <div class="side-by-side">
-        <div class="media">
-          <img src="images/smartnav-image.png" alt="SmartNav segmentation output">
-        </div>
-        <div class="text">
-          <p>Combined CLIPSeg with Depth-Anything V2 for obstacle-aware gridmap generation (94% accuracy); modified A* planner with goal-object validation achieves 81% success rate for line-of-sight pathfinding.</p>
-        </div>
-      </div>
-
       <p class="proj-group">Generative Models</p>
 
       <h3>Low-Rank Adaptation for Video Generation with semantic relative pose prompts (CS 598 3D Vision, HACKER Project)</h3>
@@ -516,7 +516,7 @@
     </section>
 
     <hr>
-    <p class="colophon">Built with plain HTML &amp; CSS.</p>
+    <p class="colophon">Design inspired by <a href="https://vardhandongre.github.io/" target="_blank" rel="noopener">Vardhan</a>'s website.</p>
 
   </main>
 </div>
