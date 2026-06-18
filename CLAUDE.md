@@ -4,41 +4,37 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-Personal academic website for Aditya Potnis, deployed via GitHub Pages at https://adipotnis.github.io. Jekyll site using the `mmistakes/minimal-mistakes` remote theme (v4.26.2).
+Personal academic website for Aditya Potnis, deployed via GitHub Pages at https://adipotnis.github.io. A hand-written static site — plain HTML and CSS, no framework, no build step. The `.nojekyll` file at the repo root tells GitHub Pages to serve files as-is (Jekyll processing disabled).
 
 ## Local development
 
 ```bash
-bundle install
-bundle exec jekyll serve
+python3 -m http.server 8000
 ```
 
-Site serves at http://localhost:4000. GitHub Pages builds on push, so changes to `main` go live automatically.
+Then open http://localhost:8000. There is no build step — edit `index.html` and refresh. Pushing to `master` deploys automatically via GitHub Pages.
 
 ## Architecture
 
-- `index.md` — the entire single-page site. All content (About, Publications, Projects, Competitive Robotics) lives here as markdown plus inline HTML. Adding or reordering sections means editing this one file.
-- `_config.yml` — site-level settings, author profile, and sidebar/footer links. The `remote_theme` line pulls minimal-mistakes from GitHub; do not commit a local theme copy.
-- `_data/navigation.yml` — top-nav anchor links. Anchors must match the auto-generated section IDs from `index.md` headings (lowercased, spaces → hyphens).
-- `_includes/head/custom.html` — site-wide CSS overrides for the minimal-mistakes theme. Defines the `.side-by-side` flex layout used throughout `index.md` for text-next-to-media project blocks, plus sidebar/page-width overrides. Style changes for the site go here, not in `index.md`.
-- `images/` and `docs/` — static assets referenced from `index.md` via relative paths (`images/foo.mp4`, `docs/bar.pdf`).
+- `index.html` — the entire single-page site. All content (About, Education, Publications, Competitive Robotics, Projects) and all styling live here: content as HTML, styles in a single `<style>` block in `<head>`. Adding or reordering sections means editing this one file.
+- `.nojekyll` — disables Jekyll on GitHub Pages so the raw `index.html` is served.
+- `images/` and `docs/` — static assets referenced from `index.html` via relative paths (`images/foo.mp4`, `docs/bar.pdf`). Filenames with spaces work; the browser/URL handles the encoding.
 
-## Conventions for `index.md`
+## Conventions for `index.html`
 
-Each project/publication entry follows a repeating pattern:
+- **Layout:** a narrow left sticky `.sidebar` (right-aligned nav links + social links) beside a `.main-content` column (~720px max). Sidebar nav anchors (`#about`, `#education`, …) must match the `id` on the corresponding `<section>`.
+- **Design tokens:** CSS custom properties on `:root` — warm-white background (`--bg`), dark-grey ink (`--ink`/`--accent`, no color accent), Crimson Pro (serif headings), Inter (body), JetBrains Mono (dates/meta). Change the palette there, in one place.
+- **Media blocks:** each project/publication with media uses the `.side-by-side` flex pattern — text next to an image/video. Use `media--tall` for portrait media:
 
-```markdown
-### Title
-Code/Paper/Report: [Link](url)
-
-<div class="side-by-side">
-<div class="media">
-<video controls><source src="images/foo.mp4" type="video/mp4"></video>
-</div>
-<div class="text" markdown="1">
-Description paragraph.
-</div>
-</div>
-```
-
-The `markdown="1"` attribute on the inner `.text` div is required for Jekyll to render markdown inside the HTML block. Omitting it leaves the description as literal text.
+  ```html
+  <h3>Title</h3>
+  <p class="meta-line"><a href="url" target="_blank" rel="noopener">Code</a></p>
+  <div class="side-by-side">
+    <div class="media">
+      <video controls><source src="images/foo.mp4" type="video/mp4"></video>
+    </div>
+    <div class="text">
+      <p>Description paragraph.</p>
+    </div>
+  </div>
+  ```

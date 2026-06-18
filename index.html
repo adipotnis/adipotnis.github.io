@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aditya Potnis</title>
+<meta name="description" content="Robotics Engineer specializing in semantic navigation for semistructured and unstructured environments.">
+
+<!-- Open Graph / link previews -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Aditya Potnis">
+<meta property="og:description" content="Robotics Engineer specializing in semantic navigation for semistructured and unstructured environments.">
+<meta property="og:url" content="https://adipotnis.github.io">
+<meta property="og:image" content="https://adipotnis.github.io/images/IMG_6499.png">
+<meta name="twitter:card" content="summary">
+
+<link rel="icon" type="image/x-icon" href="images/uiucfavicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="images/uiucfavicon.ico">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --bg: #faf8f5;
+    --ink: #1a1814;
+    --ink-soft: #3d3a34;
+    --muted: #7a756c;
+    --rule: #e6e1d8;
+    --accent: #1a1814;
+    --serif: 'Crimson Pro', Georgia, serif;
+    --sans: 'Inter', -apple-system, system-ui, sans-serif;
+    --mono: 'JetBrains Mono', ui-monospace, monospace;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 15px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  a:hover { text-decoration: underline; }
+
+  /* in-text links stay findable without color */
+  .main-content p a,
+  .main-content li a {
+    text-decoration: underline;
+    text-decoration-color: var(--rule);
+    text-underline-offset: 2px;
+  }
+  .main-content p a:hover,
+  .main-content li a:hover { text-decoration-color: var(--ink); }
+
+  /* ---------- Layout ---------- */
+  .app-container {
+    max-width: 1200px;
+    margin-left: 8%;
+    margin-right: auto;
+    padding: 4rem 1.5rem;
+    display: flex;
+    gap: 4rem;
+    align-items: flex-start;
+  }
+
+  .sidebar {
+    width: 150px;
+    flex-shrink: 0;
+    position: sticky;
+    top: 4rem;
+    height: fit-content;
+    text-align: right;
+  }
+  .sidebar nav ul {
+    list-style: none;
+    margin: 0 0 1.75rem;
+    padding: 0;
+  }
+  .sidebar nav li { margin: 0.35rem 0; }
+  .sidebar nav a {
+    color: var(--ink-soft);
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .sidebar nav a:hover { color: var(--accent); text-decoration: none; }
+
+  .sidebar .social {
+    list-style: none;
+    margin: 0;
+    padding: 1.5rem 0 0;
+    border-top: 1px solid var(--rule);
+  }
+  .sidebar .social li { margin: 0.3rem 0; }
+  .sidebar .social a {
+    color: var(--muted);
+    font-family: var(--mono);
+    font-size: 12px;
+  }
+  .sidebar .social a:hover { color: var(--accent); text-decoration: none; }
+
+  .main-content {
+    flex: 1;
+    max-width: 720px;
+    min-width: 0;
+  }
+
+  /* ---------- Header ---------- */
+  .intro-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  .profile-pic {
+    width: 160px;
+    height: 160px;
+    border-radius: 4px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  .intro-text { min-width: 0; }
+  .name {
+    font-family: var(--serif);
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0 0 0.25rem;
+    line-height: 1.1;
+  }
+  .role {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 1.05rem;
+    color: var(--ink-soft);
+    margin: 0 0 0.75rem;
+  }
+  .header-bio {
+    color: var(--ink-soft);
+    margin: 0;
+  }
+
+  /* ---------- Sections ---------- */
+  section { margin-bottom: 3rem; scroll-margin-top: 2rem; }
+
+  h2.section-title {
+    font-family: var(--serif);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0 0 1.25rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  h3 {
+    font-family: var(--serif);
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin: 1.75rem 0 0.25rem;
+    line-height: 1.3;
+  }
+  section > *:first-child + h3,
+  h2.section-title + h3 { margin-top: 0; }
+
+  .authors {
+    color: var(--muted);
+    font-size: 13.5px;
+    margin: 0 0 0.25rem;
+  }
+  .authors strong { color: var(--ink-soft); }
+
+  .meta-line {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--muted);
+    margin: 0 0 0.5rem;
+  }
+
+  .degree { margin: 0 0 0.35rem; color: var(--ink-soft); }
+  .coursework { color: var(--muted); font-size: 14px; margin: 0; }
+
+  ul.clean { padding-left: 1.1rem; margin: 0.5rem 0; }
+  ul.clean li { margin: 0.35rem 0; color: var(--ink-soft); }
+
+  .favicon { width: 16px; vertical-align: middle; }
+
+  /* ---------- Media blocks (ported from the old site) ---------- */
+  .side-by-side {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5em;
+    margin: 0.75em 0 1em;
+  }
+  .side-by-side .text { flex: 1 1 60%; min-width: 0; }
+  .side-by-side .text p { margin: 0; }
+  .side-by-side .media { flex: 0 0 auto; max-width: 280px; }
+  .side-by-side .media img,
+  .side-by-side .media video {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    display: block;
+  }
+  .side-by-side .media.media--tall { max-width: none; }
+  .side-by-side .media.media--tall img,
+  .side-by-side .media.media--tall video {
+    width: auto;
+    max-height: 320px;
+    display: block;
+    margin-bottom: 0.5em;
+  }
+
+  .logos img { vertical-align: middle; margin-right: 1rem; }
+
+  hr {
+    border: 0;
+    border-top: 1px solid var(--rule);
+    margin: 2.5rem 0 1.5rem;
+  }
+  .colophon { color: var(--muted); font-size: 12px; font-family: var(--mono); }
+
+  /* ---------- Responsive ---------- */
+  @media (max-width: 850px) {
+    .app-container {
+      flex-direction: column;
+      margin-left: auto;
+      gap: 2.5rem;
+      padding: 2.5rem 1.25rem;
+    }
+    .sidebar {
+      position: static;
+      width: 100%;
+      text-align: left;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem 1.5rem;
+      align-items: center;
+    }
+    .sidebar nav ul { margin: 0; display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; }
+    .sidebar nav li { margin: 0; }
+    .sidebar .social {
+      border-top: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1rem;
+    }
+    .sidebar .social li { margin: 0; }
+  }
+
+  @media (max-width: 600px) {
+    .intro-container { flex-direction: column; gap: 1.25rem; }
+    .side-by-side { flex-direction: column; }
+    .side-by-side .media { max-width: 100%; }
+  }
+</style>
+</head>
+<body>
+<div class="app-container">
+
+  <!-- ===================== Sidebar ===================== -->
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#competitive-robotics">Competitive Robotics</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </nav>
+    <ul class="social">
+      <li><a href="https://www.linkedin.com/in/adityapotnis/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="https://github.com/adipotnis" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="https://scholar.google.com/citations?user=-8oco00AAAAJ&hl=en" target="_blank" rel="noopener">Scholar</a></li>
+      <li><a href="https://twitter.com/aditya_potnis" target="_blank" rel="noopener">Twitter</a></li>
+      <li><a href="docs/aditya_potnis_cv.pdf" target="_blank" rel="noopener">CV</a></li>
+    </ul>
+  </aside>
+
+  <!-- ===================== Main ===================== -->
+  <main class="main-content">
+
+    <!-- Header -->
+    <header class="intro-container" id="about">
+      <img class="profile-pic" src="images/IMG_6499.png" alt="Aditya Potnis">
+      <div class="intro-text">
+        <h1 class="name">Aditya Potnis</h1>
+        <p class="role">Robotics &middot; MS CS @ UIUC</p>
+        <p class="header-bio">I work on enabling robots to navigate and act in unstructured environments using foundation models.</p>
+      </div>
+    </header>
+
+    <!-- About -->
+    <section>
+      <p>Currently, I'm a student at UIUC <img class="favicon" src="images/uiucfavicon.ico" alt="UIUC"> pursuing a MS in Computer Science. I'm advised by <a href="http://daslab.illinois.edu/index.html#girish" target="_blank" rel="noopener">Girish Chowdhary</a> at <a href="http://daslab.illinois.edu/index.html" target="_blank" rel="noopener">Distributed Autonomous Systems Lab</a>. My research is focused on Generalized Navigation with Vision Language Action models and embodiment aware grounding for Vision Large Language Models. My research is supported by <a href="https://science.nasa.gov/science-research/earth-science/the-firesense-project/" target="_blank" rel="noopener">NASA FireSense</a>, <a href="https://aifarms.illinois.edu/" target="_blank" rel="noopener">AIFARMS</a>, <a href="https://i-farm.illinois.edu/" target="_blank" rel="noopener">I-FARM</a>, <a href="https://sites.google.com/view/coalescepreview" target="_blank" rel="noopener">COALESCE</a>, and <a href="https://access-ci.org/" target="_blank" rel="noopener">NSF ACCESS</a>.</p>
+
+      <p>Previously at <a href="https://www.earthsense.co/" target="_blank" rel="noopener">Earthsense</a>, I developed hardware, autonomy and low-level control with torque vectoring for the 750kg TerraMax UGV's dual-ackermann and driving controllers for the 200+ TerraPreta and TerraSentia field robots.</p>
+
+      <p>I enjoy running and cycling, currently preparing for a 5k in 25 minutes.</p>
+
+      <div class="side-by-side" style="justify-content: flex-start;">
+        <div class="media">
+          <a href="https://www.youtube.com/watch?v=1CN3ZjOrtVQ" target="_blank" rel="noopener"><img src="https://img.youtube.com/vi/1CN3ZjOrtVQ/0.jpg" alt="TerraMax robot video"></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+      <h2 class="section-title">Education</h2>
+
+      <h3><a href="https://illinois.edu/" target="_blank" rel="noopener">University of Illinois Urbana-Champaign</a> <img class="favicon" src="images/uiucfavicon.ico" alt="UIUC"></h3>
+      <p class="degree">MS in Computer Science</p>
+      <p class="coursework"><strong>Relevant coursework:</strong> Humanoid Robotics, Autonomous Vehicle System Engineering, 3D Vision, Networked IoT, Software Engineering, Artificial Intelligence.</p>
+
+      <h3><a href="https://www.coeptech.ac.in/" target="_blank" rel="noopener">College of Engineering, Pune</a> <img class="favicon" src="images/coepfavicon.ico" alt="COEP"></h3>
+      <p class="degree">B.Tech in Mechanical Engineering, Minor in Computer Engineering</p>
+      <p class="coursework"><strong>Relevant coursework:</strong> Machine Design, Robotics and Automation, Mechanics of Materials, Engineering Mechanics, Linear Algebra, Vector Calculus.</p>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications">
+      <h2 class="section-title">Publications</h2>
+
+      <h3>CATNAV: Cached Vision-Language Traversability for Efficient Zero-Shot Robot Navigation</h3>
+      <p class="authors"><strong>Aditya Potnis</strong>, Francisco Affonso, Shreya Gummadi, Naveen Kumar Uppalapati, Girish Chowdhary</p>
+      <p class="meta-line"><a href="https://arxiv.org/abs/2603.22800" target="_blank" rel="noopener">Paper</a> &nbsp;|&nbsp; <a href="https://adipotnis.github.io/catnav-website/" target="_blank" rel="noopener">Website</a></p>
+      <div class="side-by-side">
+        <div class="media">
+          <video controls><source src="images/catnav_1min.mp4" type="video/mp4"></video>
+        </div>
+        <div class="text">
+          <p>Zero-shot embodiment-aware traversability framework using multimodal LLMs for costmap generation; visuosemantic caching reduces online VLM queries by 85.7%, achieving 10% higher goal-reaching rate and 33% fewer behavioral constraint violations versus state-of-the-art VLA baselines on a quadruped robot.</p>
+        </div>
+      </div>
+
+      <h3>CTS-MoE: Implicit Policy Adaptation Enables Perceptive Locomotion on Discontinuous Terrain</h3>
+      <p class="authors">Francisco Affonso, Matheus P. Angarola, Ana Luiza Mineiro, <strong>Aditya Potnis</strong>, Marcelo Becker, Girish Chowdhary</p>
+      <p class="meta-line">Under Review</p>
+      <p>Concurrent teacher student architecture for mixture of experts, enabling implicit policy adaptation for perceptive locomotion on discontinuous terrain.</p>
+
+      <h3>Visual-Language-Guided Task Planning for Horticultural Robots</h3>
+      <p class="authors">Jose Cuaran, Kendall Koe, <strong>Aditya Potnis</strong>, Naveen Kumar Uppalapati, Girish Chowdhary</p>
+      <p class="meta-line">Computers and Electronics in Agriculture &nbsp;|&nbsp; <a href="https://www.arxiv.org/abs/2601.11906" target="_blank" rel="noopener">Paper</a> &nbsp;|&nbsp; <a href="https://kendallkoe.com/Visual-Language-Guided-Task-Planning-for-Horticultural-Robots/" target="_blank" rel="noopener">Website</a></p>
+      <div class="side-by-side">
+        <div class="media">
+          <video controls><source src="images/horticultural_robot.mp4" type="video/mp4"></video>
+        </div>
+        <div class="text">
+          <p>Modular VLM-guided framework for precision agriculture interleaving natural language queries with action primitives for autonomous crop monitoring, benchmarked long-horizon planning using MLLMs, finding human-comparable performance on short-horizon tasks but degradation in long-horizon scenarios with noisy semantic maps.</p>
+        </div>
+      </div>
+
+      <p class="meta-line">more coming soon &hellip;</p>
+    </section>
+
+    <!-- Competitive Robotics -->
+    <section id="competitive-robotics">
+      <h2 class="section-title">Competitive Robotics</h2>
+
+      <p class="logos">
+        <img src="images/channels4_profile.jpg" alt="FLL logo" width="80">
+        <img src="images/images.png" alt="WRO logo" width="160">
+      </p>
+
+      <p>I am a <a href="https://www.firstinspires.org/" target="_blank" rel="noopener">FIRST</a> and <a href="https://wro-association.org/" target="_blank" rel="noopener">WRO</a> alumni and I have participated in Robotics competitions since 2013. I have represented India Internationally in Robotics competitions thrice and also mentored a team which won Runner up Best Project Research in FLL Europe Opens in Estonia in 2018. I continue to mentor teams at <a href="https://www.robominds.in/" target="_blank" rel="noopener">Robominds</a> for FLL, FTC and Vex Robotics.</p>
+
+      <h3>Achievements</h3>
+      <ul class="clean">
+        <li>Team India Coach, 2018 FIRST Lego League European Championships at Tallinn, Estonia. Team stood 2nd place for Best Project Research and 4th in Overall Robot Game.</li>
+        <li>Team India Representative in <a href="https://wro-association.org/competition/previous-challenges/" target="_blank" rel="noopener">World Robot Olympiad Internationals 2017 (Costa Rica)</a>.</li>
+        <li>Team India Representative 2016 (India) in <a href="https://wro-association.org/competition/previous-challenges/" target="_blank" rel="noopener">WRO 2016 Internationals, New Delhi</a>, Gold Medal in 2016 Nationals.</li>
+        <li>Team India Representative, Top 10 in <a href="https://www.firstlegoleague.org/past-challenges" target="_blank" rel="noopener">First Lego League Open European Championships, Spain (2016)</a> (Fully sponsored by Tata Motors).</li>
+      </ul>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2 class="section-title">Projects</h2>
+
+      <h3>Visual Navigation Policy with V-JEPA2 and Diffusion Policy</h3>
+      <p class="meta-line"><a href="https://github.com/adipotnis/DiffusionNav" target="_blank" rel="noopener">Code</a></p>
+      <div class="side-by-side">
+        <div class="media">
+          <video controls><source src="images/vjepa_vid_gen/clip_jackal_2019-12-19-10-58-43_3_r01.mp4" type="video/mp4"></video>
+          <video controls><source src="images/vjepa_vid_gen/clip_random_mdps_B_Jackal_GDC_Library_Sat_Nov_13_87_0.mp4" type="video/mp4"></video>
+        </div>
+        <div class="text">
+          <p>Trained a visual navigation policy using a frozen V-JEPA2 backbone for spatiotemporal feature extraction from egocentric video, with a Diffusion Policy action head for action prediction.</p>
+        </div>
+      </div>
+
+      <h3>Adapt: Diffusion-Predicted Pedestrian Avoidance with MPPI Control on the Polaris GEM e4 (CS 588)</h3>
+      <p class="meta-line"><a href="docs/cs588_group10.pdf" target="_blank" rel="noopener">Report</a></p>
+      <div class="side-by-side">
+        <div class="media">
+          <video controls><source src="images/cs588_group10.mp4" type="video/mp4"></video>
+        </div>
+        <div class="text">
+          <p>Autonomous driving stack on the Polaris GEM e4 that pairs a diffusion-based pedestrian predictor with an MPPI planner for pedestrian-aware avoidance, plus a text-promptable LiDAR-camera module for open-vocabulary goals.</p>
+        </div>
+      </div>
+
+      <h3>Low-Rank Adaptation for Video Generation with semantic relative pose prompts (CS 598 3D Vision, HACKER Project)</h3>
+      <p class="meta-line"><a href="https://github.com/chih-hao-lin/3DV_2025Fall/tree/main/group_09_video_generation/apotnis2_lora_finetune" target="_blank" rel="noopener">Code</a></p>
+      <div class="side-by-side">
+        <div class="media">
+          <video controls><source src="images/vid-gen-robot.mp4" type="video/mp4"></video>
+        </div>
+        <div class="text">
+          <p>Fine-tuned Wan 2.2 (1.3B) with LoRA to generate robot-POV navigation videos from text and motion plans for scalable outdoor data synthesis. Evaluated motion fidelity and failure modes, proposing hierarchical motion-primitive curriculum training to improve alignment.</p>
+        </div>
+      </div>
+
+      <h3>GhibliDream &ndash; Studio-Ghibli inspired Stylization of Stable Diffusion (CS 444)</h3>
+      <p class="meta-line"><a href="docs/CS444-ghiblidream.pdf" target="_blank" rel="noopener">Report</a></p>
+      <div class="side-by-side">
+        <div class="media">
+          <img src="images/Screenshot 2025-07-26 044527.png" alt="Generated sample images">
+        </div>
+        <div class="text">
+          <p>Fine-tuned StableDiffusion-2.0 with DreamBooth on curated Ghibli images using LLM-assisted auto-captioning, achieving 0.90+ CLIP-I cosine similarity on foreground characters while retaining background quality.</p>
+        </div>
+      </div>
+
+      <h3>Salto Simulator for development</h3>
+      <p class="meta-line"><a href="https://github.com/adipotnis/gazebo_plugin_salto" target="_blank" rel="noopener">Code</a></p>
+      <div class="side-by-side">
+        <div class="media">
+          <img src="images/20250312-1307-47.1662169.gif" alt="Salto animation">
+        </div>
+        <div class="text">
+          <p>Gazebo plugin simulating <a href="https://www.youtube.com/watch?v=5tMjHBk-2JQ" target="_blank" rel="noopener">Salto-1P</a> jumping motion as a point object, supporting parabolic trajectory jumping and simulated odometry/pose estimation to accelerate autonomy development.</p>
+        </div>
+      </div>
+
+      <h3>Design and Analysis of Tendon actuated Robotic arm using Bowden cables and Mechanical Multiplexing (Thesis @ COEP)</h3>
+      <p class="meta-line"><a href="docs/robotic_arm_mux_report.pdf" target="_blank" rel="noopener">Report</a></p>
+      <div class="side-by-side">
+        <div class="media media--tall">
+          <img src="images/multiplexer-arm-2.gif" alt="Multiplexer arm animation">
+          <img src="images/multiplexer-arm-1.jpg" alt="Multiplexer arm" style="max-width: 280px; max-height: none;">
+        </div>
+        <div class="text">
+          <p>Designed a modular 4-DOF Bowden cable-driven tendon-actuated robot arm with a mechanical multiplexer enabling full control with only 2 stepper motors, prototyped with FDM printing and including FK/IK solvers. Awarded Best Working Project (Mechanical) at COEP; provisional patent filed (IN202321006687).</p>
+        </div>
+      </div>
+
+      <h3>ROS1 ROS2 bridge for faster debugging and code refactoring</h3>
+      <p>Created a Docker image generation repo to accelerate image creation and facilitate easier refactoring. <a href="https://github.com/adipotnis/ros1_bridge_ws" target="_blank" rel="noopener">Link</a></p>
+
+      <h3>VLM assisted Octomap generation for navigation</h3>
+      <div class="side-by-side">
+        <div class="media media--tall">
+          <video controls><source src="images/octomap-proj-1.mp4" type="video/mp4"></video>
+        </div>
+        <div class="text">
+          <p>Implemented open-vocabulary segmentation with CLIPSeg and stereo depth-based point cloud generation via Open3D to build octomaps for 3D robot navigation, tested on the NVIDIA r2b_2023 dataset.</p>
+        </div>
+      </div>
+
+      <h3>Semantic-aware segmentation and navigation using CLIPSeg (CS440)</h3>
+      <p class="meta-line"><a href="docs/smartnav.pdf" target="_blank" rel="noopener">Slides</a> &nbsp;|&nbsp; <a href="docs/CS440-Final-Project.pdf" target="_blank" rel="noopener">Report</a></p>
+      <div class="side-by-side">
+        <div class="media">
+          <img src="images/smartnav-image.png" alt="SmartNav segmentation output">
+        </div>
+        <div class="text">
+          <p>Combined CLIPSeg with Depth-Anything V2 for obstacle-aware gridmap generation (94% accuracy); modified A* planner with goal-object validation achieves 81% success rate for line-of-sight pathfinding.</p>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+    <p class="colophon">Built with plain HTML &amp; CSS.</p>
+
+  </main>
+</div>
+</body>
+</html>
