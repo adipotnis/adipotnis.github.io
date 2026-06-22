@@ -525,5 +525,50 @@
 
   </main>
 </div>
+
+<script>
+(function () {
+  if (sessionStorage.getItem('visit_logged')) return;
+
+  // Paste your deployed Google Apps Script web app /exec URL here.
+  var LOG_ENDPOINT = 'https://script.google.com/macros/s/AKfycbyr0yqUHcozGEeBFJ_HbPD-Ds7lTet6-sspwFghr5V8gjJzMwCn_aRvkvAmluhXHTFYew/exec';
+  if (LOG_ENDPOINT.indexOf('PASTE_') === 0) return; // not configured yet
+
+  fetch('https://ipapi.co/json/')
+    .then(function (res) { return res.json(); })
+    .then(function (data) {
+      var nav = navigator;
+      var payload = {
+        ip: data.ip || 'unknown',
+        city: data.city || 'unknown',
+        region: data.region || 'unknown',
+        country: data.country_name || 'unknown',
+        postal: data.postal || 'unknown',
+        coords: (data.latitude && data.longitude) ? (data.latitude + ', ' + data.longitude) : 'unknown',
+        timezone: data.timezone || 'unknown',
+        org: data.org || 'unknown',
+        asn: data.asn || 'unknown',
+        time: new Date().toLocaleString(),
+        page: window.location.href,
+        referrer: document.referrer || 'direct / unknown',
+        user_agent: nav.userAgent,
+        language: nav.language || 'unknown',
+        screen_resolution: screen.width + 'x' + screen.height,
+        viewport_size: window.innerWidth + 'x' + window.innerHeight,
+        cpu_cores: nav.hardwareConcurrency || 'unknown',
+        device_memory: nav.deviceMemory ? (nav.deviceMemory + ' GB') : 'unknown',
+        network_type: (nav.connection && nav.connection.effectiveType) || 'unknown'
+      };
+      return fetch(LOG_ENDPOINT, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+        body: JSON.stringify(payload)
+      });
+    })
+    .then(function () { sessionStorage.setItem('visit_logged', '1'); })
+    .catch(function () { /* silently fail — tracking must never break the site */ });
+})();
+</script>
 </body>
 </html>
