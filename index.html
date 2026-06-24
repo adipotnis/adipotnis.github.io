@@ -34,6 +34,15 @@
     --mono: 'IBM Plex Mono', ui-monospace, monospace;
   }
 
+  :root[data-theme="dark"] {
+    --bg: #0f1115;
+    --ink: #e8eaed;
+    --ink-soft: #c2c6cd;
+    --muted: #8b929c;
+    --rule: #2a2f38;
+    --accent: #e8eaed;
+  }
+
   * { box-sizing: border-box; }
 
   html { scroll-behavior: smooth; }
@@ -46,6 +55,7 @@
     font-size: 15px;
     line-height: 1.65;
     -webkit-font-smoothing: antialiased;
+    transition: background-color 0.2s ease, color 0.2s ease;
   }
 
   a {
@@ -119,6 +129,18 @@
     font-size: 12px;
   }
   .sidebar .social a:hover { color: var(--accent); text-decoration: none; }
+
+  .theme-toggle {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: var(--muted);
+    font-family: var(--mono);
+    font-size: 12px;
+    line-height: 1;
+  }
+  .theme-toggle:hover { color: var(--accent); }
 
   .main-content {
     width: 100%;
@@ -298,6 +320,14 @@
     .side-by-side .media { max-width: 100%; }
   }
 </style>
+<script>
+  // Apply saved/preferred theme before paint to avoid a flash.
+  (function () {
+    var saved = localStorage.getItem('theme');
+    var theme = saved || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>
 </head>
 <body>
 <div class="app-container">
@@ -319,6 +349,7 @@
       <li><a href="https://scholar.google.com/citations?user=-8oco00AAAAJ&hl=en" target="_blank" rel="noopener">Scholar</a></li>
       <li><a href="https://x.com/aditya_potnis" target="_blank" rel="noopener">X</a></li>
       <li><a href="docs/aditya_potnis_cv.pdf" target="_blank" rel="noopener">CV</a></li>
+      <li><button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode"></button></li>
     </ul>
   </aside>
 
@@ -525,6 +556,26 @@
 
   </main>
 </div>
+
+<script>
+  // Dark / light mode toggle.
+  (function () {
+    var btn = document.getElementById('theme-toggle');
+    if (!btn) return;
+    function render() {
+      var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+      btn.textContent = dark ? 'Light' : 'Dark';
+    }
+    btn.addEventListener('click', function () {
+      var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+      var next = dark ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+      render();
+    });
+    render();
+  })();
+</script>
 
 <script>
 (function () {
