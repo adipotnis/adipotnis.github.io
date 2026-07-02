@@ -431,7 +431,7 @@
       <p class="meta-line">Under Review &nbsp;|&nbsp; <a href="https://arxiv.org/abs/2606.19633" target="_blank" rel="noopener">Paper</a> &nbsp;|&nbsp; <a href="https://cts-moe.github.io/" target="_blank" rel="noopener">Website</a></p>
       <div class="side-by-side">
         <div class="media">
-          <img id="cts-moe-slideshow" src="images/cts-moe-architecture.png" alt="CTS-MoE architecture, deployment, and expert routing" style="border-radius:4px;">
+          <img src="images/cts-moe.gif" alt="CTS-MoE architecture, deployment, and expert routing">
         </div>
         <div class="text">
           <p>A concurrent teacher&ndash;student, mixture-of-experts architecture enabling implicit policy adaptation for perceptive locomotion on discontinuous terrain.</p>
@@ -633,24 +633,6 @@
     })
     .then(function () { sessionStorage.setItem('visit_logged', '1'); })
     .catch(function () { /* silently fail — tracking must never break the site */ });
-})();
-</script>
-
-<script>
-(function () {
-  var imgs = [
-    'images/cts-moe-architecture.png',
-    'images/cts-moe-deployment.png',
-    'images/cts-moe-radar.png'
-  ];
-  var el = document.getElementById('cts-moe-slideshow');
-  if (!el) return;
-  var i = 0;
-  imgs.forEach(function (src) { var img = new Image(); img.src = src; });
-  setInterval(function () {
-    i = (i + 1) % imgs.length;
-    el.src = imgs[i];
-  }, 3000);
 })();
 </script>
 </body>
