@@ -286,6 +286,72 @@
     margin-bottom: 0.5em;
   }
 
+  /* ---------- Collapsible project cards ---------- */
+  .project-card {
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    margin: 0.75rem 0;
+    overflow: hidden;
+    transition: border-color 0.15s;
+  }
+  .project-card:hover { border-color: var(--muted); }
+  .project-card[open] { border-color: var(--muted); }
+
+  .project-card summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 0.75rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    user-select: none;
+  }
+  .project-card summary::-webkit-details-marker { display: none; }
+  .project-card summary::marker { content: ''; }
+
+  .project-card summary .chevron {
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+    color: var(--muted);
+    transition: transform 0.2s;
+  }
+  .project-card[open] summary .chevron { transform: rotate(90deg); }
+
+  .project-card .project-thumb {
+    width: 64px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 3px;
+    flex-shrink: 0;
+    background: var(--rule);
+  }
+
+  .project-card .project-preview-info {
+    min-width: 0;
+    flex: 1;
+  }
+  .project-card .project-preview-info h3 {
+    font-family: var(--serif);
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.3;
+  }
+  .project-card .project-preview-info .meta-line {
+    margin: 0.15rem 0 0;
+  }
+
+  .project-card .project-detail {
+    padding: 0 1rem 1rem;
+  }
+  .project-card .project-detail .side-by-side {
+    margin-top: 0.5em;
+  }
+  .project-card .project-detail p:first-child {
+    margin-top: 0;
+  }
+
   .logos img { vertical-align: middle; margin-right: 1rem; }
 
   hr {
@@ -351,6 +417,7 @@
         <li><a href="#publications">Publications</a></li>
         <li><a href="#competitive-robotics">Competitive Robotics</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#more-projects">More Projects</a></li>
       </ul>
     </nav>
     <ul class="social">
@@ -479,95 +546,190 @@
 
       <p class="proj-group">Navigation &amp; Perception</p>
 
-      <h3>Visual Navigation Policy with V-JEPA2 and Diffusion Policy</h3>
-      <p class="meta-line"><a href="https://github.com/adipotnis/DiffusionNav" target="_blank" rel="noopener">Code</a></p>
-      <div class="side-by-side">
-        <div class="media">
-          <video controls><source src="images/vjepa_vid_gen/clip_jackal_2019-12-19-10-58-43_3_r01.mp4" type="video/mp4"></video>
-          <video controls><source src="images/vjepa_vid_gen/clip_random_mdps_B_Jackal_GDC_Library_Sat_Nov_13_87_0.mp4" type="video/mp4"></video>
+      <details class="project-card">
+        <summary>
+          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+          <video class="project-thumb" src="images/vjepa_vid_gen/clip_jackal_2019-12-19-10-58-43_3_r01.mp4" muted autoplay loop playsinline></video>
+          <div class="project-preview-info">
+            <h3>Visual Navigation Policy with V-JEPA2 and Diffusion Policy</h3>
+            <p class="meta-line"><a href="https://github.com/adipotnis/DiffusionNav" target="_blank" rel="noopener">Code</a></p>
+          </div>
+        </summary>
+        <div class="project-detail">
+          <div class="side-by-side">
+            <div class="media">
+              <video controls><source src="images/vjepa_vid_gen/clip_jackal_2019-12-19-10-58-43_3_r01.mp4" type="video/mp4"></video>
+              <video controls><source src="images/vjepa_vid_gen/clip_random_mdps_B_Jackal_GDC_Library_Sat_Nov_13_87_0.mp4" type="video/mp4"></video>
+            </div>
+            <div class="text">
+              <p>Trained a visual navigation policy using a frozen V-JEPA2 backbone for spatiotemporal feature extraction from egocentric video, with a Diffusion Policy action head for action prediction.</p>
+            </div>
+          </div>
         </div>
-        <div class="text">
-          <p>Trained a visual navigation policy using a frozen V-JEPA2 backbone for spatiotemporal feature extraction from egocentric video, with a Diffusion Policy action head for action prediction.</p>
-        </div>
-      </div>
+      </details>
 
-      <h3>Adapt: Diffusion-Predicted Pedestrian Avoidance with MPPI Control on the Polaris GEM e4 (CS 588)</h3>
-      <p class="meta-line"><a href="docs/cs588_group10.pdf" target="_blank" rel="noopener">Report</a></p>
-      <div class="side-by-side">
-        <div class="media">
-          <video controls><source src="images/cs588_group10.mp4" type="video/mp4"></video>
+      <details class="project-card">
+        <summary>
+          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+          <video class="project-thumb" src="images/cs588_group10.mp4" muted autoplay loop playsinline></video>
+          <div class="project-preview-info">
+            <h3>Adapt: Diffusion-Predicted Pedestrian Avoidance with MPPI Control on the Polaris GEM e4 (CS 588)</h3>
+            <p class="meta-line"><a href="docs/cs588_group10.pdf" target="_blank" rel="noopener">Report</a></p>
+          </div>
+        </summary>
+        <div class="project-detail">
+          <div class="side-by-side">
+            <div class="media">
+              <video controls><source src="images/cs588_group10.mp4" type="video/mp4"></video>
+            </div>
+            <div class="text">
+              <p>Autonomous driving stack on the Polaris GEM e4 that pairs a diffusion-based pedestrian predictor with an MPPI planner for pedestrian-aware avoidance, plus a text-promptable LiDAR-camera module for open-vocabulary goals.</p>
+            </div>
+          </div>
         </div>
-        <div class="text">
-          <p>Autonomous driving stack on the Polaris GEM e4 that pairs a diffusion-based pedestrian predictor with an MPPI planner for pedestrian-aware avoidance, plus a text-promptable LiDAR-camera module for open-vocabulary goals.</p>
-        </div>
-      </div>
+      </details>
 
-      <h3>Semantic-aware segmentation and navigation using CLIPSeg (CS440)</h3>
-      <p class="meta-line"><a href="docs/smartnav.pdf" target="_blank" rel="noopener">Slides</a> &nbsp;|&nbsp; <a href="docs/CS440-Final-Project.pdf" target="_blank" rel="noopener">Report</a></p>
-      <div class="side-by-side">
-        <div class="media">
-          <img src="images/smartnav-image.png" alt="SmartNav segmentation output">
+      <details class="project-card">
+        <summary>
+          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+          <div class="project-preview-info">
+            <h3>TOPReward on Ego4D &ndash; Token-Probability Rewards for Egocentric Video</h3>
+            <p class="meta-line"><a href="https://github.com/adipotnis/ego4d_toprewards_experiments" target="_blank" rel="noopener">Code</a></p>
+          </div>
+        </summary>
+        <div class="project-detail">
+          <p>Re-implementation of TOPReward (token-probability zero-shot rewards) benchmarking VLMs (Qwen3-VL, Molmo2) on whether egocentric Ego4D clips match their narration, with per-prefix progress curves and a VOC (Spearman) metric.</p>
         </div>
-        <div class="text">
-          <p>Combined CLIPSeg with Depth-Anything V2 for obstacle-aware gridmap generation (94% accuracy); modified A* planner with goal-object validation achieves 81% success rate for line-of-sight pathfinding.</p>
-        </div>
-      </div>
-
-      <h3>TOPReward on Ego4D &ndash; Token-Probability Rewards for Egocentric Video</h3>
-      <p class="meta-line"><a href="https://github.com/adipotnis/ego4d_toprewards_experiments" target="_blank" rel="noopener">Code</a></p>
-      <p>Re-implementation of TOPReward (token-probability zero-shot rewards) benchmarking VLMs (Qwen3-VL, Molmo2) on whether egocentric Ego4D clips match their narration, with per-prefix progress curves and a VOC (Spearman) metric.</p>
+      </details>
 
       <p class="proj-group">Hardware, Simulation &amp; Tooling</p>
 
-      <h3>Design and Analysis of Tendon actuated Robotic arm using Bowden cables and Mechanical Multiplexing (Thesis @ COEP)</h3>
-      <p class="meta-line"><a href="docs/robotic_arm_mux_report.pdf" target="_blank" rel="noopener">Report</a></p>
-      <div class="side-by-side">
-        <div class="media media--tall">
-          <img src="images/multiplexer-arm-2.gif" alt="Multiplexer arm animation">
-          <img src="images/multiplexer-arm-1.jpg" alt="Multiplexer arm" style="max-width: 280px; max-height: none;">
+      <details class="project-card">
+        <summary>
+          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+          <img class="project-thumb" src="images/multiplexer-arm-2.gif" alt="Multiplexer arm">
+          <div class="project-preview-info">
+            <h3>Design and Analysis of Tendon actuated Robotic arm using Bowden cables and Mechanical Multiplexing (Thesis @ COEP)</h3>
+            <p class="meta-line"><a href="docs/robotic_arm_mux_report.pdf" target="_blank" rel="noopener">Report</a></p>
+          </div>
+        </summary>
+        <div class="project-detail">
+          <div class="side-by-side">
+            <div class="media media--tall">
+              <img src="images/multiplexer-arm-2.gif" alt="Multiplexer arm animation">
+              <img src="images/multiplexer-arm-1.jpg" alt="Multiplexer arm" style="max-width: 280px; max-height: none;">
+            </div>
+            <div class="text">
+              <p>Designed a modular 4-DOF Bowden cable-driven tendon-actuated robot arm with a mechanical multiplexer enabling full control with only 2 stepper motors, prototyped with FDM printing and including FK/IK solvers. Awarded Best Working Project (Mechanical) at COEP; provisional patent filed (IN202321006687).</p>
+            </div>
+          </div>
         </div>
-        <div class="text">
-          <p>Designed a modular 4-DOF Bowden cable-driven tendon-actuated robot arm with a mechanical multiplexer enabling full control with only 2 stepper motors, prototyped with FDM printing and including FK/IK solvers. Awarded Best Working Project (Mechanical) at COEP; provisional patent filed (IN202321006687).</p>
-        </div>
-      </div>
+      </details>
 
-      <h3>Salto Simulator for development</h3>
-      <p class="meta-line"><a href="https://github.com/adipotnis/gazebo_plugin_salto" target="_blank" rel="noopener">Code</a></p>
-      <div class="side-by-side">
-        <div class="media">
-          <img src="images/20250312-1307-47.1662169.gif" alt="Salto animation">
+      <details class="project-card">
+        <summary>
+          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+          <img class="project-thumb" src="images/20250312-1307-47.1662169.gif" alt="Salto animation">
+          <div class="project-preview-info">
+            <h3>Salto Simulator for development</h3>
+            <p class="meta-line"><a href="https://github.com/adipotnis/gazebo_plugin_salto" target="_blank" rel="noopener">Code</a></p>
+          </div>
+        </summary>
+        <div class="project-detail">
+          <div class="side-by-side">
+            <div class="media">
+              <img src="images/20250312-1307-47.1662169.gif" alt="Salto animation">
+            </div>
+            <div class="text">
+              <p>Gazebo plugin simulating <a href="https://www.youtube.com/watch?v=5tMjHBk-2JQ" target="_blank" rel="noopener">Salto-1P</a> jumping motion as a point object, supporting parabolic trajectory jumping and simulated odometry/pose estimation to accelerate autonomy development.</p>
+            </div>
+          </div>
         </div>
-        <div class="text">
-          <p>Gazebo plugin simulating <a href="https://www.youtube.com/watch?v=5tMjHBk-2JQ" target="_blank" rel="noopener">Salto-1P</a> jumping motion as a point object, supporting parabolic trajectory jumping and simulated odometry/pose estimation to accelerate autonomy development.</p>
-        </div>
-      </div>
-
-      <h3>ROS1 ROS2 bridge for faster debugging and code refactoring</h3>
-      <p>Created a Docker image generation repo to accelerate image creation and facilitate easier refactoring. <a href="https://github.com/adipotnis/ros1_bridge_ws" target="_blank" rel="noopener">Link</a></p>
+      </details>
 
       <p class="proj-group">Generative Models</p>
 
-      <h3>Low-Rank Adaptation for Video Generation with semantic relative pose prompts (CS 598 3D Vision, HACKER Project)</h3>
-      <p class="meta-line"><a href="https://github.com/chih-hao-lin/3DV_2025Fall/tree/main/group_09_video_generation/apotnis2_lora_finetune" target="_blank" rel="noopener">Code</a></p>
-      <div class="side-by-side">
-        <div class="media">
-          <video controls><source src="images/vid-gen-robot.mp4" type="video/mp4"></video>
+      <details class="project-card">
+        <summary>
+          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+          <video class="project-thumb" src="images/vid-gen-robot.mp4" muted autoplay loop playsinline></video>
+          <div class="project-preview-info">
+            <h3>Low-Rank Adaptation for Video Generation with semantic relative pose prompts (CS 598 3D Vision, HACKER Project)</h3>
+            <p class="meta-line"><a href="https://github.com/chih-hao-lin/3DV_2025Fall/tree/main/group_09_video_generation/apotnis2_lora_finetune" target="_blank" rel="noopener">Code</a></p>
+          </div>
+        </summary>
+        <div class="project-detail">
+          <div class="side-by-side">
+            <div class="media">
+              <video controls><source src="images/vid-gen-robot.mp4" type="video/mp4"></video>
+            </div>
+            <div class="text">
+              <p>Fine-tuned Wan 2.2 (1.3B) with LoRA to generate robot-POV navigation videos from text and motion plans for scalable outdoor data synthesis. Evaluated motion fidelity and failure modes, proposing hierarchical motion-primitive curriculum training to improve alignment.</p>
+            </div>
+          </div>
         </div>
-        <div class="text">
-          <p>Fine-tuned Wan 2.2 (1.3B) with LoRA to generate robot-POV navigation videos from text and motion plans for scalable outdoor data synthesis. Evaluated motion fidelity and failure modes, proposing hierarchical motion-primitive curriculum training to improve alignment.</p>
-        </div>
-      </div>
+      </details>
 
-      <h3>GhibliDream &ndash; Studio-Ghibli inspired Stylization of Stable Diffusion (CS 444)</h3>
-      <p class="meta-line"><a href="docs/CS444-ghiblidream.pdf" target="_blank" rel="noopener">Report</a></p>
-      <div class="side-by-side">
-        <div class="media">
-          <img src="images/Screenshot 2025-07-26 044527.png" alt="Generated sample images">
+      <details class="project-card">
+        <summary>
+          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+          <img class="project-thumb" src="images/Screenshot 2025-07-26 044527.png" alt="GhibliDream samples">
+          <div class="project-preview-info">
+            <h3>GhibliDream &ndash; Studio-Ghibli inspired Stylization of Stable Diffusion (CS 444)</h3>
+            <p class="meta-line"><a href="docs/CS444-ghiblidream.pdf" target="_blank" rel="noopener">Report</a></p>
+          </div>
+        </summary>
+        <div class="project-detail">
+          <div class="side-by-side">
+            <div class="media">
+              <img src="images/Screenshot 2025-07-26 044527.png" alt="Generated sample images">
+            </div>
+            <div class="text">
+              <p>Fine-tuned StableDiffusion-2.0 with DreamBooth on curated Ghibli images using LLM-assisted auto-captioning, achieving 0.90+ CLIP-I cosine similarity on foreground characters while retaining background quality.</p>
+            </div>
+          </div>
         </div>
-        <div class="text">
-          <p>Fine-tuned StableDiffusion-2.0 with DreamBooth on curated Ghibli images using LLM-assisted auto-captioning, achieving 0.90+ CLIP-I cosine similarity on foreground characters while retaining background quality.</p>
+      </details>
+
+    </section>
+
+    <!-- More Projects -->
+    <section id="more-projects">
+      <h2 class="section-title">More Projects</h2>
+
+      <details class="project-card">
+        <summary>
+          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+          <img class="project-thumb" src="images/smartnav-image.png" alt="SmartNav segmentation">
+          <div class="project-preview-info">
+            <h3>Semantic-aware segmentation and navigation using CLIPSeg (CS440)</h3>
+            <p class="meta-line"><a href="docs/smartnav.pdf" target="_blank" rel="noopener">Slides</a> &nbsp;|&nbsp; <a href="docs/CS440-Final-Project.pdf" target="_blank" rel="noopener">Report</a></p>
+          </div>
+        </summary>
+        <div class="project-detail">
+          <div class="side-by-side">
+            <div class="media">
+              <img src="images/smartnav-image.png" alt="SmartNav segmentation output">
+            </div>
+            <div class="text">
+              <p>Combined CLIPSeg with Depth-Anything V2 for obstacle-aware gridmap generation (94% accuracy); modified A* planner with goal-object validation achieves 81% success rate for line-of-sight pathfinding.</p>
+            </div>
+          </div>
         </div>
-      </div>
+      </details>
+
+      <details class="project-card">
+        <summary>
+          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+          <div class="project-preview-info">
+            <h3>ROS1 ROS2 bridge for faster debugging and code refactoring</h3>
+            <p class="meta-line"><a href="https://github.com/adipotnis/ros1_bridge_ws" target="_blank" rel="noopener">Code</a></p>
+          </div>
+        </summary>
+        <div class="project-detail">
+          <p>Created a Docker image generation repo to accelerate image creation and facilitate easier refactoring.</p>
+        </div>
+      </details>
 
     </section>
 
