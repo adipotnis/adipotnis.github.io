@@ -608,6 +608,19 @@
       <details class="project-card">
         <summary>
           <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+          <div class="project-preview-info">
+            <h3>Conversational VLA-based Quadrupedal Navigation &ndash; Teaching NaVILA to Ask for Clarification</h3>
+            <p class="meta-line">Mentor</p>
+          </div>
+        </summary>
+        <div class="project-detail">
+          <p>Extended NaVILA's discrete language action set with an <em>ask user</em> token so the 8B vision-language-action policy defers under genuinely ambiguous instructions on a Unitree Go1 instead of silently committing to the wrong referent: the robot stops, a GPT-4o oracle poses a clarification question, and a dual-variant amender rewrites the instruction before the policy resumes. Diagnosed that NaVILA expects an 8-frame linspace memory bank (episode start + stretched history + current frame) rather than a sliding window &mdash; correcting the runtime buffer and training data lifted offline accuracy by ~51 points &mdash; and LoRA fine-tuned (rank-16, trainable multimodal projector) over teleop sessions and four DAgger iterations with contrastive ask/no-ask pairs on the NCSA Delta cluster. Deployed at ~1 Hz offboard inference with 8-bit quantization on an RTX workstation bridged to the robot's Jetson Orin, where the ask-user checkpoint became the first to emit the action correctly on hardware, deferring only under ambiguity and completing the clarify-and-resume loop across a 71-step multi-room route.</p>
+        </div>
+      </details>
+
+      <details class="project-card">
+        <summary>
+          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
           <video class="project-thumb" src="images/vjepa_vid_gen/clip_jackal_2019-12-19-10-58-43_3_r01.mp4" muted autoplay loop playsinline></video>
           <div class="project-preview-info">
             <h3>Visual Navigation Policy with V-JEPA2 and Diffusion Policy</h3>
